@@ -1,21 +1,16 @@
 - title: Getting Started
   docs:
   - home
-  - how-work
+  - come-funziona
   - installazione
 
 - title: License Manager
   docs:
   - license-manager
-  - posts
-  - drafts
-  - pages
-  - static-files
-  - variables
-  - collections
-  - datafiles
-  - assets
-  - migrations
+  - configurazione-app
+  - parametri
+  - visualizzazione
+  - interfaccia
 
 - title: App Manager
   docs:
@@ -42,3 +37,8 @@
   docs:
   - contributing
   - history
+  - variables
+  - collections
+  - datafiles
+  - assets
+  - migrations

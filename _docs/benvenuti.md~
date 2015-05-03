@@ -1,0 +1,40 @@
+---
+layout: docs
+title: Benvenuti
+permalink: /docs/benvenuti/
+---
+iOrder, è l'applicazione per iPhone e iPad, sviluppata da Apex-net che si integra facilmente con qualunque software gestionale.
+Per alcuni di essi, sono state realizzate versioni specifiche allo scopo di:
+
+* Uniformare la nomenclatura che l'utente del gestionale si aspetta di trovare anche nell'app mobile
+* Includere o escludere alcune funzioni caratteristiche del gestionale con cui si integrano.
+
+Pertanto, se cercate sull'Apple Store, non troverete nessuna applicaziona chiamata iOrder. Troverete invece applicazioni con l'aspetto e le funzionalità del gestionale con cui si esse integrano.
+
+Sull'AppStore potete trovare:
+
+| Nome App      | Gestionale   | Software House produttrice | Note
+| ----
+| iB            | Business     | NTS Informatica            |-
+| iGamma        | Gamma        | TeamSystem                 |-
+| iZeta         | Ad-Hoc       | Zucchetti                  |-
+| iCommerce     | Navision     | Microsoft                  |-
+| Atipico order | GL180        | Sipac                      |-
+| wTrendy       | wTrendy plus | wProject                   | App per settore calzaturiero
+
+oltre a:
+
+* DiWine specifica per aziende vinicole
+* iCommerce, applicazione utilizzabile con qualunque altro gestionale
+
+Tutte le caratteristiche descritte in questo libro si applicano a tutte le suddette versioni se non diversamente specificato.
+
+## Applicazioni personalizzate
+
+Per alcuni dei nostri clienti è stata realizzata una applicazione specifica con un nome e un brand che richiama quello desiderato dal cliente.
+
+E' il caso di:
+
+* iBiz di NTS Project
+* BTSR
+* Atipico order
