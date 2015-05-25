@@ -3,38 +3,30 @@ layout: docs
 title: Benvenuti
 permalink: /docs/home/
 ---
-iOrder, è l'applicazione per iPhone e iPad, sviluppata da Apex-net che si integra facilmente con qualunque software gestionale.
-Per alcuni di essi, sono state realizzate versioni specifiche allo scopo di:
+iCommerce, è l'applicazione per iPhone e iPad, che si integra facilmente con il gestionale tua azienda.
+Alcune versioni di iCommerce, integrate con i più conosciuti gestionali italiani, sono state pubblicate sull'Apple Store con un brand dedicato.
 
-* Uniformare la nomenclatura che l'utente del gestionale si aspetta di trovare anche nell'app mobile
-* Includere o escludere alcune funzioni caratteristiche del gestionale con cui si integrano.
+Per questo motivo iCommerce, è presente sull'Apple Store anche con altri nomi:
 
-Pertanto, se cercate sull'Apple Store, non troverete nessuna applicaziona chiamata iOrder. Troverete invece applicazioni con l'aspetto e le funzionalità del gestionale con cui si esse integrano.
-
-Sull'AppStore potete trovare:
 
 | Nome App      | Gestionale   | Software House produttrice | Note
 | ----
-| iB            | Business     | NTS Informatica            |-
-| iGamma        | Gamma        | TeamSystem                 |-
-| iZeta         | Ad-Hoc       | Zucchetti                  |-
-| iCommerce     | Navision     | Microsoft                  |-
-| Atipico order | GL180        | Sipac                      |-
-| wTrendy       | wTrendy plus | wProject                   | App per settore calzaturiero
+| [iCommerce](https://itunes.apple.com/it/app/icommerce/id567772952?mt=8) | App. generica| Tutti                      |-
+| [iB](https://itunes.apple.com/it/app/ib/id544373413?mt=8)               | Business     | NTS Informatica            |-
+| [iGamma](https://itunes.apple.com/it/app/igamma/id417013645?mt=8)       | Gamma        | TeamSystem                 |-
+| [iZeta](https://itunes.apple.com/it/app/izeta/id700840887?mt=8)         | Ad-Hoc       | Zucchetti                  |-
 
-oltre a:
-
-* DiWine specifica per aziende vinicole
-* iCommerce, applicazione utilizzabile con qualunque altro gestionale
-
-Tutte le caratteristiche descritte in questo libro si applicano a tutte le suddette versioni se non diversamente specificato.
+## wTrendy
+Su iCommerce può essere attivato un modulo studiato specificatamente per il settore calzaturiero. wTrendy.
+wTrendy dispone di una lista di tracciati specifici per la gestione delle numerate (taglie / colore).
 
 ## Applicazioni personalizzate
 
-Per alcuni dei nostri clienti è stata realizzata una applicazione specifica con un nome e un brand che richiama quello desiderato dal cliente.
+E' anche possibile, su richiesta, pubblicare una versione personalizzata cin il brand dell'azienda.
 
-E' il caso di:
+E' il caso, per esempio, di:
 
-* iBiz di NTS Project
-* BTSR
-* Atipico order
+* [iBiz di NTS Project](https://itunes.apple.com/it/app/ibiz/id871060765?mt=8)
+* [BTSR](https://itunes.apple.com/it/app/btsr-manager/id975495405?mt=8)
+* [Atipico order](https://itunes.apple.com/it/app/atipico/id427791401?mt=8)
+* [DiWine](https://itunes.apple.com/it/app/diwine/id838123903?mt=8)
