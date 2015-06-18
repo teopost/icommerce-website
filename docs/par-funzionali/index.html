@@ -2,7 +2,7 @@
 <html lang="it-IT">
 <head>
   <meta charset="UTF-8">
-  <title>io_clifor_testdoc.dat</title>
+  <title>Param. funzionali</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="generator" content="iCommerce v">
   <link rel="alternate" type="application/rss+xml" title="iCommerce • l'App Mobile per la tua azienda" href="/feed.xml">
@@ -3908,134 +3908,90 @@
       <div class="unit four-fifths">
         <article>
           <div class="improve right hide-on-mobiles">
-            <a href="https://github.com/Apex-net//edit/master/_docs//Users/teopost/dev/icommerce-site/_docs/tracciati/io_clifor_testdoc.md"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a>
+            <a href="https://github.com/Apex-net//edit/master/_docs//Users/teopost/dev/icommerce-site/_docs/par-funzionali.md"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a>
           </div>
-          <h1>io_clifor_testdoc.dat</h1>
-          <p>tabella anagrafica delle testate dei documenti di cliente/fornitore</p>
+          <h1>Param. funzionali</h1>
+          <h2 id="numero-massimo-di-sconti">Numero massimo di sconti</h2>
 
-<ol>
-  <li><strong>CHIAVE</strong> - Character - Max Length: 250
-    <ul>
-      <li><em>Chiave univoca del record composta dai dati di origine</em></li>
-    </ul>
-  </li>
-  <li><strong>COD_DITTA</strong> - Character - Max Length: 50
-    <ul>
-      <li><em>Codice della ditta. Identifica univocamente una ditta dentro il gestionale che, nel caso sia multisocietario, può contenere dati di più aziende</em></li>
-    </ul>
-  </li>
-  <li><strong>TIPO_CLIFOR</strong> - Integer - Max Length: 1
-    <ul>
-      <li><em>Tipologia (0=Cliente, 1=Fornitore)</em></li>
-    </ul>
-  </li>
-  <li><strong>COD_CLIFOR</strong> - Character - Max Length: 50
-    <ul>
-      <li><em>Codice Cliente / Fornitore</em></li>
-    </ul>
-  </li>
-  <li><strong>COD_TIPODOC</strong> - Integer - Max Length: 2
-    <ul>
-      <li><em>Codice tipo documento</em></li>
-    </ul>
-  </li>
-  <li><strong>COD_STIPODOC</strong> - Integer - Max Length: 2
-    <ul>
-      <li><em>Codice sottotipo documento</em></li>
-    </ul>
-  </li>
-  <li><strong>FLGDAEVADERE</strong> - Integer - Max Length: 10
-    <ul>
-      <li><em>Flag da evadere</em></li>
-    </ul>
-  </li>
-  <li><strong>DATADOC</strong> - Date - Max Length: 10
-    <ul>
-      <li><em>Data del documento</em></li>
-    </ul>
-  </li>
-  <li><strong>NUMREG</strong> - Character - Max Length: 12
-    <ul>
-      <li><em>Numero di registrazione del documento utilizzato come collegamento tra la testata e le righe</em></li>
-    </ul>
-  </li>
-  <li><strong>TIPODOC</strong> - Character - Max Length: 14
-    <ul>
-      <li><em>Tipo documento gestionale (CLS-DDT; CLS-ORDINE; CLP-ORDINE)</em></li>
-    </ul>
-  </li>
-  <li><strong>TIPO</strong> - Character - Max Length: 20
-    <ul>
-      <li><em>Tipo (es:DdT; Ordine Cl.)</em></li>
-    </ul>
-  </li>
-  <li><strong>SOTTOTIPO</strong> - Character - Max Length: 20
-    <ul>
-      <li><em>Sottotipo (es: Ven/Acq; Normale)</em></li>
-    </ul>
-  </li>
-  <li><strong>NUM_DOC</strong> - Character - Max Length: 20
-    <ul>
-      <li><em>Numero del documento</em></li>
-    </ul>
-  </li>
-  <li><strong>COD_VALUTA</strong> - Character - Max Length: 50
-    <ul>
-      <li><em>Codice della valuta</em></li>
-    </ul>
-  </li>
-  <li><strong>VALUTA</strong> - Character - Max Length: 4
-    <ul>
-      <li><em>Valuta</em></li>
-    </ul>
-  </li>
-  <li><strong>TOTALEDOC</strong> - Decimal - Max Length: 28,8
-    <ul>
-      <li><em>Totale del documento</em></li>
-    </ul>
-  </li>
-  <li><strong>TIPOSTATO_DOC</strong> - Integer - Max Length: 2
-    <ul>
-      <li><em>Tipo stato documento</em></li>
-    </ul>
-  </li>
-  <li><strong>DESSTATO_DOC</strong> - Character - Max Length: 100
-    <ul>
-      <li><em>Sottotipo (es: Ven/Acq; Normale)</em></li>
-    </ul>
-  </li>
-  <li><strong>DATA_FATTURA</strong> - Date - Max Length: 10
-    <ul>
-      <li><em>Data della fattura</em></li>
-    </ul>
-  </li>
-  <li><strong>NUM_FATTURA</strong> - Character - Max Length: 20
-    <ul>
-      <li><em>Numero di fattura</em></li>
-    </ul>
-  </li>
-  <li><strong>DES_NOTE</strong> - Character - Max Length: 4000
-    <ul>
-      <li><em>Note libere</em></li>
-    </ul>
-  </li>
-  <li><strong>DATA_CONFERMA</strong> - Date - Max Length: 10
-    <ul>
-      <li><em>Data del documento</em></li>
-    </ul>
-  </li>
-  <li><strong>DAT_ULT_MOD</strong> - DateTime - Max Length: 16
-    <ul>
-      <li><em>Data di ultima modifica del record</em></li>
-    </ul>
-  </li>
-  <li><strong>DES_DOC</strong> - Character - Max Length: 255
-    <ul>
-      <li><em>Note libere</em></li>
-    </ul>
-  </li>
-</ol>
+<p>Questo parametro indica il numero massimo di sconti che devono essere visualizzato nel tablet.
+Se un cliente gestisce o desidera gestire solo 2 sconti, mettere il numero 2 in questo campo.</p>
 
+<h2 id="il-prezzo-minimo-di-vendita-deve-bloccare-lordine">Il prezzo minimo di vendita deve bloccare l’ordine</h2>
+
+<p>E’ possibile definire un prezzo minimo per articolo sotto il quale non è possible prendere ordini.
+Per impostare questa soglia è necessario agire sulla personalizzazione del tracciato di esportazione dei dati dell’articolo (<strong>io_art.dat</strong>).
+Il campo da valorizzare è <strong>PREZZO_MIN_VEN</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tracciato</th>
+      <th>Campo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>io_art.dat</td>
+      <td>PREZZO_MIN_VEN</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="numero-di-giorni-da-aggiungere-alla-data-di-consegna">Numero di giorni da aggiungere alla data di consegna</h2>
+
+<p>Per rendere più rapida la raccolta degli ordini, è possibile aggiungere un numero fisso di giorni alla proposta della data di consegna in fase di inserimento dell’ordine.
+Péer fare un esempio, se si imposta questo campo a 2, significa che se prendo l’ordine martedì, la data di consegna che propone il programma sarà quella di giovedì (dopo 2 giorni)</p>
+
+<h2 id="numero-di-decimali-per-le-quantit">Numero di decimali per le quantità</h2>
+
+<p>In questo campo impostare il numero massimo di decimali che si vuole gestire.</p>
+
+<h2 id="la-quantit-minima-ordinabile-deve-bloccare-lordine">La quantità minima ordinabile deve bloccare l’ordine</h2>
+
+<p>Come per il prezzo minimo di vendita, anche in questo caso è possibile definire una quantita minima sotto la quale non è possibile prendere l’ordine. Il tracciato da personalizzare è quello degli articoli (<strong>io_art.dat</strong>) e il campo è <strong>QTA_MIN_VEND</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tracciato</th>
+      <th>Campo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>io_art.dat</td>
+      <td>QTA_MIN_VEND</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="mostra-sconto-totale-fra-prezzo-listino-e-prz-netto">Mostra sconto totale fra prezzo listino e prz. netto</h2>
+
+<div class="note info">
+  <h5>TO BE COMPLETE</h5>
+  <p>Ancora un po di pazienza. Stiamo completando la documentazione</p>
+</div>
+
+<h2 id="lo-sconto-massimo-di-vendita-deve-bloccare-lordine">Lo sconto massimo di vendita deve bloccare l’ordine</h2>
+
+<p>Questo parametro attiva un controllo sul tablet che impedisce ad un agente di inserire un ordine con uno sconto superiore ad una determinata soglia.
+L’impostazione di tale soglia va effettuata nel tracciato di estrazione dei dati, valorizzando opportunamente il campo SCONTO_MAX_VEN del tracciato io_art.dat</p>
+
+<h2 id="escludi-lutilizzo-del-calendario-standard">Escludi l’utilizzo del calendario standard</h2>
+
+<div class="note info">
+  <h5>TO BE COMPLETE</h5>
+  <p>Ancora un po di pazienza. Stiamo completando la documentazione</p>
+</div>
+
+<h2 id="numero-di-decimali-per-i-prezzi">Numero di decimali per i prezzi</h2>
+
+<p>Inserire in questo campo il numero massimo di decimali da usare per i prezzi</p>
+
+<h2 id="numero-di-giorni-dalla-precedente-sincronizzazione">Numero di giorni dalla precedente sincronizzazione</h2>
+
+<p>Trattando dati in maniera disconnessa, se l’agente non effettua la sincronizzazione per aggiornare i dati dei listini, c’è il rischio che i prezzi possano essere vecchi. Per questo motivo è possibile impostare un numero massimo di giorni oltre il quale l’applicazione non consente di prendere ordini se non si effettua la sincronizzazione dei dati.
+Impostare in questo campo tale numero di giorni</p>
 
           
 
@@ -4087,31 +4043,24 @@
 
   
   
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
+    <div class="section-nav">
+      <div class="left align-right">
+          
+            
+            
+            <a href="/docs/par-lm/" class="prev">Back</a>
+          
+      </div>
+      <div class="right align-left">
+          
+            
+            
+            <a href="/docs/par-visualizzazione/" class="next">Next</a>
+          
+      </div>
+    </div>
+    <div class="clear"></div>
+    
 
         </article>
       </div>
@@ -4562,7 +4511,7 @@
     
   
     
-      <li class=""><a href="/docs/par-funzionali/">Param. funzionali</a></li>
+      <li class="current"><a href="/docs/par-funzionali/">Param. funzionali</a></li>
       
 
 
