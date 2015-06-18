@@ -19,18 +19,18 @@
 - title: License Manager
   docs:
   - license-manager
-  - configurazione-app
-  - parametri
-  - visualizzazione
-  - interfaccia
+  - par-lm
+  - par-funzionali
+  - par-visualizzazione
+  - par-profilazione
 
-- title: App Manager
-  docs:
-  - templates
-  - permalinks
-  - pagination
-  - plugins
-  - extras
+#- title: App Manager
+#  docs:
+#  - templates
+#  - permalinks
+#  - pagination
+#  - plugins
+#  - extras
 
 - title: Reports
   docs:

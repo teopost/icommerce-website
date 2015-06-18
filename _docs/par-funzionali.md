@@ -1,9 +1,9 @@
 ---
 layout: docs
 title: Param. funzionali
-permalink: /docs/parametri/
+permalink: /docs/par-funzionali/
 ---
-## Numero di sconti
+## Numero massimo di sconti
 
 Questo parametro indica il numero massimo di sconti che devono essere visualizzato nel tablet.
 Se un cliente gestisce o desidera gestire solo 2 sconti, mettere il numero 2 in questo campo.
@@ -23,7 +23,7 @@ Il campo da valorizzare è **PREZZO_MIN_VEN**
 Per rendere più rapida la raccolta degli ordini, è possibile aggiungere un numero fisso di giorni alla proposta della data di consegna in fase di inserimento dell'ordine.
 Péer fare un esempio, se si imposta questo campo a 2, significa che se prendo l'ordine martedì, la data di consegna che propone il programma sarà quella di giovedì (dopo 2 giorni)
 
-## Numeri di decimali per le quantità
+## Numero di decimali per le quantità
 
 In questo campo impostare il numero massimo di decimali che si vuole gestire.
 
@@ -38,7 +38,11 @@ Come per il prezzo minimo di vendita, anche in questo caso è possibile definire
 
 ## Mostra sconto totale fra prezzo listino e prz. netto
 
-    TODO
+<div class="note info">
+  <h5>TO BE COMPLETE</h5>
+  <p>Ancora un po di pazienza. Stiamo completando la documentazione</p>
+</div>
+
 
 ## Lo sconto massimo di vendita deve bloccare l'ordine
 
@@ -47,7 +51,12 @@ L'impostazione di tale soglia va effettuata nel tracciato di estrazione dei dati
 
 ## Escludi l'utilizzo del calendario standard
 
-    TODO
+<div class="note info">
+  <h5>TO BE COMPLETE</h5>
+  <p>Ancora un po di pazienza. Stiamo completando la documentazione</p>
+</div>
+
+
 
 ## Numero di decimali per i prezzi
 

@@ -1,12 +1,16 @@
 ---
 layout: docs
 title: Param. visualizzazione
-permalink: /docs/visualizzazione/
+permalink: /docs/par-visualizzazione/
 ---
 
 ### Mostra la giacenza
 
-    TODO
+<div class="note info">
+  <h5>TO BE COMPLETE</h5>
+  <p>Ancora un po di pazienza. Stiamo completando la documentazione</p>
+</div>
+
 
 ### Mostra tutti i dati anche se sono agente
 
@@ -33,7 +37,11 @@ Par fare un esempio, se si vogliono vedere TUTTI i clienti nelle schede e solo i
 
 ### Mostra UM secondaria invece della primaria in storico
 
-    TODO
+<div class="note info">
+  <h5>TO BE COMPLETE</h5>
+  <p>Ancora un po di pazienza. Stiamo completando la documentazione</p>
+</div>
+
 
 ### Consenti modifica prezzo in inserimento ordine
 * Verifica quantità ordinabile per colli
