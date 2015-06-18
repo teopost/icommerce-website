@@ -1,0 +1,69 @@
+
+# As
+
+| Descrizione                       | Nome file                                                   | Ordini | Leads | wTrendy
+| -
+| Articoli                          | [io_art.dat](../io_art)                                     | X      |       |
+| Articoli in lingua                | [io_art_lang.dat](../io_art_lang)                           |        |       |
+| Unità di misura                   | [io_art_um.dat](../io_art_um)                               |        |       |
+| Listini                    | [io_listini_full.dat](../io_listini_full)                   |        |       |
+| Sconti                            | [io_sconti.dat](../io_sconti)                               |        |       |
+| Ultimi articoli acquistati        | [io_art_ultacq.dat](../io_art_ultacq)                       |        |       |
+| Ultimi articoli venduti           | [io_art_ultven.dat](../io_art_ultven)                       |        |       |
+|-
+|   Clienti e Fornitori               | [io_clifor_gen.dat](../io_clifor_gen)                       |        |       |
+| Agenti                      | [io_clifor_age.dat](../io_clifor_age)                       |        |       |
+| Blocchi                     | [io_clifor_blo.dat](../io_clifor_blo)                       |        |       |
+| Categorie                   | [io_clifor_cate.dat](../io_clifor_cate)                     |        |       |
+| Destinazioni               | [io_clifor_dest.dat](../io_clifor_dest)                     |        |       |
+| Contatti                   | [io_clifor_detcon.dat](../io_clifor_detcon)                 |        |       |
+| Fatturato                  | [io_clifor_fatt.dat](../io_clifor_fatt)                     |        |       |
+
+| Calendario girovisita                  | [io_clifor_girovisita.dat](../io_clifor_girovisita)      X  |        |       |
+| Note                       | [io_clifor_note.dat](../io_clifor_note)                     |        |       |
+| Righe documenti            | [io_clifor_righdoc.dat](../io_clifor_righdoc)               |        |       |
+| Scadenze                   | [io_clifor_scadoc.dat](../io_clifor_scadoc)                 |        |       |
+| Testate documenti           | [io_clifor_testdoc.dat](../io_clifor_testdoc)               |        |       |
+
+| Giacenze articoli                 | [io_giacenze.dat](../io_giacenze)                           |        |       |
+
+| Permessi  operatori CRM           | [io_lead_acccrm.dat](../io_lead_acccrm)                     |        | X     |
+| Associazione operatori leads      | [io_lead_accessi.dat](../io_lead_accessi)                   |        | X     |
+| Dettagli contatti leads           | [io_lead_detcon.dat](../io_lead_detcon)                     |        | X     |
+| Note leads                        | [io_lead_note.dat](../io_lead_note)                         |        | X     |
+| Righe offerte leads               | [io_lead_righoff.dat](../io_lead_righoff)                   |        | X     |
+| Sconti leads                      | [io_lead_sconti.dat](../io_lead_sconti)                     |        | X     |
+| Testate offerte leads             | [io_lead_testoff.dat](../io_lead_testoff)                   |        | X     |
+| Anagrafica leads                  | [io_leads.dat](../io_leads)                                 |        | X     |
+| Campagne                          | [io_campagne.dat](../io_campagne)                           |        | X     |
+| Canali di vendita                 | [io_canali_vendita.dat](../io_canali_vendita)               |        | X     |
+
+
+
+
+
+| Storico articoli                  | [io_stoart.dat](../io_stoart)                               |        |       |
+| Città                             | [io_citta.dat](../io_citta)                                 |        |       |
+| Condizioni di pagamento           | [io_condpag.dat](../io_condpag)                             |        |       |
+| Condizioni di pagamento in lingua | [io_condpag_lang.dat](../io_condpag_lang)                   |        |       |
+| Modalità di spedizione            | [io_mod_sped.dat](../io_mod_sped)                           |        |       |
+| Nazioni                           | [io_nazioni.dat](../io_nazioni)                             |        |       |
+| Porti                             | [io_porto.dat](../io_porto)                                 |        |       |
+| Assortimenti per articolo         | [io_articoli_assortimenti.dat](../io_articoli_assortimenti) |        |       | X
+| Lista assortimenti                | [io_assortimenti.dat](../io_assortimenti)                   |        |       | X
+| Taglie assortimenti               | [io_taglie_assortimenti.dat](../io_taglie_assortimenti)     |        |       | X
+| Taglie cataloghi                  | [io_taglie_cataloghi.dat](../io_taglie_cataloghi)           |        |       | X
+| Taglie cataloghi articoli         | [io_taglie_cataloghi_art.dat](../io_taglie_cataloghi_art)   |        |       | X
+| Taglie estensioni                 | [io_taglie_estensioni.dat](../io_taglie_estensioni)         |        |       | X
+| Taglie sviluppi                   | [io_taglie_sviluppi.dat](../io_taglie_sviluppi)             |        |       | X
+| Taglie sviluppi articolo          | [io_taglie_sviluppi_art.dat](../io_taglie_sviluppi_art)     |        |       | X
+| Combinazioni                      | [io_var_combinazioni.dat](../io_var_combinazioni)           |        |       | X
+| Liste colori                      | [io_liste_colori.dat](../io_liste_colori)                   |        |       | X
+| Liste materiali lungo             | [io_liste_materiali.dat](../io_liste_materiali)             |        |       | X
+| Regole                            | [io_regole.dat](../io_regole)                               |        |       | X
+| Classi di sconti                  | [io_classi_sconto.dat](../io_classi_sconto)                 |        |       | X
+| Assortimenti                      | [io_clienti_assortimenti.dat](../io_clienti_assortimenti)   |        |       | X
+
+| Tracciato per campi custom        | [io_customfields.dat](../io_customfields)                   |        |       |
+| Catalogo                          | [io_catalogo.dat](../io_catalogo)                           |        |       |
+| Reports                           | [io_reports.dat](../io_reports)                             |        |       |
