@@ -20,7 +20,7 @@ Un stesso file può essere presente  più volte in cartelle differenti senza nec
 
 ### Creare il tracciato io_catalogo.dat
 
-Il tracciato io_catalogo.dat deve essere creato nella cartella principale in cui vengono messi i files multimediali.
+Il tracciato [io_catalogo.dat](../io_catalogo) deve essere creato nella cartella principale in cui vengono messi i files multimediali.
 
 La struttura gerarchica con cui vengono mostrati i dati del catalogo è definita dai campi L1, L2, L3, L4.
 
