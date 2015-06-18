@@ -5,8 +5,8 @@ permalink: /docs/export-catalogo/
 ---
 L' esportazione delle immagini per la creazione del catalogo, può essere effettuata in 2 diverse modalità:
 
-  *  Export basato su tracciato
-  *  Export basato su file system
+  *  Modalità basata su tracciato record
+  *  Modalità basata su struttura file system
 
 Indipendentemente dal metodo adottato, i file da esportare devono essere copiati nella cartella multimedia di [dropbox](https://www.dropbox.com).
 
