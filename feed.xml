@@ -11,8 +11,8 @@
     <title xml:lang="en">iCommerce • l'App mobile per la tua azienda</title>
     <atom:link type="application/atom+xml" href="/feed.xml" rel="self"/>
     <link>http://www.apexnet.it/</link>
-    <pubDate>Fri, 19 Jun 2015 08:49:12 +0200</pubDate>
-    <lastBuildDate>Fri, 19 Jun 2015 08:49:12 +0200</lastBuildDate>
+    <pubDate>Fri, 19 Jun 2015 09:17:51 +0200</pubDate>
+    <lastBuildDate>Fri, 19 Jun 2015 09:17:51 +0200</lastBuildDate>
     <language>en-US</language>
     <generator>Jekyll v2.5.3</generator>
     <description>Transform your plain text into static websites and blogs.</description>
@@ -26,7 +26,7 @@
     </image>
     
     <item>
-      <title>Rilasciata la rel. 5.2.15 del 02/03/2015</title>
+      <title>Rilasciata la rel. 5.2.15</title>
       <link>/news/2015/03/02/rel-5-2-15-released/</link>
       <pubDate>Mon, 02 Mar 2015 01:12:52 +0100</pubDate>
       <dc:creator>teopost</dc:creator>
@@ -66,7 +66,7 @@ Ora le scadenze sono ordinate anche per progressivo documento e data documento (
     </item>
     
     <item>
-      <title>Rilasciata la rel. 5.1.1 del 01/02/2015</title>
+      <title>Rilasciata la rel. 5.1.1</title>
       <link>/news/2015/02/01/rel-5-1-1-released/</link>
       <pubDate>Sun, 01 Feb 2015 01:12:52 +0100</pubDate>
       <dc:creator>teopost</dc:creator>
@@ -89,7 +89,7 @@ Ora le scadenze sono ordinate anche per progressivo documento e data documento (
     </item>
     
     <item>
-      <title>Rilasciata la rel. 5.0.1 del 26/01/2015</title>
+      <title>Rilasciata la rel. 5.0.1</title>
       <link>/news/2015/01/26/rel-5-0-1-released/</link>
       <pubDate>Mon, 26 Jan 2015 01:12:52 +0100</pubDate>
       <dc:creator>teopost</dc:creator>
