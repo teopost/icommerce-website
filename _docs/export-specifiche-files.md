@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Specifiche files di export
+title: Specifiche tracciati
 permalink: /docs/export-specifiche-files/
 ---
 
