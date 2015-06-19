@@ -638,7 +638,8 @@ nav li {
 .mobile-nav a {
   float: left;
   width: 100%;
-  background-color: #333;
+  background-color: #ffffff;
+  /* 333 */
   color: #000000;
   text-align: center;
   text-transform: uppercase;
@@ -881,7 +882,7 @@ article {
     margin: 0; } }
 @media (min-width: 768px) {
   article {
-    padding: 40px 40px 30px;
+    padding: 40px 0px 30px;
     font-size: 21px; } }
 /* Right-side nav - used by both docs and news */
 aside {
