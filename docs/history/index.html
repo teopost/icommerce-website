@@ -2,7 +2,7 @@
 <html lang="it-IT">
 <head>
   <meta charset="UTF-8">
-  <title>Incassi</title>
+  <title>History</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="generator" content="iCommerce v">
   <link rel="alternate" type="application/rss+xml" title="iCommerce • l'App Mobile per la tua azienda" href="/feed.xml">
@@ -3622,35 +3622,44 @@
       <div class="unit four-fifths">
         <article>
           <div class="improve right hide-on-mobiles">
-            <a href="https://github.com/Apex-net//edit/master/_docs/_docs/rpt-incassi.md"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a>
+            <a href="https://github.com/Apex-net//edit/master/_docs/_docs/history.md"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a>
           </div>
-          <h1>Incassi</h1>
-          <p>Tale report comprende i seguenti segnaposti, popolati dinamicamente dall’applicazione:</p>
+          <h1>History</h1>
+          <h2 id="v5-0-1">5.0.1 / 2015-01-26</h2>
 
-<ul>
-  <li>{{#rows}} … {{#/rows}} : sezione contenente la lista di incassi effettuati. Per ogni elemento della lista, vengono mostrati i seguenti campi:
-    <ul>
-      <li>{{codCliente}} : codice del cliente a cui l’incasso si riferisce.</li>
-      <li>{{ragScociale}} :  ragione sociale del cliente a cui l’incasso si riferisce.</li>
-      <li>{{numDoc}} :  numero documento a cui l’incasso si riferisce.</li>
-      <li>{{dataDoc}} :  data del documento a cui l’incasso si riferisce.</li>
-      <li>{{dataScad}} :  data di scadenza del documento a cui l’incasso si riferisce.</li>
-      <li>{{tipoInc}} : tipo di incasso.</li>
-      <li>{{dataInc}} : data in cui l’incasso è avvenuto.</li>
-      <li>{{impScad}} : valorizzato l’importo della scadenza a cui l’incasso si riferisce.</li>
-      <li>{{impInc}} : valorizzato con l’importo incassato.</li>
-    </ul>
-  </li>
-  <li>{{appLogoSrc}} : sorgente del logo visualizzato nel report.</li>
-  <li>{{appName}} : nome dell’applicazione.</li>
-  <li>{{title}} : titolo del report.</li>
-  <li>{{startDate}} : data da cui parte il periodo di visualizzazione delle scadenze.</li>
-  <li>{{startDate}} : data da cui finisce il periodo di visualizzazione delle scadenze.</li>
-  <li>{{printDate}} : data di creazione del documento.</li>
-  <li>{{codAgente}} : codice agente dell’utente loggato.</li>
-  <li>{{desAgente}} : descrizione dell’agebte loggato.</li>
-  <li>{{total}} : totale del documento.</li>
-</ul>
+<h3 id="anomalie">Anomalie</h3>
+
+<p><strong><em>Sistemata anomalia che causava la mancata pre-selezione della destinazione diversa predefinita nel form ordine.</em></strong> - (rif: 9446)</p>
+
+<p>Se per un cliente viene specificata una destinazione predefinita, le righe ordine vengono create gia con la destinazione diversa predefinita.</p>
+
+<p><strong><em>Clienti doppi in visualizzazione lista clienti</em></strong> - (rif: 9448)</p>
+
+<p>E’ stata risolta una anomalia in estrazione dati su connettore iB sulla lista degli agenti associati ad un cliente.
+Quanto un agente era associato a piu’ destinazioni venivano esportate piu’ righe.
+In questo modo sull’ipad si vedevano righe doppie nella lookup dei clienti.</p>
+
+<h3 id="novit">Novità</h3>
+
+<p><strong><em>Sistemato footer nei report, che non veniva stampato.</em></strong> - (rif: 9280)</p>
+
+<p><strong><em>Aggiunto tab Mappa in Schede, parametrizzati sottomoduli e dettagli</em></strong> - (rif: 9414)</p>
+
+<p>La visualizzazione di ogni modulo, sottomodulo e dettaglio può essere regolata tramite parametri, online.</p>
+
+<p><strong><em>Spostata voce “risoluzione dei problemi” nel modulo “About”</em></strong> - (rif: 9433)</p>
+
+<p><strong><em>Nascosti setting non necessari agli utenti dall’applicazione</em></strong> - (rif: 9434)</p>
+
+<p><strong><em>Aggiunto filtro per categoria alla visualizzazione della lista clienti</em></strong> - (rif: 9435)</p>
+
+<p><strong><em>Nuovo funzionalita nel modulo schede: Agenti</em></strong> - (rif: 9436)</p>
+
+<p>Possibilità di visualizzare i dati aggregati relativi ai vari agenti:
+- Fatturato
+- Documenti
+- Scadenze
+- Quantita vendute</p>
 
           
 
@@ -3720,22 +3729,7 @@
 
   
   
-    <div class="section-nav">
-      <div class="left align-right">
-          
-            
-            
-            <a href="/docs/rpt-copia-commissione/" class="prev">Back</a>
-          
-      </div>
-      <div class="right align-left">
-          
-            <span class="next disabled">Next</span>
-          
-      </div>
-    </div>
-    <div class="clear"></div>
-    
+
 
         </article>
       </div>
@@ -4532,7 +4526,7 @@
     
   
     
-      <li class="current"><a href="/docs/rpt-incassi/">Incassi</a></li>
+      <li class=""><a href="/docs/rpt-incassi/">Incassi</a></li>
       
 
 

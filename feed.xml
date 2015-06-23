@@ -11,8 +11,8 @@
     <title xml:lang="en">iCommerce • l'App mobile per la tua azienda</title>
     <atom:link type="application/atom+xml" href="/feed.xml" rel="self"/>
     <link>http://www.apexnet.it/</link>
-    <pubDate>Tue, 23 Jun 2015 21:44:39 +0200</pubDate>
-    <lastBuildDate>Tue, 23 Jun 2015 21:44:39 +0200</lastBuildDate>
+    <pubDate>Tue, 23 Jun 2015 23:15:28 +0200</pubDate>
+    <lastBuildDate>Tue, 23 Jun 2015 23:15:28 +0200</lastBuildDate>
     <language>en-US</language>
     <generator>Jekyll v3.0.0.pre.beta7</generator>
     <description>Transform your plain text into static websites and blogs.</description>
@@ -24,6 +24,46 @@
       <width>144</width>
       <height>73</height>
     </image>
+    
+    <item>
+      <title>Rilasciata la rel. 5.3.7</title>
+      <link>/news/2015/04/20/rel-5-3-7-released/</link>
+      <pubDate>Mon, 20 Apr 2015 08:00:00 +0200</pubDate>
+      <dc:creator>teopost</dc:creator>
+      
+      
+      <category>release</category>
+      
+      <guid isPermaLink="true">/news/2015/04/20/rel-5-3-7-released/</guid>
+      <description>&lt;h3 id=&quot;anomalie&quot;&gt;Anomalie&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Aggiunto ordinamento ulteriore delle scadenze in ‘Ordini’-‘Incassi’.&lt;/em&gt;&lt;/strong&gt; - (rif: 9543)&lt;/p&gt;
+
+&lt;p&gt;Aggiunto ordinamento ulteriore delle scadenze in ‘Ordini’-‘Incassi’.
+Ora le scadenze sono ordinate anche per progressivo documento e data documento (ascendente), oltre che per l’ordinamento principale scelto (data scadenza o data emissione).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Sistemate alcune anomalie wTrendy&lt;/em&gt;&lt;/strong&gt; - (rif: 9641)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;eliminata anomalia che poteva causare la cancellazione di righe ordine dell’ordine salvato in precedenza&lt;/li&gt;
+  &lt;li&gt;sistemato l’ordinamente degli ordini (che ora risulta consistente tra copia commissione ed export)&lt;/li&gt;
+  &lt;li&gt;sistemata anomalia che poteva causare la mancanza dei dettagli di riga ordine nei dati inviati&lt;/li&gt;
+  &lt;li&gt;sistemata visualizzazione degli sviluppi delle taglie associate agli articoli&lt;/li&gt;
+  &lt;li&gt;sistemato calcolo del totale paia, che in alcune condizione risultava sbagliato&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;novit&quot;&gt;Novità&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Modifiche alla generazione del copia commissione.&lt;/em&gt;&lt;/strong&gt; - (rif: 9486)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Migliorata la visualizzazione della destinazione del cliente&lt;/em&gt;&lt;/strong&gt; - (rif: 9505)&lt;/p&gt;
+
+&lt;p&gt;In ordine veloce e nel form ordine è stata aggiunto anche l’indirizzo della destinazione cliente.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Aggiunti meccanismi di crash reporting&lt;/em&gt;&lt;/strong&gt; - (rif: 9605)&lt;/p&gt;
+
+</description>
+    </item>
     
     <item>
       <title>Rilasciata la rel. 5.2.15</title>
@@ -84,53 +124,6 @@ Ora le scadenze sono ordinate anche per progressivo documento e data documento (
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Aggiunta possibilita di modificare la condizione di pagamento nel form ordine, parametrizzabile.&lt;/em&gt;&lt;/strong&gt; - (rif: 9449)&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Sistemata anomalia sui campi obbligatori/opzionali nel form del nuovo cliente&lt;/em&gt;&lt;/strong&gt; - (rif: 9450)&lt;/p&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>Rilasciata la rel. 5.0.1</title>
-      <link>/news/2015/01/26/rel-5-0-1-released/</link>
-      <pubDate>Mon, 26 Jan 2015 01:12:52 +0100</pubDate>
-      <dc:creator>teopost</dc:creator>
-      
-      
-      <category>release</category>
-      
-      <guid isPermaLink="true">/news/2015/01/26/rel-5-0-1-released/</guid>
-      <description>&lt;h3 id=&quot;anomalie&quot;&gt;Anomalie&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Sistemata anomalia che causava la mancata pre-selezione della destinazione diversa predefinita nel form ordine.&lt;/em&gt;&lt;/strong&gt; - (rif: 9446)&lt;/p&gt;
-
-&lt;p&gt;Se per un cliente viene specificata una destinazione predefinita, le righe ordine vengono create gia con la destinazione diversa predefinita.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Clienti doppi in visualizzazione lista clienti&lt;/em&gt;&lt;/strong&gt; - (rif: 9448)&lt;/p&gt;
-
-&lt;p&gt;E’ stata risolta una anomalia in estrazione dati su connettore iB sulla lista degli agenti associati ad un cliente.
-Quanto un agente era associato a piu’ destinazioni venivano esportate piu’ righe.
-In questo modo sull’ipad si vedevano righe doppie nella lookup dei clienti.&lt;/p&gt;
-
-&lt;h3 id=&quot;novit&quot;&gt;Novità&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Sistemato footer nei report, che non veniva stampato.&lt;/em&gt;&lt;/strong&gt; - (rif: 9280)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Aggiunto tab Mappa in Schede, parametrizzati sottomoduli e dettagli&lt;/em&gt;&lt;/strong&gt; - (rif: 9414)&lt;/p&gt;
-
-&lt;p&gt;La visualizzazione di ogni modulo, sottomodulo e dettaglio può essere regolata tramite parametri, online.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Spostata voce “risoluzione dei problemi” nel modulo “About”&lt;/em&gt;&lt;/strong&gt; - (rif: 9433)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Nascosti setting non necessari agli utenti dall’applicazione&lt;/em&gt;&lt;/strong&gt; - (rif: 9434)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Aggiunto filtro per categoria alla visualizzazione della lista clienti&lt;/em&gt;&lt;/strong&gt; - (rif: 9435)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Nuovo funzionalita nel modulo schede: Agenti&lt;/em&gt;&lt;/strong&gt; - (rif: 9436)&lt;/p&gt;
-
-&lt;p&gt;Possibilità di visualizzare i dati aggregati relativi ai vari agenti:
-- Fatturato
-- Documenti
-- Scadenze
-- Quantita vendute&lt;/p&gt;
 
 </description>
     </item>
