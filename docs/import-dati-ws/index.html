@@ -3744,31 +3744,31 @@
       <div class="unit four-fifths">
         <article>
           <div class="improve right hide-on-mobiles">
-            <a href="https://github.com/Apex-net//edit/master/_docs//Users/teopost/dev/icommerce-site/_docs/import-dati-ws.md"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a>
+            <a href="https://github.com/Apex-net//edit/master/_docs/_docs/import-dati-ws.md"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a>
           </div>
           <h1>Importare dati con WS</h1>
-          <p>L’import dei dati con l’utilizzo dei web service, sostituisce, quella basata su file delimitato.
-La API si integrazione sono disponibili per:</p>
+          <p>L’import dei dati con l’utilizzo dei web service, sostituisce quella basata su file delimitato.
+La API di integrazione sono disponibili per:</p>
 
 <ul>
-  <li>ordini</li>
-  <li>modifiche anagrafica cliente</li>
-  <li>note cliente</li>
-  <li>nuovi leads</li>
-  <li>note leads</li>
+  <li>Ordini</li>
+  <li>Modifiche anagrafica cliente</li>
+  <li>Note cliente</li>
+  <li>Nuovi leads</li>
+  <li>Note leads</li>
 </ul>
 
 <h2 id="chiamare-le-api">Chiamare le API</h2>
 
-<p>Nota: In questo esempio, mostriamo come recuperare i dati degli ordini.</p>
+<p>Nel seguente esempio, mostriamo come recuperare i dati degli ordini.</p>
 
-<p>Esempio url da chiamare:</p>
+<p>Esempio di url da chiamare:</p>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">http://<span class="o">{</span>am.apexnet.it<span class="o">}</span>/<span class="o">{</span>api_apexnet-demo<span class="o">}</span>/v1/progetti/<span class="o">{</span>codProgetto<span class="o">}</span>/exportPaginazione/ordini?authKey<span class="o">={</span>authKey<span class="o">}</span><span class="p">&amp;</span><span class="nv">format</span><span class="o">={</span>format<span class="o">}</span><span class="p">&amp;</span><span class="nv">offset</span><span class="o">={</span>offset<span class="o">}</span><span class="p">&amp;</span><span class="nv">limit</span><span class="o">={</span>limit<span class="o">}</span><span class="p">&amp;</span><span class="nv">count</span><span class="o">={</span>count<span class="o">}</span><span class="p">&amp;</span><span class="nv">lastDateImport</span><span class="o">={</span>lastDateImport<span class="o">}</span><span class="p">&amp;</span><span class="nv">lastID</span><span class="o">={</span>lastID<span class="o">}</span><span class="p">&amp;</span><span class="nv">statusExport</span><span class="o">={</span>statusExport<span class="o">}</span></code></pre></div>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">http://<span class="o">{</span>am.apexnet.it<span class="o">}</span>/<span class="o">{</span>api_apexnet-demo<span class="o">}</span>/v1/progetti/<span class="o">{</span>codProgetto<span class="o">}</span>/exportPaginazione/ordini?authKey<span class="o">={</span>authKey<span class="o">}</span><span class="p">&amp;</span><span class="nv">format</span><span class="o">={</span>format<span class="o">}</span><span class="p">&amp;</span><span class="nv">offset</span><span class="o">={</span>offset<span class="o">}</span><span class="p">&amp;</span><span class="nv">limit</span><span class="o">={</span>limit<span class="o">}</span><span class="p">&amp;</span><span class="nv">count</span><span class="o">={</span>count<span class="o">}</span><span class="p">&amp;</span><span class="nv">lastDateImport</span><span class="o">={</span>lastDateImport<span class="o">}</span><span class="p">&amp;</span><span class="nv">lastID</span><span class="o">={</span>lastID<span class="o">}</span><span class="p">&amp;</span><span class="nv">statusExport</span><span class="o">={</span>statusExport<span class="o">}</span></code></pre></figure>
 
 <p>Le variabili tra le parentesi graffe fino a {authKey} dipendono dall’installazione e configurazione definita da Apex-net pertanto se ancora non in possesso dell’indirizzo esatto si prega di richiederlo tramite apposito ticket.</p>
 
-<p>Vediamo ora le variabili che possono essere decise da voi stessi e modificabili in base alle vostre esigenze:</p>
+<p>Vediamo ora il significato delle variabili utilizzabili nella query string:</p>
 
 <ul>
   <li><strong>{authKey}:</strong>
@@ -3778,32 +3778,32 @@ La API si integrazione sono disponibili per:</p>
   </li>
   <li><strong>{format}:</strong>
     <ul>
-      <li>può assumere i valori “json” oppure “xml” e serve per specificare il formato dei dati restituiti. Attualmente il formato json è quello consigliato e più utilizzato.</li>
+      <li>Può assumere i valori “json” oppure “xml” e serve per specificare il formato dei dati restituiti. Attualmente il formato json è quello consigliato e più utilizzato.</li>
     </ul>
   </li>
   <li><strong>{offset}, {limit}, {count}:</strong>
     <ul>
-      <li>count può assumere i valori “1” (voglio sapere quanti elementi ci sono da scaricare) oppure “0” (voglio l’elenco dei dati veri e propri); i parametri</li>
+      <li>{count} può assumere i valori “1” (voglio sapere quanti elementi ci sono da scaricare) oppure “0” (voglio l’elenco dei dati veri e propri); i parametri</li>
       <li>{offset} e {limit} sono presi in considerazione solamente nel caso in cui {count} ha valore “0” e rappresentano il limite inferiore e superiore dei dati che si intende richiedere, il loro utilizzo è consigliato nel casi in cui i dati da esportare sono in numero elevato e servono per una sorta di “paginazione” per non sovraccaricare sia il server che il client chiamante effettuando così più chiamate “paginate” invece che una sola.</li>
     </ul>
   </li>
   <li><strong>{lastDateImport}, {lastID}:</strong>
     <ul>
-      <li>per non richiedere sempre gli stessi dati ad ogni chiamata al web service occorre poter filtrare i dati richiesti e questo può avvenire passando o la data di ultima richiesta dati (lastDateImport) oppure l’ultimo identificativo che è stato richiesto (lastID).</li>
+      <li>Per non richiedere sempre gli stessi dati ad ogni chiamata al web service occorre poter filtrare i dati richiesti e questo può avvenire passando o la data di ultima richiesta dati (lastDateImport) oppure l’ultimo identificativo che è stato richiesto (lastID).</li>
       <li>Consigliamo l’utilizzo del parametro LastID ma se si vuole utilizzare la data come filtro il parametro deve essere una stringa in formato “yyyy/mm/dd hh:mm:ss”.</li>
     </ul>
   </li>
   <li><strong>{statusExport}</strong>:
     <ul>
-      <li>può assumere i seguenti valori: “0” (Attesa di Spedizione) oppure “1” (Export in Corso) oppure “2” (Spedito). Normalmente per questo parametro non deve essere passato alcun valore, per coloro invece che vogliono validare i dati prima di renderli disponibili al web service devono passare il valore “2” e validarli prima all’interno dell’Appmanager.</li>
+      <li>Può assumere i seguenti valori: “0” (Attesa di Spedizione) oppure “1” (Export in Corso) oppure “2” (Spedito). Normalmente per questo parametro non deve essere passato alcun valore, per coloro invece che vogliono validare i dati prima di renderli disponibili al web service devono passare il valore “2” e validarli prima all’interno dell’Appmanager.</li>
     </ul>
   </li>
 </ul>
 
-<h2 id="un-caso-pratico-le-chiamate-da-effettuare">Un caso pratico, le chiamate da effettuare</h2>
+<h2 id="esempio-di-utilizzo">Esempio di utilizzo</h2>
 
 <ol>
-  <li>Chiamo l’API per sapere l’ultimo ID presente (maxID):</li>
+  <li>Chiamata dell’API per conoscere l’ultimo ID presente (maxID):</li>
 </ol>
 
 <p><code>
@@ -3827,16 +3827,17 @@ Questa chiamata restituisce un file json così strutturato:</p>
 </code></p>
 
 <ol>
-  <li>Chiamo il web service per leggere gli ordini da esportare partendo dall’ultimo ID letto:</li>
+  <li>Chiamata del web service per leggere gli ordini da esportare partendo dall’ultimo ID letto:</li>
 </ol>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">...<span class="p">&amp;</span><span class="nv">format</span><span class="o">=</span>json<span class="p">&amp;</span><span class="nv">offset</span><span class="o">=</span><span class="p">&amp;</span><span class="nv">limit</span><span class="o">=</span><span class="p">&amp;</span><span class="nv">count</span><span class="o">=</span>0<span class="p">&amp;</span><span class="nv">lastDateImport</span><span class="o">=</span><span class="p">&amp;</span><span class="nv">lastID</span><span class="o">=</span>345<span class="p">&amp;</span><span class="nv">statusExport</span><span class="o">=</span></code></pre></div>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">...<span class="p">&amp;</span><span class="nv">format</span><span class="o">=</span>json<span class="p">&amp;</span><span class="nv">offset</span><span class="o">=</span><span class="p">&amp;</span><span class="nv">limit</span><span class="o">=</span><span class="p">&amp;</span><span class="nv">count</span><span class="o">=</span>0<span class="p">&amp;</span><span class="nv">lastDateImport</span><span class="o">=</span><span class="p">&amp;</span><span class="nv">lastID</span><span class="o">=</span>345<span class="p">&amp;</span><span class="nv">statusExport</span><span class="o">=</span></code></pre></figure>
 
 <h2 id="amhelper">AMHelper</h2>
 
-<p>Per semplificare l’utilizzo delle API di recupero dei dati, è stata creata un apposita libreria
-denominata AMHelper.
-Si rimanda alla documentazione specifica disponibile a questo link: <a href="https://github.com/Apex-net/AMHelper">AMHelper</a></p>
+<p>Per semplificare l’utilizzo delle API di recupero dei dati, è stata creata un libreria
+denominata AMHelper.</p>
+
+<p>La codice della libreria è open source e liberamente scaricabile da questo indirizzo <a href="https://github.com/Apex-net/AMHelper">AMHelper</a></p>
 
           
 
@@ -3909,8 +3910,6 @@ Si rimanda alla documentazione specifica disponibile a questo link: <a href="htt
   
 
   
-    
-  
 
   
     
@@ -3942,8 +3941,6 @@ Si rimanda alla documentazione specifica disponibile a questo link: <a href="htt
 
   
 
-  
-    
   
 
   
@@ -3979,8 +3976,6 @@ Si rimanda alla documentazione specifica disponibile a questo link: <a href="htt
   
 
   
-    
-  
 
   
     
@@ -3992,8 +3987,6 @@ Si rimanda alla documentazione specifica disponibile a questo link: <a href="htt
 
   
 
-  
-    
   
 
   
@@ -4012,8 +4005,6 @@ Si rimanda alla documentazione specifica disponibile a questo link: <a href="htt
 
   
 
-  
-    
   
 
   
@@ -4037,8 +4028,6 @@ Si rimanda alla documentazione specifica disponibile a questo link: <a href="htt
   
 
   
-    
-  
 
   
     
@@ -4054,8 +4043,6 @@ Si rimanda alla documentazione specifica disponibile a questo link: <a href="htt
 
   
 
-  
-    
   
 
   
@@ -4083,8 +4070,6 @@ Si rimanda alla documentazione specifica disponibile a questo link: <a href="htt
   
 
   
-    
-  
 
   
     
@@ -4107,8 +4092,6 @@ Si rimanda alla documentazione specifica disponibile a questo link: <a href="htt
   
 
   
-    
-  
 
   
     
@@ -4128,8 +4111,6 @@ Si rimanda alla documentazione specifica disponibile a questo link: <a href="htt
 
   
 
-  
-    
   
 
   
@@ -4160,8 +4141,6 @@ Si rimanda alla documentazione specifica disponibile a questo link: <a href="htt
 
   
 
-  
-    
   
 
   
@@ -4198,8 +4177,6 @@ Si rimanda alla documentazione specifica disponibile a questo link: <a href="htt
 
   
 
-  
-    
   
 
   
@@ -4238,8 +4215,6 @@ Si rimanda alla documentazione specifica disponibile a questo link: <a href="htt
 
   
 
-  
-    
   
 
   
@@ -4283,8 +4258,6 @@ Si rimanda alla documentazione specifica disponibile a questo link: <a href="htt
   
 
   
-    
-  
 
   
     
@@ -4324,8 +4297,6 @@ Si rimanda alla documentazione specifica disponibile a questo link: <a href="htt
 
   
 
-  
-    
   
 
   
@@ -4372,8 +4343,6 @@ Si rimanda alla documentazione specifica disponibile a questo link: <a href="htt
 
   
 
-  
-    
   
 
   
@@ -4427,8 +4396,6 @@ Si rimanda alla documentazione specifica disponibile a questo link: <a href="htt
   
 
   
-    
-  
 
   
     
@@ -4478,8 +4445,6 @@ Si rimanda alla documentazione specifica disponibile a questo link: <a href="htt
 
   
 
-  
-    
   
 
   
@@ -4537,8 +4502,6 @@ Si rimanda alla documentazione specifica disponibile a questo link: <a href="htt
   
 
   
-    
-  
 
   
     
@@ -4592,8 +4555,6 @@ Si rimanda alla documentazione specifica disponibile a questo link: <a href="htt
 
   
 
-  
-    
   
 
   
@@ -4653,8 +4614,6 @@ Si rimanda alla documentazione specifica disponibile a questo link: <a href="htt
   
 
   
-    
-  
 
   
     
@@ -4702,8 +4661,6 @@ Si rimanda alla documentazione specifica disponibile a questo link: <a href="htt
 
   
 
-  
-    
   
 
   
