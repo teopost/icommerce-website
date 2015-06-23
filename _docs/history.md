@@ -1,11 +1,12 @@
 ---
-layout: news_item
-title: Rilasciata la rel. 5.0.1
-date: "2015-01-26 02:12:52 +0200"
-author: teopost
-version: 5.0.1
-categories: [release]
+layout: docs
+title: History
+permalink: "/docs/history/"
 ---
+
+## 5.0.1 / 2015-01-26
+{: #v5-0-1}
+
 ### Anomalie
 
 **_Sistemata anomalia che causava la mancata pre-selezione della destinazione diversa predefinita nel form ordine._** - (rif: 9446)
@@ -22,23 +23,15 @@ In questo modo sull'ipad si vedevano righe doppie nella lookup dei clienti.
 
 **_Sistemato footer nei report, che non veniva stampato._** - (rif: 9280)
 
-
-
 **_Aggiunto tab Mappa in Schede, parametrizzati sottomoduli e dettagli_** - (rif: 9414)
 
 La visualizzazione di ogni modulo, sottomodulo e dettaglio può essere regolata tramite parametri, online.
 
 **_Spostata voce "risoluzione dei problemi" nel modulo "About"_** - (rif: 9433)
 
-
-
 **_Nascosti setting non necessari agli utenti dall'applicazione_** - (rif: 9434)
 
-
-
 **_Aggiunto filtro per categoria alla visualizzazione della lista clienti_** - (rif: 9435)
-
-
 
 **_Nuovo funzionalita nel modulo schede: Agenti_** - (rif: 9436)
 
@@ -47,6 +40,3 @@ Possibilità di visualizzare i dati aggregati relativi ai vari agenti:
 - Documenti
 - Scadenze
 - Quantita vendute
-
-[history]: /docs/history/#v5-0-1
-[Upgrading]: /docs/upgrading/
