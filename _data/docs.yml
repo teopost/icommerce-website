@@ -12,7 +12,7 @@
   - export-specifiche-files
   - export-dati
   - export-catalogo
-  - export-report
+#  - export-report
   - import-dati
   - import-dati-ws
 
