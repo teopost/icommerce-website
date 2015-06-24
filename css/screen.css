@@ -1278,7 +1278,7 @@ code.output {
     margin-right: -30px; } }
 @media (min-width: 768px) {
   .note {
-    margin-left: -50px; } }
+    margin-left: -20px; } }
 .note:before {
   content: "";
   position: absolute;
