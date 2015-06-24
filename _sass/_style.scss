@@ -113,7 +113,7 @@ nav {
   a {
     float: left;
     width: 100%;
-    background-color: #ffffff; /* 333 */    
+    background-color: #ffffff; /* 333 */
     color: #000000;
     text-align: center;
     text-transform: uppercase;
@@ -597,11 +597,11 @@ article h2:first-child { margin-top: 0; }
 }
 
 @media (max-width: 568px) {
-  .post-category { padding-left: 30px; }
+  .post-category { padding-left: 20px; }
 }
 
 @media (min-width: 768px) {
-  .post-category { margin-left: -50px; }
+  .post-category { margin-left: -20px; }
 }
 
 .avatar {
