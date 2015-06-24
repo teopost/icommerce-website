@@ -1031,10 +1031,10 @@ article h2:first-child {
 
 @media (max-width: 568px) {
   .post-category {
-    padding-left: 30px; } }
+    padding-left: 20px; } }
 @media (min-width: 768px) {
   .post-category {
-    margin-left: -50px; } }
+    margin-left: -20px; } }
 .avatar {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
