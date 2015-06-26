@@ -2,7 +2,7 @@
 <html lang="it-IT">
 <head>
   <meta charset="UTF-8">
-  <title>Rilasciata la rel. 5.3.7</title>
+  <title>Rilasciato connettore IB 18.2.5.9</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="generator" content="iCommerce v">
   <link rel="alternate" type="application/rss+xml" title="iCommerce • l'App Mobile per la tua azienda" href="/feed.xml">
@@ -119,17 +119,17 @@
       <div class="unit four-fifths">
         <article>
   <h2>
-    Rilasciata la rel. 5.3.7
-    <a href="/news/2015/04/20/rel-5-3-7-released/" class="permalink" title="Permalink">∞</a>
+    Rilasciato connettore IB 18.2.5.9
+    <a href="/news/2015/06/26/rel-18.2.5.9-connettore-ib/" class="permalink" title="Permalink">∞</a>
   </h2>
   <span class="post-category">
     <span class="label">
-      release
+      connettore-ib
     </span>
   </span>
   <div class="post-meta">
     <span class="post-date">
-      20 Apr 2015
+      26 Jun 2015
     </span>
     <a href="https://github.com/teopost" class="post-author">
       <img src="https://github.com/teopost.png" class="avatar" alt="teopost avatar" width="24" height="24">
@@ -137,33 +137,16 @@
     </a>
   </div>
   <div class="post-content">
-    <h3 id="anomalie">Anomalie</h3>
+    <p>E’ stato rilasciato il connettore di iB 18.2.5.9.
+Si tratta di un aggiornamento che riguarda l’aggiornamento automatico del connettore che, a partire da questa versione, sarà più semplice.</p>
 
-<p><strong><em>Aggiunto ordinamento ulteriore delle scadenze in ‘Ordini’-‘Incassi’.</em></strong> - (rif: 9543)</p>
+<p>Con la versione precedente veniva effettuato l’aggiornamento delle DLL solo se il processo Busnet.exe non era in esecuzione.</p>
 
-<p>Aggiunto ordinamento ulteriore delle scadenze in ‘Ordini’-‘Incassi’.
-Ora le scadenze sono ordinate anche per progressivo documento e data documento (ascendente), oltre che per l’ordinamento principale scelto (data scadenza o data emissione).</p>
+<p>Spesso accadeva però che sui server erano presenti varie sessioni di utenti collegati in terminal server.</p>
 
-<p><strong><em>Sistemate alcune anomalie wTrendy</em></strong> - (rif: 9641)</p>
+<p>Tale sessioni quindi, anche se bloccavano l’aggiornamento, non erano necessariamente interessate alle DLL da aggiornare.</p>
 
-<ul>
-  <li>eliminata anomalia che poteva causare la cancellazione di righe ordine dell’ordine salvato in precedenza</li>
-  <li>sistemato l’ordinamente degli ordini (che ora risulta consistente tra copia commissione ed export)</li>
-  <li>sistemata anomalia che poteva causare la mancanza dei dettagli di riga ordine nei dati inviati</li>
-  <li>sistemata visualizzazione degli sviluppi delle taglie associate agli articoli</li>
-  <li>sistemato calcolo del totale paia, che in alcune condizione risultava sbagliato</li>
-</ul>
-
-<h3 id="novit">Novità</h3>
-
-<p><strong><em>Modifiche alla generazione del copia commissione.</em></strong> - (rif: 9486)</p>
-
-<p><strong><em>Migliorata la visualizzazione della destinazione del cliente</em></strong> - (rif: 9505)</p>
-
-<p>In ordine veloce e nel form ordine è stata aggiunto anche l’indirizzo della destinazione cliente.</p>
-
-<p><strong><em>Aggiunti meccanismi di crash reporting</em></strong> - (rif: 9605)</p>
-
+<p>Ora viene verificato che le DLL da aggiornare siano scrivibili e aggiornabili. Qeusto riduce notevolmente i casi in cui le DLL non possono aggiornarsi.</p>
 
   </div>
 </article>
@@ -183,7 +166,7 @@ Ora le scadenze sono ordinate anche per progressivo documento e data documento (
     <h4>Recent Releases</h4>
     <ul>
       
-      <li class="current">
+      <li class="">
         <a href="/news/2015/04/20/rel-5-3-7-released/">Version 5.3.7</a>
       </li>
       
@@ -203,7 +186,7 @@ Ora le scadenze sono ordinate anche per progressivo documento e data documento (
     <ul>
         
         
-        <li class="">
+        <li class="current">
           <a href="/news/2015/06/26/rel-18.2.5.9-connettore-ib/">Rilasciato connettore IB 18.2.5.9</a>
         </li>
         
