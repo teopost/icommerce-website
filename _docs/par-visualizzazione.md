@@ -3,14 +3,14 @@ layout: docs
 title: Param. visualizzazione
 permalink: /docs/par-visualizzazione/
 ---
-
+<!--
 ### Mostra la giacenza
 
 <div class="note info">
   <h5>TO BE COMPLETE</h5>
   <p>Ancora un po di pazienza. Stiamo completando la documentazione</p>
 </div>
-
+-->
 
 ### Mostra tutti i dati anche se sono agente
 
