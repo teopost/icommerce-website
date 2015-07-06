@@ -3,8 +3,6 @@ layout: docs
 title: Par. progetto
 permalink: /docs/par-progetto/
 ---
-## Parametri funzionali
-
 ### Numero sconti
 
 Questo parametro indica il numero massimo di sconti che devono essere visualizzato nel tablet.

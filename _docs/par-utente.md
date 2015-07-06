@@ -3,9 +3,6 @@ layout: docs
 title: Par. utente
 permalink: /docs/par-utente/
 ---
-
-## Parametri utente
-
 ### Codice agente
 Il codice agente è il primo dato che deve essere attivato dopo aver inserito i dati di un nuovo utente.
 In questo campo impostare il cod agente del gestionale.
