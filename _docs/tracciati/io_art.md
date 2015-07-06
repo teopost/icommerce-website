@@ -12,7 +12,7 @@ Tabella anagrafica che contiene tutti i prodotti
   * *Codice della ditta. Identifica univocamente una ditta dentro il gestionale che, nel caso sia multisocietario, può contenere dati di più aziende*
 3. **COD_ART** - Character - Max Length: 25
   * *Codice dell'articolo*
-4. **DES_ART** - Character - Max Length: 8000
+4. **DES_ART** - Character - Max Length: 255
   * *Descrizione dell'articolo*
 5. **COD_FAM** - Character - Max Length: 4
   * *Codice della famiglia degli articoli*
@@ -58,6 +58,14 @@ Tabella anagrafica che contiene tutti i prodotti
   * *massimo extra sconto consentito*
 26. **COD_SVILUPPO_BASE** - Character - Max Length: 255
   * *Codice sviluppo base (wtrendy)*
-27. **DAT_ULT_MOD** - DateTime - Max Length: 16
+27. **PREZZO_RETAIL** - Decimal - Max Length: 28,8
+  * *Prezzo del retail (usato suli su wTrendy)*
+28. **DES_FILTRO1** - Character - Max Length: 255
+  * *Stringa usata per filtro per la selezione degli articoli*
+29. **DES_FILTRO2** - Character - Max Length: 255
+  * *Stringa usata per filtro per la selezione degli articoli*
+30. **DES_FILTRO3** - Character - Max Length: 255
+  * *Stringa usata per filtro per la selezione degli articoli*
+31. **DAT_ULT_MOD** - DateTime - Max Length: 16
   * *Data di ultima modifica del record. Attenzione: Questa data deve essere composta nel seguente formato: Giorno (2 caratteri) + Mese (2 caratteri) + Anno (4 caratteri) + Ore (2 caratteri) + Minuti (2 caratteri) + Secondi (2 caratteri).*
 
