@@ -2147,8 +2147,6 @@
     
   
     
-  
-    
       <option value="http://ic.apexnet.it/docs/par-lm/">Parametri</option>
     
   
@@ -2276,170 +2274,6 @@
   
     
   
-
-  
-
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-      <option value="http://ic.apexnet.it/docs/par-funzionali/">Param. funzionali</option>
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
     
   
 
@@ -2485,7 +2319,171 @@
     
   
     
-      <option value="http://ic.apexnet.it/docs/par-visualizzazione/">Param. visualizzazione</option>
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <option value="http://ic.apexnet.it/docs/par-utente/">Par. utente</option>
+    
+  
     
   
     
@@ -3625,15 +3623,42 @@
             <a href="https://github.com/Apex-net//edit/master/_docs//Users/teopost/dev/icommerce-site/_docs/par-lm.md"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a>
           </div>
           <h1>Parametri</h1>
-          <p>Il License Manager, ogni volta che viene chiamato, invia all’app una serie di parametri di configurazione.</p>
-
-<p>Tali parametri possono essere:</p>
+          <p>Accedendo all’interfaccia web del License Manager, è possibile vedere la lista dei progetti legati al proprio profilo. Per ogni progetto è possibile scegliere fra 2 opzioni:</p>
 
 <ul>
-  <li>Funzionali</li>
-  <li>Interfaccia</li>
-  <li>Profilazione</li>
+  <li>Configura</li>
+  <li>Gestisci utenti</li>
 </ul>
+
+<h2 id="configurazioni-a-livello-di-progetto">Configurazioni a livello di Progetto</h2>
+<p>Il pulsante <strong>Configura</strong> consente di modificare alcune configurazioni al livello di progetto.
+E’ importante sapere che tutte le opzioni impostate in questa maschera saranno attive per tutti gli utenti.</p>
+
+<p>Il pulsante <strong>Gestisci utenti</strong> invece mostra la lista di utenti attivi per quel progetto.</p>
+
+<h2 id="configurazioni-a-livello-di-utente">Configurazioni a livello di Utente</h2>
+<p>Per ogni utente è possibile cliccare il pulsante <strong>Configura</strong> che apre una lista di opzioni, ovvero:</p>
+
+<ul>
+  <li>Configura parametri</li>
+  <li>Configura utenti</li>
+</ul>
+
+<p>L’opzione Configura parametri consente di impostare le stesse opzioni definibili a livello di progetto ma, questa volta, verranno attivate solo per l’utente selezionato.</p>
+
+<p>In pratica, il meccanismo di applicazione dei permessi funziona così:</p>
+
+<ol>
+  <li>le opzioni di <strong>Configurazione utente</strong> NON IMPOSTATE vengono prese dalle impostazioni definite a livello di progetto.</li>
+  <li>le opzioni di <strong>Configurazione utente</strong> IMPOSTATE sovrascrivono quelle definite sul progetto.</li>
+</ol>
+
+<p>Tutte le opzioni impostate in questa maschera saranno attive per tutti gli utenti.</p>
+
+<h2 id="dispositivi-attivi">Dispositivi attivi</h2>
+<p>Le licenze di iCommerce sono nominali. Per ogni iPad può essere usata una sola licenza.
+Tuttavia, il sistema consente l’utilizzo di due dispositivi per ogni utente.
+Il pulsante dispositivi mostra la lista dei dispositivi consentiti. Tale lista viene popolata con gli identificativi dei primi 2 accessi al sistema.</p>
 
           
 
@@ -3691,7 +3716,7 @@
           
             
             
-            <a href="/docs/par-funzionali/" class="next">Next</a>
+            <a href="/docs/par-progetto/" class="next">Next</a>
           
       </div>
     </div>
@@ -4089,8 +4114,6 @@
     
   
     
-  
-    
       <li class="current"><a href="http://ic.apexnet.it/docs/par-lm/">Parametri</a></li>
       
 
@@ -4135,16 +4158,141 @@
     
   
     
-      <li class=""><a href="http://ic.apexnet.it/docs/par-funzionali/">Param. funzionali</a></li>
-      
-
-
   
-
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
   
     
   
 
+
+  
+
+  
+    
+  
+
   
     
   
@@ -4183,9 +4331,7 @@
     
   
     
-  
-    
-      <li class=""><a href="http://ic.apexnet.it/docs/par-visualizzazione/">Param. visualizzazione</a></li>
+      <li class=""><a href="http://ic.apexnet.it/docs/par-utente/">Par. utente</a></li>
       
 
 
