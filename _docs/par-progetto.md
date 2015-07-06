@@ -1,13 +1,8 @@
 ---
 layout: docs
 title: Par. progetto
-permalink: /docs/par-funzionali/
+permalink: /docs/par-progetto/
 ---
-I parametri di progetto possono essere distinti in 2 tipologie:
-
-* Parametri funzionali
-* Parametri di visualizzazione
-
 ## Parametri funzionali
 
 ### Numero sconti
