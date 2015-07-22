@@ -11,8 +11,8 @@
     <title xml:lang="en">iCommerce • l'App mobile per la tua azienda</title>
     <atom:link type="application/atom+xml" href="/feed.xml" rel="self"/>
     <link>http://www.apexnet.it/</link>
-    <pubDate>Wed, 22 Jul 2015 15:24:50 +0200</pubDate>
-    <lastBuildDate>Wed, 22 Jul 2015 15:24:50 +0200</lastBuildDate>
+    <pubDate>Wed, 22 Jul 2015 15:41:15 +0200</pubDate>
+    <lastBuildDate>Wed, 22 Jul 2015 15:41:15 +0200</lastBuildDate>
     <language>en-US</language>
     <generator>Jekyll v2.5.3</generator>
     <description>Transform your plain text into static websites and blogs.</description>
@@ -26,7 +26,7 @@
     </image>
     
     <item>
-      <title>Rilasciata la rel. 5.5.x</title>
+      <title>Rilasciata la rel. 5.5</title>
       <link>http://ic.apexnet.it/news/2015/07/22/rel-5-5-released/</link>
       <pubDate>Wed, 22 Jul 2015 08:00:00 +0200</pubDate>
       <dc:creator>teopost</dc:creator>
@@ -35,11 +35,11 @@
       <category>release</category>
       
       <guid isPermaLink="true">http://ic.apexnet.it/news/2015/07/22/rel-5-5-released/</guid>
-      <description>&lt;h2 id=&quot;anomalie&quot;&gt;Anomalie&lt;/h2&gt;
+      <description>&lt;h3 id=&quot;anomalie&quot;&gt;Anomalie&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Sistemata incosistenza nei flag usati per abilitare voci di sincronizzazione&lt;/em&gt;&lt;/strong&gt; - (rif: 10196)&lt;/p&gt;
 
-&lt;h2 id=&quot;novit&quot;&gt;Novità&lt;/h2&gt;
+&lt;h3 id=&quot;novit&quot;&gt;Novità&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Aggiunto lo stato articolo alla presa dell’ordine per taglie/colori.&lt;/em&gt;&lt;/strong&gt; - (rif: 10216)&lt;/p&gt;
 
