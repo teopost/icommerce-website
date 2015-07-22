@@ -11,8 +11,8 @@
     <title xml:lang="en">iCommerce • l'App mobile per la tua azienda</title>
     <atom:link type="application/atom+xml" href="/feed.xml" rel="self"/>
     <link>http://www.apexnet.it/</link>
-    <pubDate>Wed, 22 Jul 2015 15:41:15 +0200</pubDate>
-    <lastBuildDate>Wed, 22 Jul 2015 15:41:15 +0200</lastBuildDate>
+    <pubDate>Wed, 22 Jul 2015 15:52:47 +0200</pubDate>
+    <lastBuildDate>Wed, 22 Jul 2015 15:52:47 +0200</lastBuildDate>
     <language>en-US</language>
     <generator>Jekyll v2.5.3</generator>
     <description>Transform your plain text into static websites and blogs.</description>
@@ -93,15 +93,15 @@
     </item>
     
     <item>
-      <title>Rilasciata la rel. 5.3.7</title>
-      <link>http://ic.apexnet.it/news/2015/04/20/rel-5-3-7-released/</link>
+      <title>Rilasciata la rel. 5.3</title>
+      <link>http://ic.apexnet.it/news/2015/04/20/rel-5-3-released/</link>
       <pubDate>Mon, 20 Apr 2015 08:00:00 +0200</pubDate>
       <dc:creator>teopost</dc:creator>
       
       
       <category>release</category>
       
-      <guid isPermaLink="true">http://ic.apexnet.it/news/2015/04/20/rel-5-3-7-released/</guid>
+      <guid isPermaLink="true">http://ic.apexnet.it/news/2015/04/20/rel-5-3-released/</guid>
       <description>&lt;h3 id=&quot;anomalie&quot;&gt;Anomalie&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Aggiunto ordinamento ulteriore delle scadenze in ‘Ordini’-‘Incassi’.&lt;/em&gt;&lt;/strong&gt; - (rif: 9543)&lt;/p&gt;
@@ -133,15 +133,15 @@ Ora le scadenze sono ordinate anche per progressivo documento e data documento (
     </item>
     
     <item>
-      <title>Rilasciata la rel. 5.2.15</title>
-      <link>http://ic.apexnet.it/news/2015/03/02/rel-5-2-15-released/</link>
+      <title>Rilasciata la rel. 5.2</title>
+      <link>http://ic.apexnet.it/news/2015/03/02/rel-5-2-released/</link>
       <pubDate>Mon, 02 Mar 2015 01:12:52 +0100</pubDate>
       <dc:creator>teopost</dc:creator>
       
       
       <category>release</category>
       
-      <guid isPermaLink="true">http://ic.apexnet.it/news/2015/03/02/rel-5-2-15-released/</guid>
+      <guid isPermaLink="true">http://ic.apexnet.it/news/2015/03/02/rel-5-2-released/</guid>
       <description>&lt;h3 id=&quot;anomalie&quot;&gt;Anomalie&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Aggiunto ordinamento ulteriore delle scadenze in ‘Ordini’-‘Incassi’.&lt;/em&gt;&lt;/strong&gt; - (rif: 9543)&lt;/p&gt;
@@ -173,15 +173,15 @@ Ora le scadenze sono ordinate anche per progressivo documento e data documento (
     </item>
     
     <item>
-      <title>Rilasciata la rel. 5.1.1</title>
-      <link>http://ic.apexnet.it/news/2015/02/01/rel-5-1-1-released/</link>
+      <title>Rilasciata la rel. 5.1</title>
+      <link>http://ic.apexnet.it/news/2015/02/01/rel-5-1-released/</link>
       <pubDate>Sun, 01 Feb 2015 01:12:52 +0100</pubDate>
       <dc:creator>teopost</dc:creator>
       
       
       <category>release</category>
       
-      <guid isPermaLink="true">http://ic.apexnet.it/news/2015/02/01/rel-5-1-1-released/</guid>
+      <guid isPermaLink="true">http://ic.apexnet.it/news/2015/02/01/rel-5-1-released/</guid>
       <description>&lt;h3 id=&quot;novit&quot;&gt;Novità&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Migliorata funzionalita di ricerca nel catalogo&lt;/em&gt;&lt;/strong&gt; - (rif: 9421)&lt;/p&gt;
