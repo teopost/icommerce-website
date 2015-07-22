@@ -1,19 +1,19 @@
 ---
 layout: news_item
-title: Rilasciata la rel. 5.5.x
+title: Rilasciata la rel. 5.5
 date: "2015-07-22 08:00:00 +0200"
 author: teopost
 version: 5.5
 categories: [release]
 ---
 
-## Anomalie
+### Anomalie
 
 **_Sistemata incosistenza nei flag usati per abilitare voci di sincronizzazione_** - (rif: 10196)
 
 
 
-## Novità
+### Novità
 
 **_Aggiunto lo stato articolo alla presa dell'ordine per taglie/colori._** - (rif: 10216)
 
