@@ -1,9 +1,9 @@
 ---
 layout: news_item
-title: Rilasciata la rel. 5.3.7
-date: "2015-04-20 08:00:00 +0200"
+title: Rilasciata la rel. 5.2
+date: "2015-03-02 02:12:52 +0200"
 author: teopost
-version: 5.3.7
+version: 5.2
 categories: [release]
 ---
 
@@ -25,6 +25,8 @@ Ora le scadenze sono ordinate anche per progressivo documento e data documento (
 ### Novità
 
 **_Modifiche alla generazione del copia commissione._** - (rif: 9486)
+
+
 
 **_Migliorata la visualizzazione della destinazione del cliente_** - (rif: 9505)
 

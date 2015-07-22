@@ -4,7 +4,7 @@ title: History
 permalink: "/docs/history/"
 ---
 
-## 5.3.7 / 2015-04-20
+## 5.3 / 2015-04-20
 {: #v5-3-7}
 
 ### Anomalie

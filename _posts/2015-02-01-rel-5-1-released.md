@@ -1,9 +1,9 @@
 ---
 layout: news_item
-title: Rilasciata la rel. 5.1.1
+title: Rilasciata la rel. 5.1
 date: "2015-02-01 02:12:52 +0200"
 author: teopost
-version: 5.1.1
+version: 5.1
 categories: [release]
 ---
 
