@@ -18,8 +18,9 @@ Dopo aver creato l'account dropbox del cliente, occorre comunicare il nome dell'
 
 L'installazione standard di Dropbox, non prevede l'utilizzo del programma su server Windows. Tuttavia con poche semplici operazioni, è possibile risolvere il problema.
 L'installazione come servizio, permette di eseguire Dropbox senza essere costretti a  effettuare il login sul server.
+Ci sono due modalitè di installazione, a seconda della versione installata di Windows Server.  
 
-### 1. Installazione del Resource Kit di Windows
+### 1. Installazione del Resource Kit di Windows (solo per versioni precedenti a Windows 2012) 
 
 Installare, prima di tutto, il [Resource Kit di Windows](http://www.microsoft.com/en-us/download/confirmation.aspx?id=17657)
 Si tratta di una utility ufficiale di Microsoft non presente nell' installazione di base del sistema operativo Windows server.
@@ -46,11 +47,25 @@ All'interno del resource kit è presente un tool che consente di eseguire un ese
 
 ### 4. Configurazione di Dropbox come servizio
 
+### Versioni precedenti a Windows Server 2012
 Aprire la shell dos e digitare il seguente comando: (fare attenzione al path e agli spazi)
 
 {% highlight bash %}
   C:\> sc create DropBoxService binPath= "C:\Program Files (x86)\Windows Resource Kits\Tools\srvany.exe" DisplayName= "Dropbox Service"
 {% endhighlight %}
+
+### Windows Server 2012 e successive
+
+Scaricare **srvany.exe** da questo link
+
+Copiare il file nella cartella **C:\tmp**
+
+Aprire la shell dos e digitare il seguente comando: (fare attenzione al path e agli spazi)
+
+{% highlight bash %}
+  C:\> sc create DropBoxService binPath= "C:\tmp\srvany.exe" DisplayName= "Dropbox Service"
+{% endhighlight %}
+
 
 Otterremo a questo punto una conferma del tipo
 
