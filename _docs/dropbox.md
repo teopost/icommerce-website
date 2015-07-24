@@ -20,7 +20,7 @@ L'installazione standard di Dropbox, non prevede l'utilizzo del programma su ser
 L'installazione come servizio, permette di eseguire Dropbox senza essere costretti a  effettuare il login sul server.
 Ci sono due modalitè di installazione, a seconda della versione installata di Windows Server.  
 
-### 1. Installazione del Resource Kit di Windows (solo per versioni precedenti a Windows 2012) 
+### 1. Installazione del Resource Kit di Windows (solo per versioni precedenti a Windows 2012)
 
 Installare, prima di tutto, il [Resource Kit di Windows](http://www.microsoft.com/en-us/download/confirmation.aspx?id=17657)
 Si tratta di una utility ufficiale di Microsoft non presente nell' installazione di base del sistema operativo Windows server.
@@ -56,7 +56,7 @@ Aprire la shell dos e digitare il seguente comando: (fare attenzione al path e a
 
 ### Windows Server 2012 e successive
 
-Scaricare **srvany.exe** da questo link
+Scaricare **srvany.exe** da questo [link](files/srvany.zip)
 
 Copiare il file nella cartella **C:\tmp**
 
