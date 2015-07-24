@@ -11,4 +11,11 @@ if [ -z "$1" ]; then
     exit
 fi
 
-quick_push "$1" && jekyll build && ./deploy.sh 
+echo "Push changes to github (master)"
+quick_push "$1" 
+
+echo "Rebuild site"
+jekyll build
+
+echo "Deploy site to github (gh-pages)"
+./deploy.sh 
