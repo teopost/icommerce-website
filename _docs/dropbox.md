@@ -56,7 +56,7 @@ Aprire la shell dos e digitare il seguente comando: (fare attenzione al path e a
 
 ### Windows Server 2012 e successive
 
-Scaricare **srvany.exe** da questo [link](dropbox/files/srvany.zip)
+Scaricare **srvany.exe** da questo [link](/files/srvany.zip)
 
 Copiare il file nella cartella **C:\tmp**
 
