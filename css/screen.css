@@ -164,7 +164,7 @@ td, th {
 .grid .unit {
   float: left;
   width: 100%;
-  padding: 10px; }
+  padding: 20px; }
 
 /* This ensures the outer gutters are equal to the (doubled) inner gutters. */
 .grid .unit:first-child {
@@ -276,7 +276,7 @@ td, th {
 
 /* Responsive Stuff */
 @media screen and (max-width: 568px) {
-  /* Stack anything that isn’t full-width on smaller screens 
+  /* Stack anything that isn’t full-width on smaller screens
      and doesn't provide the no-stacking-on-mobiles class */
   .grid:not(.no-stacking-on-mobiles) > .unit {
     width: 100% !important;
