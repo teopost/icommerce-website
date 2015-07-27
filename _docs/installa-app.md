@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Installazione
+title: Installa l'App
 permalink: /docs/installazione/
 ---
 

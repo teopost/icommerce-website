@@ -1,8 +1,11 @@
 - title: Getting Started
   docs:
   - home
-  - installazione
   - come-funziona
+  - installa-app
+
+- title: Installazione
+  docs:
   - dropbox
   - connettore
 
