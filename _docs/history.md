@@ -1,11 +1,102 @@
----
+﻿---
 layout: docs
 title: History
 permalink: "/docs/history/"
 ---
 
+## 6.0 / 2015-09-17
+{: #v6-0}
+
+### Anomalie
+
+**_Risolto problema su acconto incassi_** - (rif: 10362)
+
+Roisolta regressione introdotta nella 5.5 sulla funzionalità degli "Acconti" ed il calcolo dell'importo totale in caso fossero presenti note di credito.
+
+### Novità
+
+**_Modificate le look-up nella testata ordine_** - (rif: 10349)
+
+Ora le look-up per i campi Pagamento, Scatola ed Etichetta aprono un form, con possibilità di ricerca.
+
+-------
+
+
+## 5.5 / 2015-08-07
+{: #v5-5}
+
+### Anomalie
+
+**_Sistemata incosistenza nei flag usati per abilitare voci di sincronizzazione_** - (rif: 10196)
+
+
+
+### Novità
+
+**_Aggiunto lo stato articolo alla presa dell'ordine per taglie/colori._** - (rif: 10216)
+
+Se lo stato di un articolo risulta bloccato non sarà possibile aggiungere righe ordine per tale articolo.
+
+**_Aggiunto "prezzo retail" ai prodotti e la gestione della valuta per taglie/colori._** - (rif: 10244)
+
+Se la gestione della valuta è abilitata
+- la valuta viene scelta a partire da quella presente sul cliente, o in caso di assenza, viene presa quella preferenziale.
+-  i listini vengono filtrati per codValuta
+- per ogni testata e relativo report copia commissione, i prezzi saranno proposti in valuta
+
+Altrimenti, rimane tutto come prima.
+
+**_Aggiunta funzionalità che permette all'utente di filtrare gli incassi per cliente_** - (rif: 10248)
+
+
+
+**_Promozioni in campi custom_** - (rif: 10249)
+
+
+
+**_Apertura dettaglio documento da incassi e sistemato utilizzo di note di accredito negli incassi_** - (rif: 10250)
+
+Apertura dettaglio documento da incassi e sistemato utilizzo di note di accredito negli incassi.
+
+**_Aggiunge filtro per campo marca, nella lista dei prodotti_** - (rif: 10251)
+
+Modificata la logica dei filtri.
+
+-------
+
+
+## 5.4 / 2015-06-10
+{: #v5-4}
+
+### Anomalie
+
+**_Estrazione associazioni cliente agente per i modelli template_** - (rif: 10120)
+
+In Business è possibile associare un cliente ad un agente principale e un agente secondario, ma non a una lista di n agenti.
+
+Quindi se un cliente template deve essere associato a più agenti, l'unico modo per farlo era quello di creare piu' clienti fittizi con varie associazioni.
+
+Ore la query di estrazione dei dati dell'associazione agenti/clienti preleva la lista dei clienti template che hanno agente 0 (sia per il principale che per il secondario) e per ognuni di essi viene creata la rispettiva riga associativa per tutti gli agenti esistenti.
+
+### Novità
+
+**_Rivista la struttura generale dell'applicazione e dei principali componenti grafici._** - (rif: 9526)
+
+
+
+**_Sistemato ricalcolo prezzi nel form ordine_** - (rif: 10148)
+
+Il ricalcolo del prezzo non viene piu effettuato nei casi in cui:
+- l'utente riapre l'ordine (in modifica ordine)
+- l'utente va ad imputare un prezzo differente (in inserimento ordine)
+
+Nelle versioni precedenti tale ricalcolo veniva erroneamente fermato anche se l'utente "passava sopra" al campo prezzo, senza effettuare alcuna modifica.
+
+-------
+
+
 ## 5.3 / 2015-04-20
-{: #v5-3-7}
+{: #v5-3}
 
 ### Anomalie
 
@@ -24,6 +115,10 @@ permalink: "/docs/history/"
 Aggiunta la gestione dei cataloghi per agente e la possibilità di gestire l'editabilita di prezzi e sconti a livello di catalogo.
 
 -------
+
+
+## 5.2 / 2015-03-02
+{: #v5-2}
 
 ### Anomalie
 
@@ -56,6 +151,10 @@ In ordine veloce e nel form ordine è stata aggiunto anche l'indirizzo della des
 
 -------
 
+
+## 5.1 / 2015-02-01
+{: #v5-1}
+
 ### Novità
 
 **_Migliorata funzionalita di ricerca nel catalogo_** - (rif: 9421)
@@ -71,6 +170,10 @@ Aumentata dimensione della schermata di ricerca, di modo da poter visualizzare a
 
 
 -------
+
+
+## 5.0 / 2015-01-26
+{: #v5-0}
 
 ### Anomalie
 
@@ -116,6 +219,10 @@ Possibilità di visualizzare i dati aggregati relativi ai vari agenti:
 
 -------
 
+
+## 4.15.7 / 2015-01-15
+{: #v4-15-7}
+
 ### Anomalie
 
 **_Migliorata visualizzazione ordine veloce su iPhone._** - (rif: 9415)
@@ -132,7 +239,15 @@ Su iPhone 6 e 6 plus, mettendo il dispositivo in posizione landscape verranno mo
 
 -------
 
+
+## 4.14.2 / 2014-12-08
+{: #v4-14-2}
+
 -------
+
+
+## 4.13.14 / 2014-11-19
+{: #v4-13-14}
 
 ### Anomalie
 
@@ -191,30 +306,9 @@ L'invio dei device token per le notifiche push è stato cambiato da Apple con iO
 
 -------
 
-### Anomalie
 
-**_Nuovo parametro di configurazione per import ordini descrizione artitoli_** - (rif: 9368)
-
-E' stato aggiunto un parametro di configurazione nel connettore di iB per modificare il modo in cui vengono importate, dal connettore, le descrizioni degli ordini.
-
-Se il parametro è impostato a 0, il funzionamento deve essere quello solito.
-Se il parametro è impostato a 1, il nuovo funzionamento deve essere il seguente:
-
-1. Se l'agente inserisce un articolo nell'ordine di tipologia "Descrittivo", la descrizione dell'articolo deve essere messa in:
-- I primi 40 caratteri nel campo descrizione
-- Dal carattere 40 al carattere 80, nel campo descrizioni interna.
-- Eventuali altri caratteri devono essere accodati alle note di riga.
-
-2. Se l'agente inserisce una normale articolo nell'ordine, anche se ne modifica la descrizione, occorre:
-- Mettere nel campo descrizione la descrizione realte dell'articolo (da recuperare nell'anagrafica articoli)
-- Mettere nel campo descrizione interna la descrizione ideale dell'articolo (da recuperare nell'anagrafica articoli).
-
-3. Se l'agente inserisce una nota, deve essere importata nel campo note.
-
-
-**_Modificata query estrazione pagamenti_** - (rif: 9370)
-
-Ora anche la query di estrazione dei pagamenti puo' essere personalizzata aggiungendo where condition da parametri di configurazione.
+## 4.12.17 / 2014-10-29
+{: #v4-12-17}
 
 ### Novità
 
@@ -228,6 +322,10 @@ Il programma ragiona in questo modo:
 
 -------
 
+
+## 4.11.3 / 2014-10-21
+{: #v4-11-3}
+
 ### Anomalie
 
 **_Titolo note cliente impostato a descrizione di default se vuoto_** - (rif: 9369)
@@ -235,6 +333,10 @@ Il programma ragiona in questo modo:
 Nel caso in cui un agente inserisce una nota cliente con descrizione vuota, viene impostata come testo il valore "Senza titolo" nella descrizione.
 
 -------
+
+
+## 4.10.6 / 2014-09-06
+{: #v4-10-6}
 
 ### Anomalie
 
@@ -256,15 +358,15 @@ Aggiunti i seguenti campi alla **testata ordini**:
 
 Aggiunti *sconti di testata*, fino ad un max di 6, configurabili.
 Gli sconti sono popolati nel seguente modo:
-- dopo aver **scelto un cliente**, gli sconti vengono **pre-settati** con quelli presenti
+- dopo aver **scelto un cliente**, gli sconti vengono **pre-settati** con quelli presenti 
   sull'anagrafica cliente;
-- se il cliente ha un **pagamento** predefinito associato, e il pagamento ha uno
-  **sconto associato**, questo viene messo nello **sconto1** (**unica eccezzione**
+- se il cliente ha un **pagamento** predefinito associato, e il pagamento ha uno 
+  **sconto associato**, questo viene messo nello **sconto1** (**unica eccezzione** 
   al punto precedente, solo per lo sconto1)
 - il numero e l'editabilitá degli sconti è parametrizzabile.
 
-Aggiunto controllo *sconto massimo applicabile*, legato al catalogo scelto.
-> NB: Nel caso in cui il progetto preveda sconti massimi legati al catalogo (almeno uno),
+Aggiunto controllo *sconto massimo applicabile*, legato al catalogo scelto. 
+> NB: Nel caso in cui il progetto preveda sconti massimi legati al catalogo (almeno uno), 
 > non sarà possibile prendere righe ordine da cataloghi diversi in una stessa testata.
 
 *Porto*
@@ -274,8 +376,8 @@ Aggiunta lookup di scelta del *porto*, configurabile.
 Aggiunta lookup di scelta della *modalità di spedizione*, configurabile.
 
 *Copia ordine*
-**Dopo** aver **aperto e salvato** una testata, è ora possibile **copiare tutte le righe
-ordine** prelevandole da un'altra testata a patto che abbia lo **stesso sviluppo**
+**Dopo** aver **aperto e salvato** una testata, è ora possibile **copiare tutte le righe 
+ordine** prelevandole da un'altra testata a patto che abbia lo **stesso sviluppo** 
 (Es: *UK* -> *UK*).
 
 *Aggiornati campi copia commissione con i nuovi campi introdotti*
@@ -292,3 +394,74 @@ Schiarito colore dello sfondo per nell'app BTSR
 **_Visualizzazione del profilo utente nella schermata di About_** - (rif: 9310)
 
 Nel modulo about, ora è possibile visualizzare, oltre al nome dell'app ed alla versione, anche il nome del profilo associato all'utente loggato
+
+-------
+
+
+## 4.9.4 / 2014-07-28
+{: #v4-9-4}
+
+### Anomalie
+
+**_Risolta anomalia che richiedeva di ripetere l'invio dei dati diverse volte._** - (rif: 9289)
+
+I dati relativi ai leads, note clienti, clienti modificati ora non necessitano più di invii ripetuti per essere visualizzati come inviati.
+
+**_Risolta anomalia nella galleria, durante la selezione del cliente._** - (rif: 9314)
+
+Anche se veniva premuto il tasto "+", l'applicazione non proponeva la scelta del cliente.
+
+**_Corretta errata visualizzazione di righe vuote nel report copia commissione. Eliminato crash in eliminazione di assortimenti._** - (rif: 9323)
+
+Corretta errata visualizzazione di righe vuote nel report copia commissione. Eliminato crash in eliminazione di assortimenti.
+
+### Novità
+
+**_Aggiunta funzionalità di "Copia righe ordine da altra testata"_** - (rif: 9285)
+
+Aggiunto bottone "Copia righe ordine da un'altra testata" nel form della testata cliente: al tap verrà mostrata una lista di testate salvate sul dispositivo con lo stesso sviluppo della testata corrente.
+Una volta selezionata la testata, le righe ordine verranno copiate nella testata corrente.
+
+-------
+
+
+## 4.8.7 / 2014-07-24
+{: #v4-8-7}
+
+### Anomalie
+
+**_Fix funzionalità di ricerca sugli ordini inviati._** - (rif: 9275)
+
+Fix funzionalità di ricerca sugli ordini inviati.
+
+### Novità
+
+**_Aggiunto filtro su provincia nei lead._** - (rif: 9266)
+
+Aggiunto filtro su provincia nei lead.
+
+**_Aggiunta campo nazione in inserimento Leads_** - (rif: 9267)
+
+Aggiunta campo nazione in inserimento Leads
+
+**_Offerte leads in Valuta_** - (rif: 9268)
+
+E' stata implementata la visualizzazione delle offerte dei leads in valuta.
+
+**_Inserimento Nazione codificata su funzione "Nuovo leads"_** - (rif: 9269)
+
+In fase di inserimento di un nuovo leads, è ora possibile selezionare la città dalla lista di città disponibili.
+
+**_Offerte leads in Valuta_** - (rif: 9270)
+
+E' stata implementata la visualizzazione delle offerte dei leads in valuta.
+
+**_Modifcato il tipo documento relativo alle scadenze dei clienti._** - (rif: 9291)
+
+Ora non viene più mostrato sempre "Fattura n." su ogni scadenza, ma viene utilizzata una descrizione che dipende dal gestionale (Es: Fattura, DDT, ecc..).
+
+**_Sostituito il campo data conferma con data consegna nelle schede dei documenti._** - (rif: 9293)
+
+
+
+
