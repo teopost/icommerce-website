@@ -10,7 +10,7 @@ categories: [release]
 
 **_Risolto problema su acconto incassi_** - (rif: 10362)
 
-Roisolta regressione introdotta nella 5.5 sulla funzionalità degli "Acconti" ed il calcolo dell'importo totale in caso fossero presenti note di credito.
+Risolta regressione introdotta nella 5.5 sulla funzionalità degli "Acconti" ed il calcolo dell'importo totale in caso fossero presenti note di credito.
 
 ### Novità
 
