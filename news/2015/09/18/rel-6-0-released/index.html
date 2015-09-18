@@ -2,7 +2,7 @@
 <html lang="it-IT">
 <head>
   <meta charset="UTF-8">
-  <title>Connettore IB 18.2.5.9</title>
+  <title>Rilasciata la rel. 0.0</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="generator" content="iCommerce v">
   <link rel="alternate" type="application/rss+xml" title="iCommerce • l'App Mobile per la tua azienda" href="/feed.xml">
@@ -123,17 +123,17 @@
       <div class="unit four-fifths">
         <article>
   <h2>
-    Connettore IB 18.2.5.9
-    <a href="/news/2015/06/26/rel-18.2.5.9-connettore-ib/" class="permalink" title="Permalink">∞</a>
+    Rilasciata la rel. 0.0
+    <a href="/news/2015/09/18/rel-6-0-released/" class="permalink" title="Permalink">∞</a>
   </h2>
   <span class="post-category">
     <span class="label">
-      connettore-ib
+      release
     </span>
   </span>
   <div class="post-meta">
     <span class="post-date">
-      26 Jun 2015
+      18 Sep 2015
     </span>
     <a href="https://github.com/teopost" class="post-author">
       <img src="https://github.com/teopost.png" class="avatar" alt="teopost avatar" width="24" height="24">
@@ -141,17 +141,17 @@
     </a>
   </div>
   <div class="post-content">
-    <p>E’ stato rilasciato il connettore di iB 18.2.5.9.</p>
+    <h3 id="anomalie">Anomalie</h3>
 
-<p>Si tratta di un aggiornamento importante che riguarda l’aggiornamento automatico del connettore.</p>
+<p><strong><em>Risolto problema su acconto incassi</em></strong> - (rif: 10362)</p>
 
-<p>Con la versione precedente veniva effettuato l’aggiornamento delle DLL solo se il processo Busnet.exe non era in esecuzione.</p>
+<p>Roisolta regressione introdotta nella 5.5 sulla funzionalità degli “Acconti” ed il calcolo dell’importo totale in caso fossero presenti note di credito.</p>
 
-<p>Spesso accadeva però che sui server erano presenti varie sessioni di utenti collegati in terminal server.</p>
+<h3 id="novit">Novità</h3>
 
-<p>Tale sessioni quindi, anche se bloccavano l’aggiornamento, non erano necessariamente interessate alle DLL da aggiornare.</p>
+<p><strong><em>Modificate le look-up nella testata ordine</em></strong> - (rif: 10349)</p>
 
-<p>Ora viene verificato che le DLL da aggiornare siano scrivibili e aggiornabili. Qeusto riduce notevolmente i casi in cui le DLL non possono aggiornarsi.</p>
+<p>Ora le look-up per i campi Pagamento, Scatola ed Etichetta aprono un form, con possibilità di ricerca.</p>
 
   </div>
 </article>
@@ -171,7 +171,7 @@
     <h4>Recent Releases</h4>
     <ul>
       
-      <li class="">
+      <li class="current">
         <a href="/news/2015/09/18/rel-6-0-released/">Version 6.0</a>
       </li>
       
@@ -203,7 +203,7 @@
         
         
         
-        <li class="current">
+        <li class="">
           <a href="/news/2015/06/26/rel-18.2.5.9-connettore-ib/">Connettore IB 18.2.5.9</a>
         </li>
         
