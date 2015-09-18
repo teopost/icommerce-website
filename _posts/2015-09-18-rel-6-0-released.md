@@ -1,6 +1,6 @@
 ---
 layout: news_item
-title: Rilasciata la rel. 0.0
+title: Rilasciata la rel. 6.0
 date: "2015-09-18 08:00:00 +0200"
 author: teopost
 version: 6.0
