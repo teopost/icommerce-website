@@ -11,8 +11,8 @@
     <title xml:lang="en">iCommerce • l'App mobile per la tua azienda</title>
     <atom:link type="application/atom+xml" href="/feed.xml" rel="self"/>
     <link>http://www.apexnet.it/</link>
-    <pubDate>Fri, 18 Sep 2015 17:30:44 +0200</pubDate>
-    <lastBuildDate>Fri, 18 Sep 2015 17:30:44 +0200</lastBuildDate>
+    <pubDate>Mon, 21 Sep 2015 11:30:20 +0200</pubDate>
+    <lastBuildDate>Mon, 21 Sep 2015 11:30:20 +0200</lastBuildDate>
     <language>en-US</language>
     <generator>Jekyll v2.5.3</generator>
     <description>Transform your plain text into static websites and blogs.</description>
@@ -27,14 +27,14 @@
     
     <item>
       <title>Rilasciata la rel. 6.0</title>
-      <link>http://ic.apexnet.it/news/2015/09/18/rel-6-0-released/</link>
+      <link>/news/2015/09/18/rel-6-0-released/</link>
       <pubDate>Fri, 18 Sep 2015 08:00:00 +0200</pubDate>
       <dc:creator>teopost</dc:creator>
       
       
       <category>release</category>
       
-      <guid isPermaLink="true">http://ic.apexnet.it/news/2015/09/18/rel-6-0-released/</guid>
+      <guid isPermaLink="true">/news/2015/09/18/rel-6-0-released/</guid>
       <description>&lt;h3 id=&quot;anomalie&quot;&gt;Anomalie&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Risolto problema su acconto incassi&lt;/em&gt;&lt;/strong&gt; - (rif: 10362)&lt;/p&gt;
@@ -51,14 +51,14 @@
     
     <item>
       <title>Rilasciata la rel. 5.5</title>
-      <link>http://ic.apexnet.it/news/2015/07/22/rel-5-5-released/</link>
+      <link>/news/2015/07/22/rel-5-5-released/</link>
       <pubDate>Wed, 22 Jul 2015 08:00:00 +0200</pubDate>
       <dc:creator>teopost</dc:creator>
       
       
       <category>release</category>
       
-      <guid isPermaLink="true">http://ic.apexnet.it/news/2015/07/22/rel-5-5-released/</guid>
+      <guid isPermaLink="true">/news/2015/07/22/rel-5-5-released/</guid>
       <description>&lt;h3 id=&quot;anomalie&quot;&gt;Anomalie&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Sistemata incosistenza nei flag usati per abilitare voci di sincronizzazione&lt;/em&gt;&lt;/strong&gt; - (rif: 10196)&lt;/p&gt;
@@ -94,14 +94,14 @@
     
     <item>
       <title>Connettore IB 18.2.5.9</title>
-      <link>http://ic.apexnet.it/news/2015/06/26/rel-18.2.5.9-connettore-ib/</link>
+      <link>/news/2015/06/26/rel-18.2.5.9-connettore-ib/</link>
       <pubDate>Fri, 26 Jun 2015 12:07:00 +0200</pubDate>
       <dc:creator>teopost</dc:creator>
       
       
       <category>connettore-ib</category>
       
-      <guid isPermaLink="true">http://ic.apexnet.it/news/2015/06/26/rel-18.2.5.9-connettore-ib/</guid>
+      <guid isPermaLink="true">/news/2015/06/26/rel-18.2.5.9-connettore-ib/</guid>
       <description>&lt;p&gt;E’ stato rilasciato il connettore di iB 18.2.5.9.&lt;/p&gt;
 
 &lt;p&gt;Si tratta di un aggiornamento importante che riguarda l’aggiornamento automatico del connettore.&lt;/p&gt;
@@ -118,14 +118,14 @@
     
     <item>
       <title>Rilasciata la rel. 5.3</title>
-      <link>http://ic.apexnet.it/news/2015/04/20/rel-5-3-released/</link>
+      <link>/news/2015/04/20/rel-5-3-released/</link>
       <pubDate>Mon, 20 Apr 2015 08:00:00 +0200</pubDate>
       <dc:creator>teopost</dc:creator>
       
       
       <category>release</category>
       
-      <guid isPermaLink="true">http://ic.apexnet.it/news/2015/04/20/rel-5-3-released/</guid>
+      <guid isPermaLink="true">/news/2015/04/20/rel-5-3-released/</guid>
       <description>&lt;h3 id=&quot;anomalie&quot;&gt;Anomalie&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Aggiunto ordinamento ulteriore delle scadenze in ‘Ordini’-‘Incassi’.&lt;/em&gt;&lt;/strong&gt; - (rif: 9543)&lt;/p&gt;
@@ -158,14 +158,14 @@ Ora le scadenze sono ordinate anche per progressivo documento e data documento (
     
     <item>
       <title>Rilasciata la rel. 5.2</title>
-      <link>http://ic.apexnet.it/news/2015/03/02/rel-5-2-released/</link>
+      <link>/news/2015/03/02/rel-5-2-released/</link>
       <pubDate>Mon, 02 Mar 2015 01:12:52 +0100</pubDate>
       <dc:creator>teopost</dc:creator>
       
       
       <category>release</category>
       
-      <guid isPermaLink="true">http://ic.apexnet.it/news/2015/03/02/rel-5-2-released/</guid>
+      <guid isPermaLink="true">/news/2015/03/02/rel-5-2-released/</guid>
       <description>&lt;h3 id=&quot;anomalie&quot;&gt;Anomalie&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Aggiunto ordinamento ulteriore delle scadenze in ‘Ordini’-‘Incassi’.&lt;/em&gt;&lt;/strong&gt; - (rif: 9543)&lt;/p&gt;
@@ -198,14 +198,14 @@ Ora le scadenze sono ordinate anche per progressivo documento e data documento (
     
     <item>
       <title>Rilasciata la rel. 5.1</title>
-      <link>http://ic.apexnet.it/news/2015/02/01/rel-5-1-released/</link>
+      <link>/news/2015/02/01/rel-5-1-released/</link>
       <pubDate>Sun, 01 Feb 2015 01:12:52 +0100</pubDate>
       <dc:creator>teopost</dc:creator>
       
       
       <category>release</category>
       
-      <guid isPermaLink="true">http://ic.apexnet.it/news/2015/02/01/rel-5-1-released/</guid>
+      <guid isPermaLink="true">/news/2015/02/01/rel-5-1-released/</guid>
       <description>&lt;h3 id=&quot;novit&quot;&gt;Novità&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Migliorata funzionalita di ricerca nel catalogo&lt;/em&gt;&lt;/strong&gt; - (rif: 9421)&lt;/p&gt;
