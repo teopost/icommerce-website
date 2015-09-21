@@ -2,10 +2,10 @@
   docs:
   - home
   - come-funziona
-  - installa-app
 
 - title: Installazione
   docs:
+  - installazione-app
   - dropbox
   - connettore
   - gestionale

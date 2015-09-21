@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Installa l'App
-permalink: /docs/installazione/
+permalink: /docs/installazione-app/
 ---
 
 L'installazione di iCommerce è estremamente semplice e non richiede particolari competenze.
@@ -18,9 +18,21 @@ Seguite i seguenti passi:
 7. Inserire la propria password dell'account Apple e toccare **OK**
 
 
+## Requisiti minimi
+iCommerce è unaapplicazione sviluppata per piattaforma Apple. I requisiti minimi suggeriti per per l'utilizzo dell'applicazione sono i seguenti:
+
+Hardware minimo
+
+* iPhone 5
+* iPad Air
+
+Sistema operativo
+
+* Il sistema operativo minimo è IOS 8 o superiori.
+
 <div class="note info">
   <h5>Versione iOS minima compatibile</h5>
-  <p>La versione minima di iOs per far funzionare iCommerce è la versione 8 e superiori</p>
+  <p>La versione minima di iOs per far funzionare iCommerce è la versione 8</p>
 </div>
 
 ## Aggiornamento
