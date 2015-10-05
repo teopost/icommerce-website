@@ -4,6 +4,32 @@ title: History
 permalink: "/docs/history/"
 ---
 
+## 6.1 / 2015-10-05
+{: #v6-1}
+
+### Anomalie
+
+**_Menu in ordini veloci scompare su rotazione device_** - (rif: 10352)
+
+Risolto il problema nella videata degli ordini inviati/salvati, spariva la freccia a sinistra per aprire il menù
+
+**_Problema inserimento ordine senza cliente_** - (rif: 10400)
+
+Nel caso di taglie e colori poteva, in determinati casi, essere salvato un ordine senza cliente. Ora risolto il problema.
+
+**_Problema in apertura form ordine ridotto da Catalogo_** - (rif: 10428)
+
+Talvolta venivano erroneamente salvati dei dati nel form ordine "ridotto" anche in caso di azione di annullamento.
+
+### Modifiche
+
+**_I filtri sui gruppi prodotti ora sono in ordine alfabetico_** - (rif: 10394)
+
+Ora vengono ordinati in ordine alfabetico i filtri sui gruppi prodotti
+
+-------
+
+
 ## 6.0 / 2015-09-17
 {: #v6-0}
 
@@ -11,7 +37,7 @@ permalink: "/docs/history/"
 
 **_Risolto problema su acconto incassi_** - (rif: 10362)
 
-Roisolta regressione introdotta nella 5.5 sulla funzionalità degli "Acconti" ed il calcolo dell'importo totale in caso fossero presenti note di credito.
+Risolta regressione introdotta nella 5.5 sulla funzionalità degli "Acconti" ed il calcolo dell'importo totale in caso fossero presenti note di credito.
 
 ### Novità
 
@@ -421,47 +447,5 @@ Corretta errata visualizzazione di righe vuote nel report copia commissione. Eli
 
 Aggiunto bottone "Copia righe ordine da un'altra testata" nel form della testata cliente: al tap verrà mostrata una lista di testate salvate sul dispositivo con lo stesso sviluppo della testata corrente.
 Una volta selezionata la testata, le righe ordine verranno copiate nella testata corrente.
-
--------
-
-
-## 4.8.7 / 2014-07-24
-{: #v4-8-7}
-
-### Anomalie
-
-**_Fix funzionalità di ricerca sugli ordini inviati._** - (rif: 9275)
-
-Fix funzionalità di ricerca sugli ordini inviati.
-
-### Novità
-
-**_Aggiunto filtro su provincia nei lead._** - (rif: 9266)
-
-Aggiunto filtro su provincia nei lead.
-
-**_Aggiunta campo nazione in inserimento Leads_** - (rif: 9267)
-
-Aggiunta campo nazione in inserimento Leads
-
-**_Offerte leads in Valuta_** - (rif: 9268)
-
-E' stata implementata la visualizzazione delle offerte dei leads in valuta.
-
-**_Inserimento Nazione codificata su funzione "Nuovo leads"_** - (rif: 9269)
-
-In fase di inserimento di un nuovo leads, è ora possibile selezionare la città dalla lista di città disponibili.
-
-**_Offerte leads in Valuta_** - (rif: 9270)
-
-E' stata implementata la visualizzazione delle offerte dei leads in valuta.
-
-**_Modifcato il tipo documento relativo alle scadenze dei clienti._** - (rif: 9291)
-
-Ora non viene più mostrato sempre "Fattura n." su ogni scadenza, ma viene utilizzata una descrizione che dipende dal gestionale (Es: Fattura, DDT, ecc..).
-
-**_Sostituito il campo data conferma con data consegna nelle schede dei documenti._** - (rif: 9293)
-
-
 
 
