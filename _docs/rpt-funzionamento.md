@@ -36,7 +36,9 @@ Si consiglia di non rimuovere tali segnaposti.
 L'applicazione supporta la generazione di report nei seguenti contesti. Per ogni contesto viene elencato l'elenco di voci che l'applicazione provvede a valorizzare.
 È a discrezione di chi modifica il report la scelta di cosa far vedere/non far vedere, ed eventualmente la modifica delle regole di stile/layout html.
 
-## Dimensione del logo
-I report standard prevedono un logo di 512x512 pixel con estensione PNG. Questa è la dimensione consigliata ma,
-ovviamente, se si effettua una personalizzazione del report, è probabilmente necessario adattare anche la dimensione
-del logo.
+## Logo
+I report standard prevedono un logo di 512x512 pixel con estensione PNG.
+Questa è la dimensione prevista dal layout di stampa dei report standard.
+Se si effettua una personalizzazione del layout la dimensione del logo può variare.
+
+Il logo può essere modificato accedendo in AppManager. Nella form Progetti selezioanre la scheda Dati. Nella colonna **Logo** cliccare sulla graffetta e caricare il nuovo file.
