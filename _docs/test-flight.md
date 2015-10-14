@@ -3,10 +3,10 @@ layout: docs
 title: Testare le App
 permalink: /docs/test-flight/
 ---
+APEX-net utilizza Testflight per distribuire a utenti beta tester, le versioni preliminari delle applicazioni, prima di pubblicarle sull'AppStore.
+
 Testflight è un servizio di Apple per l'installazione e il test applicazioni di mobili iOS.
 Con questo servizio, gli utenti tester possono controllare il corretto funzionamemto di app non ancora rilasciate sull'App Store.
-
-APEX-net utilizza Testflight per distribuire ad alcuni beta tester le applicazioni preview prima che queste ultime vengano sottomesse allo store.
 
 ## 1. Installazione Testflight
 
