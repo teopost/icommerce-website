@@ -37,11 +37,11 @@ L'applicazione supporta la generazione di report in vari contesti applicativi:
 
 Contesto | Descrizione | Dim. Logo
 -|-
-Ordini salvati | Visibile nella maschera Ordini/salvati | 512px X 512px
-Ordini inviati | Visibile nella maschera Ordini/inviato | 5512px X 512px
-Incassi        | Visibile nella maschera Incassi | 5512px X 512px
-Ordini veloci  | Visibile nella maschera Ordini veloci | 512px X 512px
-Copia commissione | Visibile solo nel modulo wTrendy | Custom
+Ordini salvati | Visibile nella form Ordini/salvati | 512x512
+Ordini inviati | Visibile nella form Ordini/inviato | 512x512
+Incassi        | Visibile nella form Incassi | 512x512
+Ordini veloci  | Visibile nella form Ordini veloci | 512x512
+Copia commissione | Visibile solo con modulo wTrendy | Custom
 
 È a discrezione di chi modifica il report la scelta di cosa far vedere/non far vedere, ed eventualmente la modifica delle regole di stile/layout html.
 
