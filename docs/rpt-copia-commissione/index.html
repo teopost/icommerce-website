@@ -3969,7 +3969,14 @@
             <a href="https://github.com/Apex-net/icommerce-site/edit/master/_docs/rpt-copia-commissione.md"><i class="fa fa-pencil"></i> &nbsp;Modifica</a>
           </div>
           <h1>Copia commissione</h1>
-          <p>Tale report comprende i seguenti segnaposti, popolati dinamicamente dall’applicazione:</p>
+          <div class="note warning">
+  <h5>Valido solo per il modulo wTrendy</h5>
+  <p>
+   Questo report viene visualizzato solo se si dispone del modulo wTrendy per la gestione delle taglie / colori
+  </p>
+</div>
+
+<p>Tale report comprende i seguenti segnaposti, popolati dinamicamente dall’applicazione:</p>
 
 <ul>
   <li>{{#rows}} … {{#/rows}} : sezione contenente la lista di ordini salvati. Per ogni elemento della lista, vengono mostrati i seguenti campi:
@@ -4040,7 +4047,6 @@
   <li>{{index}} : valorizzato con l’indice relativo a una taglia.</li>
   <li>{{total}} : valorizzato con il totale del documento.</li>
 </ul>
-
 
           
 

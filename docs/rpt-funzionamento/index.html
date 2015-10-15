@@ -3969,10 +3969,10 @@
             <a href="https://github.com/Apex-net/icommerce-site/edit/master/_docs/rpt-funzionamento.md"><i class="fa fa-pencil"></i> &nbsp;Modifica</a>
           </div>
           <h1>Funzionamento</h1>
-          <p>L’applicazione iPad consente - a partire dalla versione 4.1.0 - la generazione, visualizzazione e condivisione di report. Tali report vengono scaricati durante la sincronizzazione (sezione <em>Generali</em> - <em>Modelli report</em>).
-La generazione dei report avviene a partire da un template, editale da <em>AppManager</em>.</p>
+          <p>L’applicazione iPad consente, a partire dalla versione 4.1.0, la generazione, visualizzazione e condivisione di report. I template di tali report vengono scaricati durante fase la sincronizzazione (sezione <em>Generali</em> - <em>Modelli report</em>).
+I template possono essere modificati cambiando il sorgente del template memorizzato in AppManager.</p>
 
-<p>Il template è un foglio HTML (comprensivo anche di regole di stile) integrato con alcuni segnaposti. I segnaposti consentono all’applicazione di popolare il report dinamicamente con valori opportuni. La loro sintassi è: .</p>
+<p>Il template è un documento HTML (comprensivo anche di regole di stile) integrato con alcuni segnaposti. I segnaposti consentono all’applicazione di popolare il report dinamicamente con valori opportuni. La loro sintassi è: .</p>
 
 <div class="note warning">
   <h5>Fare una copia del report prima di modificarli</h5>
@@ -3999,15 +3999,53 @@ La generazione dei report avviene a partire da un template, editale da <em>AppMa
 Si consiglia di non rimuovere tali segnaposti.</p>
 
 <h2 id="contesti">Contesti</h2>
-<p>L’applicazione supporta la generazione di report nei seguenti contesti. Per ogni contesto viene elencato l’elenco di voci che l’applicazione provvede a valorizzare.
-È a discrezione di chi modifica il report la scelta di cosa far vedere/non far vedere, ed eventualmente la modifica delle regole di stile/layout html.</p>
+<p>L’applicazione supporta la generazione di report in vari contesti applicativi:</p>
 
-<h2 id="logo">Logo</h2>
-<p>I report standard prevedono un logo di 512x512 pixel con estensione PNG.
+<table>
+  <thead>
+    <tr>
+      <th>Contesto</th>
+      <th>Descrizione</th>
+      <th>Dim. Logo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ordini salvati</td>
+      <td>Visibile nella maschera Ordini/salvati</td>
+      <td>512px X 512px</td>
+    </tr>
+    <tr>
+      <td>Ordini inviati</td>
+      <td>Visibile nella maschera Ordini/inviato</td>
+      <td>5512px X 512px</td>
+    </tr>
+    <tr>
+      <td>Incassi</td>
+      <td>Visibile nella maschera Incassi</td>
+      <td>5512px X 512px</td>
+    </tr>
+    <tr>
+      <td>Ordini veloci</td>
+      <td>Visibile nella maschera Ordini veloci</td>
+      <td>512px X 512px</td>
+    </tr>
+    <tr>
+      <td>Copia commissione</td>
+      <td>Visibile solo nel modulo wTrendy</td>
+      <td>Custom</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>È a discrezione di chi modifica il report la scelta di cosa far vedere/non far vedere, ed eventualmente la modifica delle regole di stile/layout html.</p>
+
+<h2 id="formato-e-dimensione-del-logo">Formato e dimensione del Logo</h2>
+<p>I report standard prevedono un logo di 512 x 512 pixel con estensione JPG.
 Questa è la dimensione prevista dal layout di stampa dei report standard.
-Se si effettua una personalizzazione del layout la dimensione del logo può variare.</p>
+Se si effettua una personalizzazione del layout la dimensione del logo potrebbe variare.</p>
 
-<p>Il logo può essere modificato accedendo in AppManager. Nella form Progetti selezioanre la scheda Dati. Nella colonna <strong>Logo</strong> cliccare sulla graffetta e caricare il nuovo file.</p>
+<p>Il logo può essere modificato accedendo in AppManager. Nella form Progetti selezinare la scheda Dati. Nella colonna <strong>Logo</strong> cliccare sulla graffetta e caricare il nuovo file.</p>
 
           
 
