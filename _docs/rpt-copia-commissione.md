@@ -4,6 +4,13 @@ title: Copia commissione
 permalink: /docs/rpt-copia-commissione/
 ---
 
+<div class="note warning">
+  <h5>Valido solo per il modulo wTrendy</h5>
+  <p>
+   Questo report viene visualizzato solo se si dispone del modulo wTrendy per la gestione delle taglie / colori
+  </p>
+</div>
+
 Tale report comprende i seguenti segnaposti, popolati dinamicamente dall'applicazione:
 
   * \{\{#rows\}\} ... \{\{#/rows\}\} : sezione contenente la lista di ordini salvati. Per ogni elemento della lista, vengono mostrati i seguenti campi:
@@ -68,4 +75,3 @@ Tale report comprende i seguenti segnaposti, popolati dinamicamente dall'applica
   * \{\{desPag\}\} : valorizzato con la descrizione del pagamento.
   * \{\{index\}\} : valorizzato con l'indice relativo a una taglia.
   * \{\{total\}\} : valorizzato con il totale del documento.
-

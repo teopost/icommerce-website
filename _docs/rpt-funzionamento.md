@@ -4,10 +4,10 @@ title: Funzionamento
 permalink: /docs/rpt-funzionamento/
 ---
 
-L'applicazione iPad consente - a partire dalla versione 4.1.0 - la generazione, visualizzazione e condivisione di report. Tali report vengono scaricati durante la sincronizzazione (sezione _Generali_ - _Modelli report_).
-La generazione dei report avviene a partire da un template, editale da _AppManager_.
+L'applicazione iPad consente, a partire dalla versione 4.1.0, la generazione, visualizzazione e condivisione di report. I template di tali report vengono scaricati durante fase la sincronizzazione (sezione _Generali_ - _Modelli report_).
+I template possono essere modificati cambiando il sorgente del template memorizzato in AppManager.
 
-Il template è un foglio HTML (comprensivo anche di regole di stile) integrato con alcuni segnaposti. I segnaposti consentono all'applicazione di popolare il report dinamicamente con valori opportuni. La loro sintassi è: {{nomesegnaposto}}.
+Il template è un documento HTML (comprensivo anche di regole di stile) integrato con alcuni segnaposti. I segnaposti consentono all'applicazione di popolare il report dinamicamente con valori opportuni. La loro sintassi è: {{nomesegnaposto}}.
 
 <div class="note warning">
   <h5>Fare una copia del report prima di modificarli</h5>
@@ -33,12 +33,21 @@ I seguenti segnaposti sono utilizzati dall'app per il rendering della pagina htm
 Si consiglia di non rimuovere tali segnaposti.
 
 ## Contesti
-L'applicazione supporta la generazione di report nei seguenti contesti. Per ogni contesto viene elencato l'elenco di voci che l'applicazione provvede a valorizzare.
+L'applicazione supporta la generazione di report in vari contesti applicativi:
+
+Contesto | Descrizione | Dim. Logo
+-|-
+Ordini salvati | Visibile nella maschera Ordini/salvati | 512px X 512px
+Ordini inviati | Visibile nella maschera Ordini/inviato | 5512px X 512px
+Incassi        | Visibile nella maschera Incassi | 5512px X 512px
+Ordini veloci  | Visibile nella maschera Ordini veloci | 512px X 512px
+Copia commissione | Visibile solo nel modulo wTrendy | Custom
+
 È a discrezione di chi modifica il report la scelta di cosa far vedere/non far vedere, ed eventualmente la modifica delle regole di stile/layout html.
 
-## Logo
-I report standard prevedono un logo di 512x512 pixel con estensione PNG.
+## Formato e dimensione del Logo
+I report standard prevedono un logo di 512 x 512 pixel con estensione JPG.
 Questa è la dimensione prevista dal layout di stampa dei report standard.
-Se si effettua una personalizzazione del layout la dimensione del logo può variare.
+Se si effettua una personalizzazione del layout la dimensione del logo potrebbe variare.
 
-Il logo può essere modificato accedendo in AppManager. Nella form Progetti selezioanre la scheda Dati. Nella colonna **Logo** cliccare sulla graffetta e caricare il nuovo file.
+Il logo può essere modificato accedendo in AppManager. Nella form Progetti selezinare la scheda Dati. Nella colonna **Logo** cliccare sulla graffetta e caricare il nuovo file.
