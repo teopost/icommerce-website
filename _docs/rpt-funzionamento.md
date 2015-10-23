@@ -50,4 +50,4 @@ I report standard prevedono un logo di 512 x 512 pixel con estensione JPG.
 Questa è la dimensione prevista dal layout di stampa dei report standard.
 Se si effettua una personalizzazione del layout la dimensione del logo potrebbe variare.
 
-Il logo può essere modificato accedendo in AppManager. Nella form Progetti selezinare la scheda Dati. Nella colonna **Logo** cliccare sulla graffetta e caricare il nuovo file.
+Il logo può essere modificato accedendo in AppManager. Nella form Progetti selezionare la scheda Dati. Nella colonna **Logo** cliccare sulla graffetta e caricare il nuovo file.
