@@ -1,14 +1,14 @@
 ---
 layout: docs
-title: io_customfields.dat
-permalink: /docs/io_customfields/
+title: io_custom_fields.dat
+permalink: /docs/io_custom_fields/
 ---
 
 Questo tracciato viene utilizzato solo per aggiungere campi personalizzati. Per il dettaglio delle specifiche contattare il personale Apex-net.
 
 Il campo VISUAL_MASK indica con una maschera di bit, il luogo in cui puo' essere visualizzato il dato.
 
-Visual_mask (partendo da destra): 
+Visual_mask (partendo da destra):
 
 * pos. 0 : modulo schede
 * pos. 1 : modulo ordini
@@ -18,7 +18,7 @@ Esempi:
 
 * vis_mask: 100 visibile nel tab CRM
 * vis_mask: 1 visibile nel tab schede
-* vis_mask: 11 visibile nel tab schede e ordini 
+* vis_mask: 11 visibile nel tab schede e ordini
 
 1. **CHIAVE** - Character - Max Length: 250
   * *Chiave univoca del record composta dai dati di origine*
@@ -48,4 +48,3 @@ Esempi:
   * *tipo di dato (string, date, datetime, number, currency)*
 14. **DAT_ULT_MOD** - DateTime - Max Length: 16
   * *Data di ultima modifica del record*
-

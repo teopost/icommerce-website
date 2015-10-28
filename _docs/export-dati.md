@@ -88,6 +88,6 @@ Clicca sul nome del file per vedere il dettaglio
 
 | Descrizione                       | Nome file
 | -
-| Tracciato per campi custom        | [io_customfields.dat](../io_customfields)
+| Tracciato per campi custom        | [io_custom_fields.dat](../io_custom_fields)
 | Catalogo                          | [io_catalogo.dat](../io_catalogo)
 | Reports                           | [io_reports.dat](../io_reports)
