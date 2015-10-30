@@ -28,9 +28,10 @@
   - par-utente
 # - par-profilazione
 
-#- title: App Manager
-#  docs:
-#  - templates
+- title: App Manager
+  docs:
+#  - app-manager
+  - acquisizione-dati
 #  - permalinks
 #  - pagination
 #  - plugins
