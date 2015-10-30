@@ -2,7 +2,7 @@
 <html lang="it-IT">
 <head>
   <meta charset="UTF-8">
-  <title>io_clifor_cate.dat</title>
+  <title>Acquisizione dati</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="generator" content="iCommerce v">
   <link rel="alternate" type="application/rss+xml" title="iCommerce • l'App Mobile per la tua azienda" href="/feed.xml">
@@ -4187,39 +4187,20 @@
       <div class="unit four-fifths">
         <article>
           <div class="improve right hide-on-mobiles">
-            <a href="https://github.com/Apex-net/icommerce-site/edit/master/_docs/tracciati/io_clifor_cate.md"><i class="fa fa-pencil"></i> &nbsp;Modifica</a>
+            <a href="https://github.com/Apex-net/icommerce-site/edit/master/_docs/acquisizione-dati.md"><i class="fa fa-pencil"></i> &nbsp;Modifica</a>
           </div>
-          <h1>io_clifor_cate.dat</h1>
-          <p>Liste di categorie clienti</p>
+          <h1>Acquisizione dati</h1>
+          <p>I files da inviare agli iPad, depositati nella cartella gestionale, vengono normalmente, verificati per l’import ogni 30 minuti.
+Questo tempo però non è sempre uguale, ma dipende dalla coda di elaborazioni in corso in quell’istante.</p>
 
-<ol>
-  <li><strong>CHIAVE</strong> - Character - Max Length: 250
-    <ul>
-      <li><em>Chiave univoca del record ereditata dai dati di origine</em></li>
-    </ul>
-  </li>
-  <li><strong>COD_DITTA</strong> - Character - Max Length: 50
-    <ul>
-      <li><em>Codice della ditta. E’ il codice che identifica univocamente una ditta dentro il gestionale che, nel caso sia multisocietario, può contenere dati di più aziende</em></li>
-    </ul>
-  </li>
-  <li><strong>COD_NAZIONE</strong> - Character - Max Length: 50
-    <ul>
-      <li><em>Codice della nazione</em></li>
-    </ul>
-  </li>
-  <li><strong>DES_NAZIONE</strong> - Character - Max Length: 255
-    <ul>
-      <li><em>Nome della nazione</em></li>
-    </ul>
-  </li>
-  <li><strong>DAT_ULT_MOD</strong> - DateTime - Max Length: 16
-    <ul>
-      <li><em>Data di ultima modifica del record</em></li>
-    </ul>
-  </li>
-</ol>
+<p>Ogni volta che viene messo un file nella cartella, prima di effettuare l’import il server fa un controllo sul hash MD5 del file per verificare che sia stato effettivamente modificato dalla precedente sincronizzazione.
+Nel caso l’hash corrisponda al file del precedente import, il file viene scartato (eliminato).
+Dopo l’elaborazione, in ogni caso (import o scarto), il file viene cancellato dalla cartella.</p>
 
+<div class="note info">
+  <h5>Hai esportato i dati ma ancora non li vedi negli iPad?</h5>
+  <p>Se i dati sono ancora presenti nella cartella gestionale, significa che il server ancora non li ha elaborati.</p>
+</div>
 
           
 
@@ -4277,28 +4258,24 @@
 
   
   
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
+    <div class="section-nav">
+      <div class="left align-right">
+          
+            
+            
+            <a href="/docs/par-utente/" class="prev">Back</a>
+          
+      </div>
+      <div class="right align-left">
+          
+            
+            
+            <a href="/docs/rpt-funzionamento/" class="next">Next</a>
+          
+      </div>
+    </div>
+    <div class="clear"></div>
+    
 
         </article>
       </div>
@@ -5000,7 +4977,7 @@
 
   
     
-      <li class=""><a href="/docs/acquisizione-dati/">Acquisizione dati</a></li>
+      <li class="current"><a href="/docs/acquisizione-dati/">Acquisizione dati</a></li>
       
 
 
