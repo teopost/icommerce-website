@@ -1,4 +1,4 @@
-﻿---
+---
 layout: news_item
 title: Rilasciata la rel. 6.2
 date: "2015-10-30 08:00:00 +0200"
