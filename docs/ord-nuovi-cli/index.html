@@ -2,7 +2,7 @@
 <html lang="it-IT">
 <head>
   <meta charset="UTF-8">
-  <title>io_lead_acccrm.dat</title>
+  <title>Inser. ordini</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="generator" content="iCommerce v">
   <link rel="alternate" type="application/rss+xml" title="iCommerce • l'App Mobile per la tua azienda" href="/feed.xml">
@@ -4235,49 +4235,24 @@
       <div class="unit four-fifths">
         <article>
           <div class="improve right hide-on-mobiles">
-            <a href="https://github.com/Apex-net/icommerce-site/edit/master/_docs/tracciati/io_lead_acccrm.md"><i class="fa fa-pencil"></i> &nbsp;Modifica</a>
+            <a href="https://github.com/Apex-net/icommerce-site/edit/master/_docs/ord-nuovi-cli.md"><i class="fa fa-pencil"></i> &nbsp;Modifica</a>
           </div>
-          <h1>io_lead_acccrm.dat</h1>
-          <p>Definizione accessi si offerte operatore su leads.</p>
+          <h1>Inser. ordini</h1>
+          <h2 id="ordini-su-nuovi-clienti">Ordini su nuovi clienti</h2>
+
+<p>La raccolta ordini può essere effettuata anche su clienti non presenti nell’anagrafica dell’iPad.
+Per attivare questa funzione, è sufficiente inserire, nel gestionale, uno o più clienti con partita iva <code>99999999999</code> (undici volte 9).</p>
+
+<p>Questi clienti vengono trattati come <strong>clienti template</strong>, e visualizzati in modo particolare.</p>
+
+<p>In particolar modo:</p>
 
 <ol>
-  <li><strong>CHIAVE</strong> - Character - Max Length: 250
-    <ul>
-      <li><em>Chiave univoca del record composta dai dati di origine</em></li>
-    </ul>
-  </li>
-  <li><strong>COD_DITTA</strong> - Character - Max Length: 50
-    <ul>
-      <li><em>Codice della ditta. Identifica univocamente una ditta dentro il gestionale che, nel caso sia multisocietario, può contenere dati di più aziende</em></li>
-    </ul>
-  </li>
-  <li><strong>COD_OPERATORE</strong> - Character - Max Length: 50
-    <ul>
-      <li><em>Codice operatore</em></li>
-    </ul>
-  </li>
-  <li><strong>COD_OPERATORE_FIGLIO</strong> - Character - Max Length: 50
-    <ul>
-      <li><em>operatore figlio gestito dall’operatore padre</em></li>
-    </ul>
-  </li>
-  <li><strong>FLG_VISUALIZZA</strong> - Character - Max Length: 10
-    <ul>
-      <li><em>flag di visualizzaizone</em></li>
-    </ul>
-  </li>
-  <li><strong>FLG_MODIFICA</strong> - Character - Max Length: 10
-    <ul>
-      <li><em>flag di modifica</em></li>
-    </ul>
-  </li>
-  <li><strong>DAT_ULT_MOD</strong> - DateTime - Max Length: 16
-    <ul>
-      <li><em>Data di ultima modifica del record</em></li>
-    </ul>
-  </li>
+  <li>Non vengono mostrati fra gli altri clienti presenti in anagrafica</li>
+  <li>Sono visibili in una apposita funzione per la raccolta ordini su clienti nuovi.</li>
+  <li>I dati anagrafici di tali clienti non vengono utilizzati. Infatti, in fase di inserimento ordine viene chiesto all’ utente di specificarli</li>
+  <li>Possono essere associati sconti e listini. In questo modo è possibile differenziare i prezzi anche su clienti nuovi creando più clienti template.</li>
 </ol>
-
 
           
 
