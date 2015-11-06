@@ -10,15 +10,9 @@
   - connettore
   - gestionale
 
-- title: Integrazione
-  docs:
-  - creare-un-connettore
-  - export-specifiche-files
-  - export-dati
-  - export-catalogo
-#  - export-report
-  - import-dati
-  - import-dati-ws
+#- title: Usare l'App
+#  docs:
+#  - ord-nuovi-cli
 
 - title: License Manager
   docs:
@@ -30,12 +24,7 @@
 
 - title: App Manager
   docs:
-#  - app-manager
   - acquisizione-dati
-#  - permalinks
-#  - pagination
-#  - plugins
-#  - extras
 
 - title: Reports
   docs:
@@ -45,6 +34,15 @@
   - rpt-ordini-veloci
   - rpt-copia-commissione
   - rpt-incassi
+
+- title: Integrazione
+  docs:
+  - creare-un-connettore
+  - export-specifiche-files
+  - export-dati
+  - export-catalogo
+  - import-dati
+  - import-dati-ws
 
 - title: Varie
   docs:
