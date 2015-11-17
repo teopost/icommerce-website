@@ -2,7 +2,7 @@
 <html lang="it-IT">
 <head>
   <meta charset="UTF-8">
-  <title>Inser. ordini</title>
+  <title>Connettore</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="generator" content="iCommerce v">
   <link rel="alternate" type="application/rss+xml" title="iCommerce • l'App Mobile per la tua azienda" href="/feed.xml">
@@ -4243,22 +4243,95 @@
           <div class="improve right hide-on-mobiles">
             <a href="https://github.com/Apex-net/icommerce-site/edit/master/_docs/ord-nuovi-cli.md"><i class="fa fa-pencil"></i> &nbsp;Modifica</a>
           </div>
-          <h1>Inser. ordini</h1>
-          <h2 id="ordini-su-nuovi-clienti">Ordini su nuovi clienti</h2>
+          <h1>Connettore</h1>
+          <p>E’ possibile raccogliere ordini su nuovi clienti ancora non presenti nell’anagrafica.
+Per attivare questa funzione, occorre configurare nel gestionale uno o più clienti “template”.</p>
 
-<p>La raccolta ordini può essere effettuata anche su clienti non presenti nell’anagrafica dell’iPad.
-Per attivare questa funzione, è sufficiente inserire, nel gestionale, uno o più clienti con partita iva <code>99999999999</code> (undici volte 9).</p>
-
-<p>Questi clienti vengono trattati come <strong>clienti template</strong>, e visualizzati in modo particolare.</p>
-
-<p>In particolar modo:</p>
+<p>Il connettore è un vero e proprio plugin che si installa sul server in cui è già presente il software gestionale. Esso svolge principalmente 2 funzioni:</p>
 
 <ol>
-  <li>Non vengono mostrati fra gli altri clienti presenti in anagrafica</li>
-  <li>Sono visibili in una apposita funzione per la raccolta ordini su clienti nuovi.</li>
-  <li>I dati anagrafici di tali clienti non vengono utilizzati. Infatti, in fase di inserimento ordine viene chiesto all’ utente di specificarli</li>
-  <li>Possono essere associati sconti e listini. In questo modo è possibile differenziare i prezzi anche su clienti nuovi creando più clienti template.</li>
+  <li>Esporta i dati per gli ipad (es. anagrafiche clienti, listini, ecc…).</li>
+  <li>Importa i dati di ritorno dagli iPad (es. ordini, mod. anagrafiche, ecc…)</li>
 </ol>
+
+<p>I dati esportati e importati dal connettore non arrivano direttamente agli iPad, ma transitano attraverso l’AppManger sfruttando la sincronizzazione della cartella condivisa di <a href="/docs/dropbox">Dropbox</a>.</p>
+
+<p>In seguito alla condivisione di tale cartella, nel server apparirà la seguente struttura di cartelle:</p>
+
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">C:<span class="se">\D</span>ropbox<span class="se">\[</span>nomeazienda<span class="o">]</span><span class="se">\g</span>estionale
+C:<span class="se">\D</span>ropbox<span class="se">\[</span>nomeazienda<span class="o">]</span><span class="se">\a</span>ppmanager
+C:<span class="se">\D</span>ropbox<span class="se">\[</span>nomeazienda<span class="o">]</span><span class="se">\m</span>ultimedia
+C:<span class="se">\D</span>ropbox<span class="se">\[</span>nomeazienda<span class="o">]</span><span class="se">\r</span>eports</code></pre></div>
+
+<p>Ognuna di queste cartelle ha uno scopo ben preciso.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Sottocartella</th>
+      <th>Decrizione</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>gestionale</td>
+      <td>Cartella in cui il connettore deposita i files che devono essere inviati agli iPad</td>
+    </tr>
+    <tr>
+      <td>appmanager</td>
+      <td>Cartella in cui il connettore trova files in formato delimitato per l’import di: Ordini, Modifiche anagrafiche)</td>
+    </tr>
+    <tr>
+      <td>multimedia</td>
+      <td>Cartella in cui il connettore (modalità automatica) o un utente (modalità manuale) deposita e immagini per il catalogo</td>
+    </tr>
+    <tr>
+      <td>report</td>
+      <td>Cartella in cui il connettore o un utente deposita i files PDF dei report da mostrare agli utenti degli iPad</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="esportare-i-dati---cartella-gestionale">Esportare i dati - cartella gestionale</h2>
+
+<p>Tutti i dati anagrafici (escluse le foto e i report) visibili negli iPad vengono esportati dal connettore e depositati in questa sottocartella.</p>
+
+<p>La cartella gestionale viene periodicamente controllata dall’ AppManager che, appena possibile, importa i files, li elabora e li rendere disponibili agli iPad.</p>
+
+<p>I files, dopo essere stati elaborati, vengono cancellati dalla cartella.</p>
+
+<p>Le specifiche tecniche per la creazione di tali files sono consultabili nella sezione <a href="/docs/export-dati">Esportazione dati</a>.</p>
+
+<h2 id="esportare-le-immagini---cartella-multimedia">Esportare le immagini - cartella multimedia</h2>
+
+<p>In questa cartella è possibile depositare le fotografie degli articoli. Nell’iPad infatti esiste un modulo chiamato <strong>catalogo</strong> con il quale è possibile visionale la lista di immagini degli articoli. Toccando le immagini è inoltre possibile aprire la funzione di inserimento dell’ ordine.</p>
+
+<p>I files, dopo essere stati elaborato, rimangono nella cartella e vengono rielaborati solo nel caso di una modifica.</p>
+
+<p>Le specifiche tecniche per l’esportazione di tali dati sono consultabili nella sezione <a href="docs/export-catalogo">Esportare le immagini</a>.</p>
+
+<h2 id="esportare-i-reports---cartella-reports">Esportare i reports - cartella reports</h2>
+
+<p>La cartella reports può contenere una lista di PDF che possono essere consultati dagli iPad secondo specifici permessi. Con il modulo report è possibile quindi esportare statistiche in formato PDF e, mettendole in questa cartella, condividerle con gli operatori.</p>
+
+<p>I files, dopo essere stati elaborato, rimangono nella cartella e vengono rielaborati solo nel caso di una modifica.</p>
+
+<p>Le specifiche tecniche per l’esportazione di tali dati sono consultabili nella sezione <a href="docs/export-report">Esportare i reports</a>.</p>
+
+<h2 id="importare-i-dati---cartella-appmanager">Importare i dati - cartella appmanager</h2>
+
+<p>La cartella appmanager contenere i files che vengono creati dall’ AppManager dopo che i dati sono stati ricevuti dagli iPad.</p>
+
+<p>Tali files hanno nomi univoci. Il Connettore dopo averli importati li deve cancellare dalla cartella.</p>
+
+<p>E’ anche possibile importare i dati senza utilizzare i files ascii, ma chiamando API (web service rest) creati a questo scopo.</p>
+
+<div class="note info">
+  <h5>Import dati da web services</h5>
+  <p>L'utilizzo di files ascii per l'import dei dati è oramai sostituito quasi sempre dall'import basati su webservices.</p>
+</div>
+
+<p>Le specifiche tecniche per l’importazione di tali dati sono consultabili nella sezione <a href="docs/import-dati">Importare i dati</a>.</p>
 
           
 
