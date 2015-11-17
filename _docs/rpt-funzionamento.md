@@ -51,3 +51,11 @@ Questa è la dimensione prevista dal layout di stampa dei report standard.
 Se si effettua una personalizzazione del layout la dimensione del logo potrebbe variare.
 
 Il logo può essere modificato accedendo in AppManager. Nella form Progetti selezionare la scheda Dati. Nella colonna **Logo** cliccare sulla graffetta e caricare il nuovo file.
+
+
+<div class="note info">
+  <h5>Comunicare ad Apex-net l'avvenuta modifica del logo</h5>
+  <p>
+  Per rendere effettive le modifiche è indispensabile comunicare ad Apexnet, con la procedura di supporto, l'avvenuto caricamento del logo personalizzato
+  </p>
+</div>
