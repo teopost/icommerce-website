@@ -2,7 +2,7 @@
 <html lang="it-IT">
 <head>
   <meta charset="UTF-8">
-  <title>io_clifor_gen.dat</title>
+  <title>Esportare i dati minimi</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="generator" content="iCommerce v">
   <link rel="alternate" type="application/rss+xml" title="iCommerce • l'App Mobile per la tua azienda" href="/feed.xml">
@@ -4461,342 +4461,73 @@
       <div class="unit four-fifths">
         <article>
           <div class="improve right hide-on-mobiles">
-            <a href="https://github.com/Apex-net/icommerce-site/edit/master/_docs/tracciati/io_clifor_gen.md"><i class="fa fa-pencil"></i> &nbsp;Modifica</a>
+            <a href="https://github.com/Apex-net/icommerce-site/edit/master/_docs/export-dati-minimi.md"><i class="fa fa-pencil"></i> &nbsp;Modifica</a>
           </div>
-          <h1>io_clifor_gen.dat</h1>
-          <p>tabella di anagrafica clienti/fornitore di un progetto o ditta (azienda) che viene importata in automatico; ogni riga è un cliente della ditta</p>
+          <h1>Esportare i dati minimi</h1>
+          <p>In questa pagina sono riportati i tracciati considerati minimi (o essenziali) per utilizzare la raccolta ordini</p>
 
-<ol>
-  <li><strong>CHIAVE</strong> - Character - Max Length: 250
-    <ul>
-      <li><em>Chiave univoca del record composta dai dati di origine</em></li>
-    </ul>
-  </li>
-  <li><strong>COD_DITTA</strong> - Character - Max Length: 50
-    <ul>
-      <li><em>Codice della ditta. E’ il codice che identifica univocamente una ditta dentro il gestionale che, nel caso sia multisocietario, può contenere dati di più aziende</em></li>
-    </ul>
-  </li>
-  <li><strong>TIPO_CLIFOR</strong> - Integer - Max Length: 2
-    <ul>
-      <li><em>Tipologia (0=Cliente, 1=Fornitore)</em></li>
-    </ul>
-  </li>
-  <li><strong>COD_CLIFOR</strong> - Character - Max Length: 50
-    <ul>
-      <li><em>Codice Cliente / Fornitore</em></li>
-    </ul>
-  </li>
-  <li><strong>RAG_SOC</strong> - Character - Max Length: 255
-    <ul>
-      <li><em>Ragione sociale</em></li>
-    </ul>
-  </li>
-  <li><strong>TAG</strong> - Character - Max Length: 255
-    <ul>
-      <li><em>TAG di Ricerca</em></li>
-    </ul>
-  </li>
-  <li><strong>INDIRIZZO</strong> - Character - Max Length: 255
-    <ul>
-      <li><em>Indirizzo</em></li>
-    </ul>
-  </li>
-  <li><strong>PARTITA_IVA</strong> - Character - Max Length: 50
-    <ul>
-      <li><em>Partita iva</em></li>
-    </ul>
-  </li>
-  <li><strong>CODICE_FISCALE</strong> - Character - Max Length: 20
-    <ul>
-      <li><em>Codice fiscale</em></li>
-    </ul>
-  </li>
-  <li><strong>TELEFONO1</strong> - Character - Max Length: 255
-    <ul>
-      <li><em>Numero di telefono 1 del cliente/fornitore</em></li>
-    </ul>
-  </li>
-  <li><strong>TELEFONO2</strong> - Character - Max Length: 255
-    <ul>
-      <li><em>Numero di telefono 2 del cliente/fornitore</em></li>
-    </ul>
-  </li>
-  <li><strong>FAX</strong> - Character - Max Length: 255
-    <ul>
-      <li><em>Fax</em></li>
-    </ul>
-  </li>
-  <li><strong>CELLULARE</strong> - Character - Max Length: 255
-    <ul>
-      <li><em>Telefono cellulare</em></li>
-    </ul>
-  </li>
-  <li><strong>EMAIL</strong> - Character - Max Length: 255
-    <ul>
-      <li><em>Indirizzo email</em></li>
-    </ul>
-  </li>
-  <li><strong>INTERNET</strong> - Character - Max Length: 255
-    <ul>
-      <li><em>WEB</em></li>
-    </ul>
-  </li>
-  <li><strong>CAP</strong> - Character - Max Length: 20
-    <ul>
-      <li><em>Codice di avviamento postale</em></li>
-    </ul>
-  </li>
-  <li><strong>CITTA</strong> - Character - Max Length: 255
-    <ul>
-      <li><em>Città</em></li>
-    </ul>
-  </li>
-  <li><strong>PROVINCIA</strong> - Character - Max Length: 255
-    <ul>
-      <li><em>Provincia</em></li>
-    </ul>
-  </li>
-  <li><strong>LATITUDINE</strong> - Character - Max Length: 50,6
-    <ul>
-      <li><em>Chiave univoca del record ereditata dai dati di origine</em></li>
-    </ul>
-  </li>
-  <li><strong>LONGITUDINE</strong> - Character - Max Length: 50,6
-    <ul>
-      <li><em>Chiave univoca del record ereditata dai dati di origine</em></li>
-    </ul>
-  </li>
-  <li><strong>COD_CLASSE_SCONTO</strong> - Character - Max Length: 50
-    <ul>
-      <li><em>Codice identificativo della classe sconto del cliente</em></li>
-    </ul>
-  </li>
-  <li><strong>FLG_MOD_NEL_DISP</strong> - Integer - Max Length: 2
-    <ul>
-      <li><em>flag per specificare se questo cliente o fornitore può essere modificato nel dispositivo</em></li>
-    </ul>
-  </li>
-  <li><strong>FLG_DEPERIBILITA</strong> - Integer - Max Length: 2
-    <ul>
-      <li><em>serve per attivare la gestione degli articoli deperibili e quindi suddividere gli ordini che arrivano dai dispositivi</em></li>
-    </ul>
-  </li>
-  <li><strong>COD_CAT_EXTRA_SCONTO</strong> - Character - Max Length: 50
-    <ul>
-      <li><em>Codice identificativo della categoria extra sconto (es. 01 = affiliati; 02 = non affilitati; 03= con griglia; 04=normali)</em></li>
-    </ul>
-  </li>
-  <li><strong>COD_SVILUPPO</strong> - Character - Max Length: 255
-    <ul>
-      <li><em>Chiave dello sviluppo</em></li>
-    </ul>
-  </li>
-  <li><strong>NAZIONE</strong> - Character - Max Length: 255
-    <ul>
-      <li><em>Descrizione della nazione</em></li>
-    </ul>
-  </li>
-  <li><strong>PAGAMENTO</strong> - Character - Max Length: 255
-    <ul>
-      <li><em>Pagamento (es: Rimessa diretta a vista fattura; R.D. 60 GG. DATA FATTURA)</em></li>
-    </ul>
-  </li>
-  <li><strong>BANCA</strong> - Character - Max Length: 255
-    <ul>
-      <li><em>Banca</em></li>
-    </ul>
-  </li>
-  <li><strong>AGENZIA</strong> - Character - Max Length: 255
-    <ul>
-      <li><em>Agenzia</em></li>
-    </ul>
-  </li>
-  <li><strong>LISTINO_ANAGRAFICO</strong> - Character - Max Length: 255
-    <ul>
-      <li><em>Listino anagrafico</em></li>
-    </ul>
-  </li>
-  <li><strong>VALUTA</strong> - Character - Max Length: 100
-    <ul>
-      <li><em>Descrizione della valuta (Es: Euro)</em></li>
-    </ul>
-  </li>
-  <li><strong>SCO_PERC1</strong> - Decimal - Max Length: 14,6
-    <ul>
-      <li><em>Sconto di testata 1</em></li>
-    </ul>
-  </li>
-  <li><strong>SCO_PERC2</strong> - Decimal - Max Length: 14,6
-    <ul>
-      <li><em>Sconto di testata 2</em></li>
-    </ul>
-  </li>
-  <li><strong>SCO_PERC3</strong> - Decimal - Max Length: 14,6
-    <ul>
-      <li><em>Sconto di testata 3</em></li>
-    </ul>
-  </li>
-  <li><strong>SCO_PERC4</strong> - Decimal - Max Length: 14,6
-    <ul>
-      <li><em>Sconto di testata 4</em></li>
-    </ul>
-  </li>
-  <li><strong>SCO_PERC5</strong> - Decimal - Max Length: 14,6
-    <ul>
-      <li><em>Sconto di testata 5</em></li>
-    </ul>
-  </li>
-  <li><strong>SCO_PERC6</strong> - Decimal - Max Length: 14,6
-    <ul>
-      <li><em>Sconto di testata 6</em></li>
-    </ul>
-  </li>
-  <li><strong>SCONTI_ANAG_PERC</strong> - Character - Max Length: 255
-    <ul>
-      <li><em>Sconti anagrafici in percentuale</em></li>
-    </ul>
-  </li>
-  <li><strong>SCONTI_ANAG_IMP</strong> - Decimal - Max Length: 14,6
-    <ul>
-      <li><em>Sconti anagrafica imponibile</em></li>
-    </ul>
-  </li>
-  <li><strong>MAGGIORAZIONE_ANAG_PERC</strong> - Decimal - Max Length: 6,3
-    <ul>
-      <li><em>Maggiorazione anagrafica percentuale</em></li>
-    </ul>
-  </li>
-  <li><strong>SCONTO_PIEDE</strong> - Decimal - Max Length: 6,3
-    <ul>
-      <li><em>Sconto piede</em></li>
-    </ul>
-  </li>
-  <li><strong>COD_LISTINO</strong> - Character - Max Length: 50
-    <ul>
-      <li><em>Codice del listino anagrafico</em></li>
-    </ul>
-  </li>
-  <li><strong>COD_CONDPAG</strong> - Character - Max Length: 50
-    <ul>
-      <li><em>Codice del listino anagrafico</em></li>
-    </ul>
-  </li>
-  <li><strong>COD_VALUTA</strong> - Character - Max Length: 50
-    <hr />
-  </li>
-  <li><strong>MACROAREA</strong> - Character - Max Length: 255
-    <ul>
-      <li><em>Macroarea di riferimento dell’azienda</em></li>
-    </ul>
-  </li>
-  <li><strong>DATA_CREAZIONE</strong> - Date - Max Length: 10
-    <ul>
-      <li><em>Data di creazione del record</em></li>
-    </ul>
-  </li>
-  <li><strong>AREA</strong> - Character - Max Length: 255
-    <ul>
-      <li><em>Area di appartenenza dell’azienda</em></li>
-    </ul>
-  </li>
-  <li><strong>ZONA</strong> - Character - Max Length: 255
-    <ul>
-      <li><em>Zona (campo descrittivo)</em></li>
-    </ul>
-  </li>
-  <li><strong>MACROCATEGORIA</strong> - Character - Max Length: 255
-    <ul>
-      <li><em>Macrocategoria di appartenenza dell’azienda</em></li>
-    </ul>
-  </li>
-  <li><strong>DATA_ULT_DOC_NO_FT</strong> - Date - Max Length: 10
-    <ul>
-      <li><em>Data dell’ultimo documento non fatturato</em></li>
-    </ul>
-  </li>
-  <li><strong>CATEGORIA</strong> - Character - Max Length: 255
-    <ul>
-      <li><em>Categoria di appartenenza dell’azienda</em></li>
-    </ul>
-  </li>
-  <li><strong>SOTTOCATEGORIA</strong> - Character - Max Length: 255
-    <ul>
-      <li><em>Categoria di appartenenza dell’azienda</em></li>
-    </ul>
-  </li>
-  <li><strong>DATA_ULT_DOC_FT</strong> - Date - Max Length: 10
-    <ul>
-      <li><em>Data ultimo documento fatturato</em></li>
-    </ul>
-  </li>
-  <li><strong>DATA_ULT_ORDINE</strong> - Date - Max Length: 10
-    <ul>
-      <li><em>Data dell’ultimo ordine</em></li>
-    </ul>
-  </li>
-  <li><strong>FIDO_AZIENDALE</strong> - Decimal - Max Length: 15,2
-    <ul>
-      <li><em>Fido aziendale</em></li>
-    </ul>
-  </li>
-  <li><strong>DES_RAGGR1</strong> - Character - Max Length: 255
-    <ul>
-      <li><em>Raggruppamento 1 (campo descrittivo)</em></li>
-    </ul>
-  </li>
-  <li><strong>DES_RAGGR2</strong> - Character - Max Length: 255
-    <ul>
-      <li><em>Raggruppamento 2 (campo descrittivo)</em></li>
-    </ul>
-  </li>
-  <li><strong>DES_RAGGR3</strong> - Character - Max Length: 255
-    <ul>
-      <li><em>Raggruppamento 3 (campo descrittivo)</em></li>
-    </ul>
-  </li>
-  <li><strong>COD_MACROAREA</strong> - Character - Max Length: 50
-    <ul>
-      <li><em>Codice della Macroarea</em></li>
-    </ul>
-  </li>
-  <li><strong>COD_AREA</strong> - Character - Max Length: 50
-    <ul>
-      <li><em>Codice dell’area</em></li>
-    </ul>
-  </li>
-  <li><strong>COD_ZONA</strong> - Character - Max Length: 50
-    <ul>
-      <li><em>Codice dell’area</em></li>
-    </ul>
-  </li>
-  <li><strong>COD_MACROCATEGORIA</strong> - Character - Max Length: 50
-    <ul>
-      <li><em>Codice della Macroarea</em></li>
-    </ul>
-  </li>
-  <li><strong>COD_CATEGORIA</strong> - Character - Max Length: 50
-    <ul>
-      <li><em>Codice della Macroarea</em></li>
-    </ul>
-  </li>
-  <li><strong>COD_SOTTOCATEGORIA</strong> - Character - Max Length: 50
-    <ul>
-      <li><em>Codice della Macroarea</em></li>
-    </ul>
-  </li>
-  <li><strong>FLG_NEW_CLIFOR</strong> - Integer - Max Length: 2
-    <ul>
-      <li><em>flag per specificare se questo cliente o fornitore deve abilitare l’inserimento di un nuovo cliente in fase di inserimento ordine</em></li>
-    </ul>
-  </li>
-  <li><strong>DAT_ULT_MOD</strong> - DateTime - Max Length: 16
-    <ul>
-      <li><em>Data di ultima modifica del record</em></li>
-    </ul>
-  </li>
-</ol>
-
+<table>
+  <thead>
+    <tr>
+      <th>Descrizione</th>
+      <th>Nome file</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Articoli</td>
+      <td><a href="../io_art">io_art.dat</a></td>
+    </tr>
+    <tr>
+      <td>Unità di misura</td>
+      <td><a href="../io_art_um">io_art_um.dat</a></td>
+    </tr>
+    <tr>
+      <td>Listini</td>
+      <td><a href="../io_listini_full">io_listini_full.dat</a></td>
+    </tr>
+    <tr>
+      <td>Sconti</td>
+      <td><a href="../io_sconti">io_sconti.dat</a></td>
+    </tr>
+    <tr>
+      <td>Storico articoli</td>
+      <td><a href="../io_stoart">io_stoart.dat</a></td>
+    </tr>
+    <tr>
+      <td>Clienti e Fornitori</td>
+      <td><a href="../io_clifor_gen">io_clifor_gen.dat</a></td>
+    </tr>
+    <tr>
+      <td>Agenti cliente</td>
+      <td><a href="../io_clifor_age">io_clifor_age.dat</a></td>
+    </tr>
+    <tr>
+      <td>Blocchi</td>
+      <td><a href="../io_clifor_blo">io_clifor_blo.dat</a></td>
+    </tr>
+    <tr>
+      <td>Destinazioni</td>
+      <td><a href="../io_clifor_dest">io_clifor_dest.dat</a></td>
+    </tr>
+    <tr>
+      <td>Scadenze</td>
+      <td><a href="../io_clifor_scadoc">io_clifor_scadoc.dat</a></td>
+    </tr>
+    <tr>
+      <td>Città</td>
+      <td><a href="../io_citta">io_citta.dat</a></td>
+    </tr>
+    <tr>
+      <td>Cond. di pagamento</td>
+      <td><a href="../io_condpag">io_condpag.dat</a></td>
+    </tr>
+    <tr>
+      <td>Catalogo</td>
+      <td><a href="../io_catalogo">io_catalogo.dat</a></td>
+    </tr>
+  </tbody>
+</table>
 
           
 
@@ -4866,19 +4597,24 @@
 
   
   
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
+    <div class="section-nav">
+      <div class="left align-right">
+          
+            
+            
+            <a href="/docs/export-dati/" class="prev">Back</a>
+          
+      </div>
+      <div class="right align-left">
+          
+            
+            
+            <a href="/docs/export-catalogo/" class="next">Next</a>
+          
+      </div>
+    </div>
+    <div class="clear"></div>
+    
 
         </article>
       </div>
@@ -5938,7 +5674,7 @@
     
   
     
-      <li class=""><a href="/docs/export-dati-minimi/">Esportare i dati minimi</a></li>
+      <li class="current"><a href="/docs/export-dati-minimi/">Esportare i dati minimi</a></li>
       
 
 
