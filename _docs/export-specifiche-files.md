@@ -23,21 +23,29 @@ I tracciati di export devono seguire rigidamente le seguenti specifiche:
 9. Eventuali newline chr(10) + char(13), presenti nei testi devono essere sostituiti con il carattere speciale §
 10. I testi non devono mai superare i 4000 caratteri
 
-Esempio tracciato città (file io_citta.dat):
-
-```
-|CHIAVE     | COD_DITTA | CODICE | DESCRIZIONE           | CAP   | PROVINCIA | DAT_ULT_MOD
-|ACMNE§A001 | ACMNE     | A001   | ABANO TERME           | 35031 | PD        | 01011900000000
-|ACMNE§A002 | ACMNE     | A002   | ABBADIA               |       | CO        | 01011900000000
-|ACMNE§A002A| ACMNE     | A002A  | ABBADIA SOPRA ADDA    |       | CO        | 01011900000000
-|ACMNE§A003 | ACMNE     | A003   | ABBADIA               |       | TO        | 01011900000000
-|ACMNE§A003A| ACMNE     | A003A  | ABBADIA ALPINA        |       | TO        | 01011900000000
-|ACMNE§A004 | ACMNE     | A004   | ABBADIA CERRETO       | 26834 | LO        | 01011900000000
-|ACMNE§A005 | ACMNE     | A005   | ABBADIA LARIANA       | 23821 | LC        | 01011900000000
-|ACMNE§A006 | ACMNE     | A006   | ABBADIA SAN SALVATORE | 53021 | SI        | 01011900000000
-|ACMNE§A007 | ACMNE     | A007   | ABBASANTA             | 09071 | OR        | 01011900000000
-```
 <div class="note warning">
   <h5>Giustificazione delle colonne</h5>
   <p>Nell' esempio riportato, per comodità di lettura le colonne sono state allineate. Il file che deve essere creato NON DEVE contenere questi spazi.</p>
 </div>
+
+Esempio tracciato città (file io_citta.dat):
+
+```
+CHIAVE|COD_DITTA|CODICE|DESCRIZIONE   |CAP   |PROVINCIA|DAT_ULT_MOD
+A001  |ACME     |A001  |ABANO TERME   |35031 |PD       |01011900000000
+A002  |ACME     |A002  |ABBADIA       |      |CO       |01011900000000
+A002A |ACME     |A002A |ABBADIA SOPRA |      |CO       |01011900000000
+A003  |ACME     |A003  |ABBADIA       |      |TO       |01011900000000
+A003A |ACME     |A003A |ABBADIA ALPINA|      |TO       |01011900000000
+A004  |ACME     |A004  |ABBADIA CERRE |26834 |LO       |01011900000000
+A005  |ACME     |A005  |ABBADIA LARIAN|23821 |LC       |01011900000000
+A006  |ACME     |A006  |ABBADIA SAN S.|53021 |SI       |01011900000000
+A007  |ACME     |A007  |ABBASANTA     |09071 |OR       |01011900000000
+```
+
+<div class="note info">
+  <h5>Files tracciati di esempio</h5>
+  <p>E' possibile scaricare i seguenti files di esempio <a href="http://files.apexnet.it/iOrder/ic.company-name.zip">cliccando qui</a> </p>
+</div>
+
+

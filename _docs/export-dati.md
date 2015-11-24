@@ -64,7 +64,7 @@ Clicca sul nome del file per vedere il dettaglio
 | Nazioni                           | [io_nazioni.dat](../io_nazioni)           | X      | X     |
 | Porti                             | [io_porto.dat](../io_porto)               |        |       | X
 
-## Tracciati wTrendy
+## Tracciati wTrendy (gestione taglie/colore)
 
 | Descrizione                       | Nome file
 | -
@@ -79,7 +79,7 @@ Clicca sul nome del file per vedere il dettaglio
 | Taglie sviluppi articolo          | [io_taglie_sviluppi_art.dat](../io_taglie_sviluppi_art)
 | Combinazioni                      | [io_var_combinazioni.dat](../io_var_combinazioni)
 | Liste colori                      | [io_liste_colori.dat](../io_liste_colori)
-| Liste materiali                    | [io_liste_materiali.dat](../io_liste_materiali)
+| Liste materiali                   | [io_liste_materiali.dat](../io_liste_materiali)
 | Regole                            | [io_regole.dat](../io_regole)
 | Classi di sconti                  | [io_classi_sconto.dat](../io_classi_sconto)
 | Assortimenti                      | [io_clienti_assortimenti.dat](../io_clienti_assortimenti)
