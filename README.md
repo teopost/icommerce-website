@@ -23,7 +23,8 @@ Per fare questo, dopo aver generato il sito, è presente uno script chiamato dep
 I più fortunati (Mac users), possono installare jekyll con:
 
 ```bash
-$ gem install jekyll
+$ sudo gem install jekyll
+$ sudo gem install pygments.rb
 ```
 
 ## Clonare il sito
@@ -31,7 +32,7 @@ $ gem install jekyll
 Come al solito, digitare il comando:
 
 ```
-$ git clone https://github.com/Apex-net/icommerce-site
+$ git clone https://github.com/Apex-net/icommerce-website
 ```
 
 ## Modificare i contenuti
