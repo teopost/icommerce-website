@@ -1,3 +1,7 @@
+---
+permalink: /feed.xml
+---
+
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"
   xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -9,12 +13,12 @@
   >
   <channel>
     <title xml:lang="en">iCommerce • l'App mobile per la tua azienda</title>
-    <atom:link type="application/atom+xml" href="/feed.xml" rel="self"/>
+    <atom:link type="application/atom+xml" href="{{site.siteurl }}{{ site.baseurl }}/feed.xml" rel="self"/>
     <link>http://www.apexnet.it/</link>
-    <pubDate>Mon, 11 Jan 2016 12:26:51 +0100</pubDate>
-    <lastBuildDate>Mon, 11 Jan 2016 12:26:51 +0100</lastBuildDate>
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <language>en-US</language>
-    <generator>Jekyll v3.0.1</generator>
+    <generator>Jekyll v{{ jekyll.version }}</generator>
     <description>Transform your plain text into static websites and blogs.</description>
     <image>
       <description>Transform your plain text into static websites and blogs.</description>
@@ -24,282 +28,21 @@
       <width>144</width>
       <height>73</height>
     </image>
-    
+    {% for post in site.posts %}
     <item>
-      <title>Rilasciata la rel. 6.3</title>
-      <link>/news/2015/11/16/rel-6-3-released/</link>
-      <pubDate>Mon, 16 Nov 2015 07:00:00 +0100</pubDate>
-      <dc:creator>teopost</dc:creator>
-      
-      
-      <category>release</category>
-      
-      <guid isPermaLink="true">/news/2015/11/16/rel-6-3-released/</guid>
-      <description>&lt;h3 id=&quot;novit&quot;&gt;Novità&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Aggiunta progress bar e messaggio di completamento del download per i moduli: Catalogo e Report.&lt;/em&gt;&lt;/strong&gt; - (rif: 10521)&lt;/p&gt;
-
-&lt;p&gt;Aggiunta progress bar e messaggio di completamento del download per i moduli: Catalogo e Report.
-é possibile attivare/disattivare la visibilità del messaggio di download completato.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Aggiunto tab listini nel dettaglio Cliente&lt;/em&gt;&lt;/strong&gt; - (rif: 10548)&lt;/p&gt;
-
-&lt;p&gt;Nella schermata di dettaglio cliente, è presente un nuovo tab ‘Listini’ dove vengono mostrati i listini associati al cliente.&lt;/p&gt;
-
-</description>
+      <title>{{ post.title | xml_escape}}</title>
+      <link>{{ site.url}}{{ site.baseurl}}{{ post.url }}</link>
+      <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+      <dc:creator>{{ post.author }}</dc:creator>
+      {% for tag in post.tags %}
+      <category>{{ tag | xml_escape }}</category>
+      {% endfor %}
+      {% for cat in post.categories %}
+      <category>{{ cat | xml_escape }}</category>
+      {% endfor %}
+      <guid isPermaLink="true">{{ site.url}}{{ site.baseurl}}{{ post.url }}</guid>
+      <description>{{ post.content | xml_escape }}</description>
     </item>
-    
-    <item>
-      <title>Rilasciata la rel. 6.2</title>
-      <link>/news/2015/10/30/rel-6-2-released/</link>
-      <pubDate>Fri, 30 Oct 2015 07:00:00 +0100</pubDate>
-      <dc:creator>teopost</dc:creator>
-      
-      
-      <category>release</category>
-      
-      <guid isPermaLink="true">/news/2015/10/30/rel-6-2-released/</guid>
-      <description>&lt;h3 id=&quot;anomalie&quot;&gt;Anomalie&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Problema di sovrascrittura degli ordini in Taglie&amp;amp;Colori&lt;/em&gt;&lt;/strong&gt; - (rif: 10507)&lt;/p&gt;
-
-&lt;p&gt;Risolto un problema nel Taglie&amp;amp;Colori che permetteva, in alcuni casi, di sovrascrivere le testate ordine salvate&lt;/p&gt;
-
-&lt;h3 id=&quot;modifiche&quot;&gt;Modifiche&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Ottimizzata fase inizializzazione sincronizzazione&lt;/em&gt;&lt;/strong&gt; - (rif: 10493)&lt;/p&gt;
-
-&lt;p&gt;Nella fase iniziale della sincronizzazione vengono cancellati i dati della precedente sincronizzazione.
-Questa fase è stata enormemente velocizzata grazie all’adozione di una nuova funzionalità di iOS 9 (batch delete in core data).&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Rilasciata la rel. 6.1</title>
-      <link>/news/2015/10/05/rel-6-1-released/</link>
-      <pubDate>Mon, 05 Oct 2015 08:00:00 +0200</pubDate>
-      <dc:creator>teopost</dc:creator>
-      
-      
-      <category>release</category>
-      
-      <guid isPermaLink="true">/news/2015/10/05/rel-6-1-released/</guid>
-      <description>&lt;h3 id=&quot;anomalie&quot;&gt;Anomalie&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Menu in ordini veloci scompare su rotazione device&lt;/em&gt;&lt;/strong&gt; - (rif: 10352)&lt;/p&gt;
-
-&lt;p&gt;Risolto il problema nella videata degli ordini inviati/salvati, spariva la freccia a sinistra per aprire il menù&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Problema inserimento ordine senza cliente&lt;/em&gt;&lt;/strong&gt; - (rif: 10400)&lt;/p&gt;
-
-&lt;p&gt;Nel caso di taglie e colori poteva, in determinati casi, essere salvato un ordine senza cliente. Ora risolto il problema.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Problema in apertura form ordine ridotto da Catalogo&lt;/em&gt;&lt;/strong&gt; - (rif: 10428)&lt;/p&gt;
-
-&lt;p&gt;Talvolta venivano erroneamente salvati dei dati nel form ordine “ridotto” anche in caso di azione di annullamento.&lt;/p&gt;
-
-&lt;h3 id=&quot;modifiche&quot;&gt;Modifiche&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;I filtri sui gruppi prodotti ora sono in ordine alfabetico&lt;/em&gt;&lt;/strong&gt; - (rif: 10394)&lt;/p&gt;
-
-&lt;p&gt;Ora vengono ordinati in ordine alfabetico i filtri sui gruppi prodotti&lt;/p&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>Rilasciata la rel. 6.0</title>
-      <link>/news/2015/09/18/rel-6-0-released/</link>
-      <pubDate>Fri, 18 Sep 2015 08:00:00 +0200</pubDate>
-      <dc:creator>teopost</dc:creator>
-      
-      
-      <category>release</category>
-      
-      <guid isPermaLink="true">/news/2015/09/18/rel-6-0-released/</guid>
-      <description>&lt;h3 id=&quot;anomalie&quot;&gt;Anomalie&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Risolto problema su acconto incassi&lt;/em&gt;&lt;/strong&gt; - (rif: 10362)&lt;/p&gt;
-
-&lt;p&gt;Risolta regressione introdotta nella 5.5 sulla funzionalità degli “Acconti” ed il calcolo dell’importo totale in caso fossero presenti note di credito.&lt;/p&gt;
-
-&lt;h3 id=&quot;novit&quot;&gt;Novità&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Modificate le look-up nella testata ordine&lt;/em&gt;&lt;/strong&gt; - (rif: 10349)&lt;/p&gt;
-
-&lt;p&gt;Ora le look-up per i campi Pagamento, Scatola ed Etichetta aprono un form, con possibilità di ricerca.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Rilasciata la rel. 5.5</title>
-      <link>/news/2015/07/22/rel-5-5-released/</link>
-      <pubDate>Wed, 22 Jul 2015 08:00:00 +0200</pubDate>
-      <dc:creator>teopost</dc:creator>
-      
-      
-      <category>release</category>
-      
-      <guid isPermaLink="true">/news/2015/07/22/rel-5-5-released/</guid>
-      <description>&lt;h3 id=&quot;anomalie&quot;&gt;Anomalie&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Sistemata incosistenza nei flag usati per abilitare voci di sincronizzazione&lt;/em&gt;&lt;/strong&gt; - (rif: 10196)&lt;/p&gt;
-
-&lt;h3 id=&quot;novit&quot;&gt;Novità&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Aggiunto lo stato articolo alla presa dell’ordine per taglie/colori.&lt;/em&gt;&lt;/strong&gt; - (rif: 10216)&lt;/p&gt;
-
-&lt;p&gt;Se lo stato di un articolo risulta bloccato non sarà possibile aggiungere righe ordine per tale articolo.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Aggiunto “prezzo retail” ai prodotti e la gestione della valuta per taglie/colori.&lt;/em&gt;&lt;/strong&gt; - (rif: 10244)&lt;/p&gt;
-
-&lt;p&gt;Se la gestione della valuta è abilitata
-- la valuta viene scelta a partire da quella presente sul cliente, o in caso di assenza, viene presa quella preferenziale.
--  i listini vengono filtrati per codValuta
-- per ogni testata e relativo report copia commissione, i prezzi saranno proposti in valuta&lt;/p&gt;
-
-&lt;p&gt;Altrimenti, rimane tutto come prima.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Aggiunta funzionalità che permette all’utente di filtrare gli incassi per cliente&lt;/em&gt;&lt;/strong&gt; - (rif: 10248)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Promozioni in campi custom&lt;/em&gt;&lt;/strong&gt; - (rif: 10249)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Apertura dettaglio documento da incassi e sistemato utilizzo di note di accredito negli incassi&lt;/em&gt;&lt;/strong&gt; - (rif: 10250)&lt;/p&gt;
-
-&lt;p&gt;Apertura dettaglio documento da incassi e sistemato utilizzo di note di accredito negli incassi.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Aggiunge filtro per campo marca, nella lista dei prodotti&lt;/em&gt;&lt;/strong&gt; - (rif: 10251)&lt;/p&gt;
-
-&lt;p&gt;Modificata la logica dei filtri.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Connettore IB 18.2.5.9</title>
-      <link>/news/2015/06/26/rel-18.2.5.9-connettore-ib/</link>
-      <pubDate>Fri, 26 Jun 2015 12:07:00 +0200</pubDate>
-      <dc:creator>teopost</dc:creator>
-      
-      
-      <category>connettore-ib</category>
-      
-      <guid isPermaLink="true">/news/2015/06/26/rel-18.2.5.9-connettore-ib/</guid>
-      <description>&lt;p&gt;E’ stato rilasciato il connettore di iB 18.2.5.9.&lt;/p&gt;
-
-&lt;p&gt;Si tratta di un aggiornamento importante che riguarda l’aggiornamento automatico del connettore.&lt;/p&gt;
-
-&lt;p&gt;Con la versione precedente veniva effettuato l’aggiornamento delle DLL solo se il processo Busnet.exe non era in esecuzione.&lt;/p&gt;
-
-&lt;p&gt;Spesso accadeva però che sui server erano presenti varie sessioni di utenti collegati in terminal server.&lt;/p&gt;
-
-&lt;p&gt;Tale sessioni quindi, anche se bloccavano l’aggiornamento, non erano necessariamente interessate alle DLL da aggiornare.&lt;/p&gt;
-
-&lt;p&gt;Ora viene verificato che le DLL da aggiornare siano scrivibili e aggiornabili. Qeusto riduce notevolmente i casi in cui le DLL non possono aggiornarsi.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Rilasciata la rel. 5.3</title>
-      <link>/news/2015/04/20/rel-5-3-released/</link>
-      <pubDate>Mon, 20 Apr 2015 08:00:00 +0200</pubDate>
-      <dc:creator>teopost</dc:creator>
-      
-      
-      <category>release</category>
-      
-      <guid isPermaLink="true">/news/2015/04/20/rel-5-3-released/</guid>
-      <description>&lt;h3 id=&quot;anomalie&quot;&gt;Anomalie&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Aggiunto ordinamento ulteriore delle scadenze in ‘Ordini’-‘Incassi’.&lt;/em&gt;&lt;/strong&gt; - (rif: 9543)&lt;/p&gt;
-
-&lt;p&gt;Aggiunto ordinamento ulteriore delle scadenze in ‘Ordini’-‘Incassi’.
-Ora le scadenze sono ordinate anche per progressivo documento e data documento (ascendente), oltre che per l’ordinamento principale scelto (data scadenza o data emissione).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Sistemate alcune anomalie wTrendy&lt;/em&gt;&lt;/strong&gt; - (rif: 9641)&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;eliminata anomalia che poteva causare la cancellazione di righe ordine dell’ordine salvato in precedenza&lt;/li&gt;
-  &lt;li&gt;sistemato l’ordinamente degli ordini (che ora risulta consistente tra copia commissione ed export)&lt;/li&gt;
-  &lt;li&gt;sistemata anomalia che poteva causare la mancanza dei dettagli di riga ordine nei dati inviati&lt;/li&gt;
-  &lt;li&gt;sistemata visualizzazione degli sviluppi delle taglie associate agli articoli&lt;/li&gt;
-  &lt;li&gt;sistemato calcolo del totale paia, che in alcune condizione risultava sbagliato&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;novit&quot;&gt;Novità&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Modifiche alla generazione del copia commissione.&lt;/em&gt;&lt;/strong&gt; - (rif: 9486)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Migliorata la visualizzazione della destinazione del cliente&lt;/em&gt;&lt;/strong&gt; - (rif: 9505)&lt;/p&gt;
-
-&lt;p&gt;In ordine veloce e nel form ordine è stata aggiunto anche l’indirizzo della destinazione cliente.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Aggiunti meccanismi di crash reporting&lt;/em&gt;&lt;/strong&gt; - (rif: 9605)&lt;/p&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>Rilasciata la rel. 5.2</title>
-      <link>/news/2015/03/02/rel-5-2-released/</link>
-      <pubDate>Mon, 02 Mar 2015 01:12:52 +0100</pubDate>
-      <dc:creator>teopost</dc:creator>
-      
-      
-      <category>release</category>
-      
-      <guid isPermaLink="true">/news/2015/03/02/rel-5-2-released/</guid>
-      <description>&lt;h3 id=&quot;anomalie&quot;&gt;Anomalie&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Aggiunto ordinamento ulteriore delle scadenze in ‘Ordini’-‘Incassi’.&lt;/em&gt;&lt;/strong&gt; - (rif: 9543)&lt;/p&gt;
-
-&lt;p&gt;Aggiunto ordinamento ulteriore delle scadenze in ‘Ordini’-‘Incassi’.
-Ora le scadenze sono ordinate anche per progressivo documento e data documento (ascendente), oltre che per l’ordinamento principale scelto (data scadenza o data emissione).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Sistemate alcune anomalie wTrendy&lt;/em&gt;&lt;/strong&gt; - (rif: 9641)&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;eliminata anomalia che poteva causare la cancellazione di righe ordine dell’ordine salvato in precedenza&lt;/li&gt;
-  &lt;li&gt;sistemato l’ordinamente degli ordini (che ora risulta consistente tra copia commissione ed export)&lt;/li&gt;
-  &lt;li&gt;sistemata anomalia che poteva causare la mancanza dei dettagli di riga ordine nei dati inviati&lt;/li&gt;
-  &lt;li&gt;sistemata visualizzazione degli sviluppi delle taglie associate agli articoli&lt;/li&gt;
-  &lt;li&gt;sistemato calcolo del totale paia, che in alcune condizione risultava sbagliato&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;novit&quot;&gt;Novità&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Modifiche alla generazione del copia commissione.&lt;/em&gt;&lt;/strong&gt; - (rif: 9486)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Migliorata la visualizzazione della destinazione del cliente&lt;/em&gt;&lt;/strong&gt; - (rif: 9505)&lt;/p&gt;
-
-&lt;p&gt;In ordine veloce e nel form ordine è stata aggiunto anche l’indirizzo della destinazione cliente.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Aggiunti meccanismi di crash reporting&lt;/em&gt;&lt;/strong&gt; - (rif: 9605)&lt;/p&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>Rilasciata la rel. 5.1</title>
-      <link>/news/2015/02/01/rel-5-1-released/</link>
-      <pubDate>Sun, 01 Feb 2015 01:12:52 +0100</pubDate>
-      <dc:creator>teopost</dc:creator>
-      
-      
-      <category>release</category>
-      
-      <guid isPermaLink="true">/news/2015/02/01/rel-5-1-released/</guid>
-      <description>&lt;h3 id=&quot;novit&quot;&gt;Novità&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Migliorata funzionalita di ricerca nel catalogo&lt;/em&gt;&lt;/strong&gt; - (rif: 9421)&lt;/p&gt;
-
-&lt;p&gt;Aumentata dimensione della schermata di ricerca, di modo da poter visualizzare anche nomi lunghi.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Aggiunta possibilita di modificare la condizione di pagamento nel form ordine, parametrizzabile.&lt;/em&gt;&lt;/strong&gt; - (rif: 9449)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Sistemata anomalia sui campi obbligatori/opzionali nel form del nuovo cliente&lt;/em&gt;&lt;/strong&gt; - (rif: 9450)&lt;/p&gt;
-
-</description>
-    </item>
-    
+    {% endfor %}
   </channel>
 </rss>

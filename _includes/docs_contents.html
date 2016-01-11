@@ -1,0 +1,15 @@
+{% comment %}
+Titoli dei menu laterali dei documenti
+
+http://www.randomsnippets.com/2008/02/12/how-to-hide-and-show-your-div/
+
+{% endcomment %}
+
+<div class="unit one-fifth hide-on-mobiles">
+  <aside>
+    {% for section in site.data.docs %}
+    <h4>{{ section.title }}</h4>
+    {% include docs_ul.html items=section.docs %}
+    {% endfor %}
+  </aside>
+</div>

@@ -1,0 +1,31 @@
+<ul>
+  <li>
+
+  </li>
+
+  <li>
+
+  </li>
+
+
+  <li class="{% if page.overview %}current{% endif %}">
+    <a href="{{ site.baseurl }}/">Home</a>
+  </li>
+  <li class="{% if page.url contains '/docs/' %}current{% endif %}">
+    <a href="{{ site.baseurl }}/docs/home/">Doc<span class="show-on-mobiles">s</span><span class="hide-on-mobiles">umentazione</span></a>
+  </li>
+  <li class="{% if page.author %}current{% endif %}">
+    <a href="{{ site.baseurl }}/news/">News</a>
+  </li>
+  <li>
+    <a href="http://support.apexnet.it"> <span class="show-on-mobiles"></span><span class="hide-on-mobiles">Supporto</span></a>
+  </li>
+  <li>
+    <a href="http://lm.apexnet.it"> <span class="show-on-mobiles"></span><span class="hide-on-mobiles">Entra</span> </a>
+  </li>
+<!--
+  <li>
+    <a href="{{ site.repository }}"><span class="hide-on-mobiles">View on </span>GitHub</a>
+  </li>
+  -->
+</ul>
