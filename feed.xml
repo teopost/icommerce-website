@@ -11,10 +11,10 @@
     <title xml:lang="en">iCommerce • l'App mobile per la tua azienda</title>
     <atom:link type="application/atom+xml" href="/feed.xml" rel="self"/>
     <link>http://www.apexnet.it/</link>
-    <pubDate>Tue, 24 Nov 2015 11:47:37 +0100</pubDate>
-    <lastBuildDate>Tue, 24 Nov 2015 11:47:37 +0100</lastBuildDate>
+    <pubDate>Mon, 11 Jan 2016 12:23:57 +0100</pubDate>
+    <lastBuildDate>Mon, 11 Jan 2016 12:23:57 +0100</lastBuildDate>
     <language>en-US</language>
-    <generator>Jekyll v2.5.3</generator>
+    <generator>Jekyll v3.0.1</generator>
     <description>Transform your plain text into static websites and blogs.</description>
     <image>
       <description>Transform your plain text into static websites and blogs.</description>
@@ -28,7 +28,7 @@
     <item>
       <title>Rilasciata la rel. 6.3</title>
       <link>/news/2015/11/16/rel-6-3-released/</link>
-      <pubDate>Mon, 16 Nov 2015 08:00:00 +0200</pubDate>
+      <pubDate>Mon, 16 Nov 2015 07:00:00 +0100</pubDate>
       <dc:creator>teopost</dc:creator>
       
       
@@ -52,7 +52,7 @@
     <item>
       <title>Rilasciata la rel. 6.2</title>
       <link>/news/2015/10/30/rel-6-2-released/</link>
-      <pubDate>Fri, 30 Oct 2015 08:00:00 +0200</pubDate>
+      <pubDate>Fri, 30 Oct 2015 07:00:00 +0100</pubDate>
       <dc:creator>teopost</dc:creator>
       
       
@@ -241,7 +241,7 @@ Ora le scadenze sono ordinate anche per progressivo documento e data documento (
     <item>
       <title>Rilasciata la rel. 5.2</title>
       <link>/news/2015/03/02/rel-5-2-released/</link>
-      <pubDate>Mon, 02 Mar 2015 02:12:52 +0200</pubDate>
+      <pubDate>Mon, 02 Mar 2015 01:12:52 +0100</pubDate>
       <dc:creator>teopost</dc:creator>
       
       
@@ -281,7 +281,7 @@ Ora le scadenze sono ordinate anche per progressivo documento e data documento (
     <item>
       <title>Rilasciata la rel. 5.1</title>
       <link>/news/2015/02/01/rel-5-1-released/</link>
-      <pubDate>Sun, 01 Feb 2015 02:12:52 +0200</pubDate>
+      <pubDate>Sun, 01 Feb 2015 01:12:52 +0100</pubDate>
       <dc:creator>teopost</dc:creator>
       
       

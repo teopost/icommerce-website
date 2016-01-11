@@ -2,7 +2,7 @@
 <html lang="it-IT">
 <head>
   <meta charset="UTF-8">
-  <title>io_clifor_fatt.dat</title>
+  <title>io_campagne_operatore.dat</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="generator" content="iCommerce v">
   <link rel="alternate" type="application/rss+xml" title="iCommerce • l'App Mobile per la tua azienda" href="/feed.xml">
@@ -4561,10 +4561,10 @@
       <div class="unit four-fifths">
         <article>
           <div class="improve right hide-on-mobiles">
-            <a href="https://github.com/Apex-net/icommerce-site/edit/master/_docs/tracciati/io_clifor_fatt.md"><i class="fa fa-pencil"></i> &nbsp;Modifica</a>
+            <a href="https://github.com/Apex-net/icommerce-site/edit/master/_docs/tracciati/io_campagne_operatore.md"><i class="fa fa-pencil"></i> &nbsp;Modifica</a>
           </div>
-          <h1>io_clifor_fatt.dat</h1>
-          <p>Tabella di anagrafica del fatturato mensile di un cliente/fornitore</p>
+          <h1>io_campagne_operatore.dat</h1>
+          <p>Anagrafica delle campagne marketing per singolo operatore</p>
 
 <ol>
   <li><strong>CHIAVE</strong> - Character - Max Length: 250
@@ -4577,34 +4577,14 @@
       <li><em>Codice della ditta. Identifica univocamente una ditta dentro il gestionale che, nel caso sia multisocietario, può contenere dati di più aziende</em></li>
     </ul>
   </li>
-  <li><strong>TIPO_CLIFOR</strong> - Integer - Max Length: 1
+  <li><strong>COD_CAMPAGNA</strong> - Character - Max Length: 50
     <ul>
-      <li><em>Tipologia (0=Cliente, 1=Fornitore)</em></li>
+      <li><em>Codice Campagna</em></li>
     </ul>
   </li>
-  <li><strong>COD_CLIFOR</strong> - Character - Max Length: 50
+  <li><strong>COD_OPERATORE</strong> - Character - Max Length: 50
     <ul>
-      <li><em>Codice Cliente / Fornitore</em></li>
-    </ul>
-  </li>
-  <li><strong>ANNO</strong> - Integer - Max Length: 10
-    <ul>
-      <li><em>Anno</em></li>
-    </ul>
-  </li>
-  <li><strong>MESE</strong> - Integer - Max Length: 10
-    <ul>
-      <li><em>Mese</em></li>
-    </ul>
-  </li>
-  <li><strong>COD_VALUTA</strong> - Character - Max Length: 50
-    <ul>
-      <li><em>Codice della valuta</em></li>
-    </ul>
-  </li>
-  <li><strong>FATTURATO</strong> - Decimal - Max Length: 28,8
-    <ul>
-      <li><em>Fatturato Totale</em></li>
+      <li><em>Codice operatore</em></li>
     </ul>
   </li>
   <li><strong>DAT_ULT_MOD</strong> - DateTime - Max Length: 16

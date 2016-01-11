@@ -282,6 +282,10 @@
   
     
   
+    
+  
+    
+  
 
   
 
@@ -292,6 +296,10 @@
   
     
       <option value="/docs/come-funziona/">Come funziona</option>
+    
+  
+    
+  
     
   
     
@@ -633,6 +641,10 @@
   
     
   
+    
+  
+    
+  
 
   
 
@@ -805,6 +817,10 @@
   
     
   
+    
+  
+    
+  
 
   
 
@@ -817,6 +833,10 @@
   
     
       <option value="/docs/connettore/">Connettore</option>
+    
+  
+    
+  
     
   
     
@@ -1149,6 +1169,10 @@
   
     
   
+    
+  
+    
+  
 
 
     </optgroup>
@@ -1194,6 +1218,10 @@
   
     
       <option value="/docs/license-manager/">License Manager</option>
+    
+  
+    
+  
     
   
     
@@ -1500,6 +1528,10 @@
   
     
   
+    
+  
+    
+  
 
   
 
@@ -1544,6 +1576,10 @@
   
     
       <option value="/docs/par-progetto/">Par. progetto</option>
+    
+  
+    
+  
     
   
     
@@ -1844,6 +1880,10 @@
   
     
   
+    
+  
+    
+  
 
 
     </optgroup>
@@ -1857,6 +1897,10 @@
   
     
       <option value="/docs/acquisizione-dati/">Acquisizione dati</option>
+    
+  
+    
+  
     
   
     
@@ -2202,6 +2246,10 @@
   
     
   
+    
+  
+    
+  
 
   
 
@@ -2374,6 +2422,10 @@
   
     
   
+    
+  
+    
+  
 
   
 
@@ -2430,6 +2482,10 @@
   
     
       <option value="/docs/rpt-ordini-inviati/">Ordini inviati</option>
+    
+  
+    
+  
     
   
     
@@ -2718,6 +2774,10 @@
   
     
   
+    
+  
+    
+  
 
   
 
@@ -2768,6 +2828,10 @@
   
     
       <option value="/docs/rpt-copia-commissione/">Copia commissione</option>
+    
+  
+    
+  
     
   
     
@@ -3062,6 +3126,10 @@
   
     
   
+    
+  
+    
+  
 
 
     </optgroup>
@@ -3072,6 +3140,10 @@
 
   
 
+  
+    
+  
+    
   
     
   
@@ -3411,6 +3483,10 @@
   
     
   
+    
+  
+    
+  
 
   
 
@@ -3431,6 +3507,10 @@
   
     
       <option value="/docs/export-dati/">Esportare i dati</option>
+    
+  
+    
+  
     
   
     
@@ -3755,6 +3835,10 @@
   
     
   
+    
+  
+    
+  
 
   
 
@@ -3771,6 +3855,10 @@
   
     
       <option value="/docs/export-catalogo/">Esportare le immagini</option>
+    
+  
+    
+  
     
   
     
@@ -4099,6 +4187,10 @@
   
     
   
+    
+  
+    
+  
 
   
 
@@ -4127,6 +4219,10 @@
   
     
       <option value="/docs/import-dati-ws/">Importare dati con WS</option>
+    
+  
+    
+  
     
   
     
@@ -4450,6 +4546,10 @@
   
     
   
+    
+  
+    
+  
 
 
     </optgroup>
@@ -4517,7 +4617,7 @@ All’interno del resource kit è presente un tool che consente di eseguire un e
 <h3 id="versioni-precedenti-a-windows-server-2012">Versioni precedenti a Windows Server 2012</h3>
 <p>Aprire la shell dos e digitare il seguente comando: (fare attenzione al path e agli spazi)</p>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">C:<span class="se">\&gt;</span> sc create DropBoxService <span class="nv">binPath</span><span class="o">=</span> <span class="s2">&quot;C:\Program Files (x86)\Windows Resource Kits\Tools\srvany.exe&quot;</span> <span class="nv">DisplayName</span><span class="o">=</span> <span class="s2">&quot;Dropbox Service&quot;</span></code></pre></div>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">  C:<span class="se">\&gt;</span> sc create DropBoxService <span class="nv">binPath</span><span class="o">=</span> <span class="s2">&quot;C:\Program Files (x86)\Windows Resource Kits\Tools\srvany.exe&quot;</span> <span class="nv">DisplayName</span><span class="o">=</span> <span class="s2">&quot;Dropbox Service&quot;</span></code></pre></figure>
 
 <h3 id="windows-server-2012-e-successive">Windows Server 2012 e successive</h3>
 
@@ -4527,11 +4627,11 @@ All’interno del resource kit è presente un tool che consente di eseguire un e
 
 <p>Aprire la shell dos e digitare il seguente comando: (fare attenzione al path e agli spazi)</p>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">C:<span class="se">\&gt;</span> sc create DropBoxService <span class="nv">binPath</span><span class="o">=</span> <span class="s2">&quot;C:\tmp\srvany.exe&quot;</span> <span class="nv">DisplayName</span><span class="o">=</span> <span class="s2">&quot;Dropbox Service&quot;</span></code></pre></div>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">  C:<span class="se">\&gt;</span> sc create DropBoxService <span class="nv">binPath</span><span class="o">=</span> <span class="s2">&quot;C:\tmp\srvany.exe&quot;</span> <span class="nv">DisplayName</span><span class="o">=</span> <span class="s2">&quot;Dropbox Service&quot;</span></code></pre></figure>
 
 <p>Otterremo a questo punto una conferma del tipo</p>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="o">[</span>SC<span class="o">]</span> CreateService SUCCESS</code></pre></div>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">  <span class="o">[</span>SC<span class="o">]</span> CreateService SUCCESS</code></pre></figure>
 
 <p>Andare nei servizi e modificare le proprietà del servizio chiamato Dropbox</p>
 
@@ -4548,7 +4648,7 @@ All’interno del resource kit è presente un tool che consente di eseguire un e
   <li>Valorizzarla con il path (eseguibile compreso) di esecuzione di dropbox, ottenibile dallo shortcut del menu dei programmi, ad esempio</li>
 </ul>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">C:<span class="se">\U</span>sers<span class="se">\A</span>dministrator.XXXXXXXX<span class="se">\A</span>ppData<span class="se">\R</span>oaming<span class="se">\D</span>ropbox<span class="se">\b</span>in<span class="se">\D</span>ropbox.exe</code></pre></div>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">  C:<span class="se">\U</span>sers<span class="se">\A</span>dministrator.XXXXXXXX<span class="se">\A</span>ppData<span class="se">\R</span>oaming<span class="se">\D</span>ropbox<span class="se">\b</span>in<span class="se">\D</span>ropbox.exe</code></pre></figure>
 
 <ul>
   <li>Chiudere il registry ed avviare il servizio</li>
@@ -4642,8 +4742,6 @@ Fare riferimento all'articolo
   
 
   
-    
-  
 
   
     
@@ -4680,8 +4778,6 @@ Fare riferimento all'articolo
   
 
   
-    
-  
 
   
     
@@ -4706,8 +4802,6 @@ Fare riferimento all'articolo
 
   
 
-  
-    
   
 
   
@@ -4747,8 +4841,6 @@ Fare riferimento all'articolo
   
 
   
-    
-  
 
   
     
@@ -4767,8 +4859,6 @@ Fare riferimento all'articolo
   
 
   
-    
-  
 
   
     
@@ -4784,8 +4874,6 @@ Fare riferimento all'articolo
 
   
 
-  
-    
   
 
   
@@ -4828,8 +4916,6 @@ Fare riferimento all'articolo
   
 
   
-    
-  
 
   
     
@@ -4871,8 +4957,6 @@ Fare riferimento all'articolo
 
   
 
-  
-    
   
 
   
@@ -4919,8 +5003,6 @@ Fare riferimento all'articolo
 
   
 
-  
-    
   
 
   
@@ -4969,8 +5051,6 @@ Fare riferimento all'articolo
 
   
 
-  
-    
   
 
   
@@ -5033,8 +5113,6 @@ Fare riferimento all'articolo
   
 
   
-    
-  
 
   
     
@@ -5055,8 +5133,6 @@ Fare riferimento all'articolo
 
   
 
-  
-    
   
 
   
@@ -5113,8 +5189,6 @@ Fare riferimento all'articolo
 
   
 
-  
-    
   
 
   
@@ -5178,8 +5252,6 @@ Fare riferimento all'articolo
   
 
   
-    
-  
 
   
     
@@ -5239,8 +5311,6 @@ Fare riferimento all'articolo
 
   
 
-  
-    
   
 
   
@@ -5306,8 +5376,6 @@ Fare riferimento all'articolo
   
 
   
-    
-  
 
   
     
@@ -5361,8 +5429,6 @@ Fare riferimento all'articolo
 
   
 
-  
-    
   
 
   
@@ -5433,8 +5499,6 @@ Fare riferimento all'articolo
   
 
   
-    
-  
 
   
     
@@ -5603,12 +5667,14 @@ Fare riferimento all'articolo
   
     
   
-
-
-  
-
+    
   
     
+  
+
+
+  
+
   
 
   
@@ -5638,8 +5704,6 @@ Fare riferimento all'articolo
   
 
   
-    
-  
 
   
     
@@ -5664,8 +5728,6 @@ Fare riferimento all'articolo
   
 
   
-    
-  
 
   
     
@@ -5688,8 +5750,6 @@ Fare riferimento all'articolo
   
 
   
-    
-  
 
   
     
@@ -5709,8 +5769,6 @@ Fare riferimento all'articolo
 
   
 
-  
-    
   
 
   
@@ -5745,8 +5803,6 @@ Fare riferimento all'articolo
 
   
 
-  
-    
   
 
   
@@ -5790,8 +5846,6 @@ Fare riferimento all'articolo
 
   
 
-  
-    
   
 
   
@@ -5874,7 +5928,7 @@ Fare riferimento all'articolo
 
     <div class="unit one-third center-on-mobiles">
       <p>
-        &copy;&nbsp; Copyright 2015 by <a href="http://www.apexnet.it/">Apex-net srl</a>
+        &copy;&nbsp; Copyright 2016 by <a href="http://www.apexnet.it/">Apex-net srl</a>
       </p>
     </div>
 
