@@ -1,10 +1,642 @@
----
-layout: news
-title: Releases
-permalink: /news/releases/
-author: all
----
+<!DOCTYPE HTML>
+<html lang="it-IT">
+<head>
+  <meta charset="UTF-8">
+  <title>Releases</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="generator" content="iCommerce v">
+  <link rel="alternate" type="application/rss+xml" title="iCommerce • l'App Mobile per la tua azienda" href="/feed.xml">
+  <link rel="alternate" type="application/atom+xml" title="Recent commits to Jekyll’s master branch" href="https://github.com/Apex-net/icommerce-site/commits/master.atom">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic,900">
+  <link rel="stylesheet" href="/css/screen.css">
+  <link rel="icon" type="image/x-icon" href="/favico.ico">
+  <!--[if lt IE 9]>
+  <script src="/js/html5shiv.min.js"></script>
+  <script src="/js/respond.min.js"></script>
+  <![endif]-->
+</head>
 
-{% for post in site.categories.release %}
-  {% include news_item.html %}
-{% endfor %}
+
+<body class="wrap">
+  <header role="banner">
+  <nav class="mobile-nav show-on-mobiles">
+    <ul>
+  <li>
+
+  </li>
+
+  <li>
+
+  </li>
+
+
+  <li class="">
+    <a href="/">Home</a>
+  </li>
+  <li class="">
+    <a href="/docs/home/">Doc<span class="show-on-mobiles">s</span><span class="hide-on-mobiles">umentazione</span></a>
+  </li>
+  <li class="current">
+    <a href="/news/">News</a>
+  </li>
+  <li>
+    <a href="http://support.apexnet.it"> <span class="show-on-mobiles"></span><span class="hide-on-mobiles">Supporto</span></a>
+  </li>
+  <li>
+    <a href="http://lm.apexnet.it"> <span class="show-on-mobiles"></span><span class="hide-on-mobiles">Entra</span> </a>
+  </li>
+<!--
+  <li>
+    <a href="https://github.com/Apex-net/icommerce-site"><span class="hide-on-mobiles">View on </span>GitHub</a>
+  </li>
+  -->
+</ul>
+
+  </nav>
+  <div class="grid">
+    <div class="unit one-third center-on-mobiles">
+      <h1>
+        <a href="/">
+          <span class="sr-only">iCommerce</span>
+          <img src="/img/icommerce-logo.png" width="50%" height="50%" alt="iCommerce Logo">
+        </a>
+      </h1>
+    </div>
+    <nav class="main-nav unit two-thirds hide-on-mobiles">
+      <ul>
+  <li>
+
+  </li>
+
+  <li>
+
+  </li>
+
+
+  <li class="">
+    <a href="/">Home</a>
+  </li>
+  <li class="">
+    <a href="/docs/home/">Doc<span class="show-on-mobiles">s</span><span class="hide-on-mobiles">umentazione</span></a>
+  </li>
+  <li class="current">
+    <a href="/news/">News</a>
+  </li>
+  <li>
+    <a href="http://support.apexnet.it"> <span class="show-on-mobiles"></span><span class="hide-on-mobiles">Supporto</span></a>
+  </li>
+  <li>
+    <a href="http://lm.apexnet.it"> <span class="show-on-mobiles"></span><span class="hide-on-mobiles">Entra</span> </a>
+  </li>
+<!--
+  <li>
+    <a href="https://github.com/Apex-net/icommerce-site"><span class="hide-on-mobiles">View on </span>GitHub</a>
+  </li>
+  -->
+</ul>
+
+    </nav>
+  </div>
+</header>
+
+
+    <section class="news">
+    <div class="grid">
+
+      <div class="docs-nav-mobile unit whole show-on-mobiles">
+  <select onchange="if (this.value) window.location.href=this.value">
+    <option value="">Navigate the news…</option>
+    <option value="/news/">Home</option>
+    <!-- <optgroup label="v1.x"> -->
+      
+      <option value="/news/2015/11/16/rel-6-3-released/">Rilasciata la rel. 6.3</option>
+    <!--  
+      <option value="/news/2015/10/30/rel-6-2-released/">Rilasciata la rel. 6.2</option>
+    <!--  
+      <option value="/news/2015/10/05/rel-6-1-released/">Rilasciata la rel. 6.1</option>
+    <!--  
+      <option value="/news/2015/09/18/rel-6-0-released/">Rilasciata la rel. 6.0</option>
+    <!--  
+      <option value="/news/2015/07/22/rel-5-5-released/">Rilasciata la rel. 5.5</option>
+    <!--  
+      <option value="/news/2015/06/26/rel-18.2.5.9-connettore-ib/">Connettore IB 18.2.5.9</option>
+    <!--  
+      <option value="/news/2015/04/20/rel-5-3-released/">Rilasciata la rel. 5.3</option>
+    <!--  
+      <option value="/news/2015/03/02/rel-5-2-released/">Rilasciata la rel. 5.2</option>
+    <!--  
+      <option value="/news/2015/02/01/rel-5-1-released/">Rilasciata la rel. 5.1</option>
+    <!--   -->
+    </optgroup>
+  </select>
+</div>
+
+
+      <div class="unit four-fifths">
+        
+  <article>
+  <h2>
+    <a href="/news/2015/11/16/rel-6-3-released/">
+      Rilasciata la rel. 6.3
+    </a>
+  </h2>
+  <span class="post-category">
+    <span class="label">
+      release
+    </span>
+  </span>
+  <div class="post-meta">
+    <span class="post-date">
+      16 Nov 2015
+    </span>
+    <a href="https://github.com/teopost" class="post-author">
+      <img src="https://github.com/teopost.png" class="avatar" alt="teopost avatar" width="24" height="24">
+      teopost
+    </a>
+  </div>
+  <div class="post-content">
+    <h3 id="novit">Novità</h3>
+
+<p><strong><em>Aggiunta progress bar e messaggio di completamento del download per i moduli: Catalogo e Report.</em></strong> - (rif: 10521)</p>
+
+<p>Aggiunta progress bar e messaggio di completamento del download per i moduli: Catalogo e Report.
+é possibile attivare/disattivare la visibilità del messaggio di download completato.</p>
+
+<p><strong><em>Aggiunto tab listini nel dettaglio Cliente</em></strong> - (rif: 10548)</p>
+
+<p>Nella schermata di dettaglio cliente, è presente un nuovo tab ‘Listini’ dove vengono mostrati i listini associati al cliente.</p>
+
+
+  </div>
+</article>
+
+
+  <article>
+  <h2>
+    <a href="/news/2015/10/30/rel-6-2-released/">
+      Rilasciata la rel. 6.2
+    </a>
+  </h2>
+  <span class="post-category">
+    <span class="label">
+      release
+    </span>
+  </span>
+  <div class="post-meta">
+    <span class="post-date">
+      30 Oct 2015
+    </span>
+    <a href="https://github.com/teopost" class="post-author">
+      <img src="https://github.com/teopost.png" class="avatar" alt="teopost avatar" width="24" height="24">
+      teopost
+    </a>
+  </div>
+  <div class="post-content">
+    <h3 id="anomalie">Anomalie</h3>
+
+<p><strong><em>Problema di sovrascrittura degli ordini in Taglie&amp;Colori</em></strong> - (rif: 10507)</p>
+
+<p>Risolto un problema nel Taglie&amp;Colori che permetteva, in alcuni casi, di sovrascrivere le testate ordine salvate</p>
+
+<h3 id="modifiche">Modifiche</h3>
+
+<p><strong><em>Ottimizzata fase inizializzazione sincronizzazione</em></strong> - (rif: 10493)</p>
+
+<p>Nella fase iniziale della sincronizzazione vengono cancellati i dati della precedente sincronizzazione.
+Questa fase è stata enormemente velocizzata grazie all’adozione di una nuova funzionalità di iOS 9 (batch delete in core data).</p>
+
+  </div>
+</article>
+
+
+  <article>
+  <h2>
+    <a href="/news/2015/10/05/rel-6-1-released/">
+      Rilasciata la rel. 6.1
+    </a>
+  </h2>
+  <span class="post-category">
+    <span class="label">
+      release
+    </span>
+  </span>
+  <div class="post-meta">
+    <span class="post-date">
+      05 Oct 2015
+    </span>
+    <a href="https://github.com/teopost" class="post-author">
+      <img src="https://github.com/teopost.png" class="avatar" alt="teopost avatar" width="24" height="24">
+      teopost
+    </a>
+  </div>
+  <div class="post-content">
+    <h3 id="anomalie">Anomalie</h3>
+
+<p><strong><em>Menu in ordini veloci scompare su rotazione device</em></strong> - (rif: 10352)</p>
+
+<p>Risolto il problema nella videata degli ordini inviati/salvati, spariva la freccia a sinistra per aprire il menù</p>
+
+<p><strong><em>Problema inserimento ordine senza cliente</em></strong> - (rif: 10400)</p>
+
+<p>Nel caso di taglie e colori poteva, in determinati casi, essere salvato un ordine senza cliente. Ora risolto il problema.</p>
+
+<p><strong><em>Problema in apertura form ordine ridotto da Catalogo</em></strong> - (rif: 10428)</p>
+
+<p>Talvolta venivano erroneamente salvati dei dati nel form ordine “ridotto” anche in caso di azione di annullamento.</p>
+
+<h3 id="modifiche">Modifiche</h3>
+
+<p><strong><em>I filtri sui gruppi prodotti ora sono in ordine alfabetico</em></strong> - (rif: 10394)</p>
+
+<p>Ora vengono ordinati in ordine alfabetico i filtri sui gruppi prodotti</p>
+
+
+  </div>
+</article>
+
+
+  <article>
+  <h2>
+    <a href="/news/2015/09/18/rel-6-0-released/">
+      Rilasciata la rel. 6.0
+    </a>
+  </h2>
+  <span class="post-category">
+    <span class="label">
+      release
+    </span>
+  </span>
+  <div class="post-meta">
+    <span class="post-date">
+      18 Sep 2015
+    </span>
+    <a href="https://github.com/teopost" class="post-author">
+      <img src="https://github.com/teopost.png" class="avatar" alt="teopost avatar" width="24" height="24">
+      teopost
+    </a>
+  </div>
+  <div class="post-content">
+    <h3 id="anomalie">Anomalie</h3>
+
+<p><strong><em>Risolto problema su acconto incassi</em></strong> - (rif: 10362)</p>
+
+<p>Risolta regressione introdotta nella 5.5 sulla funzionalità degli “Acconti” ed il calcolo dell’importo totale in caso fossero presenti note di credito.</p>
+
+<h3 id="novit">Novità</h3>
+
+<p><strong><em>Modificate le look-up nella testata ordine</em></strong> - (rif: 10349)</p>
+
+<p>Ora le look-up per i campi Pagamento, Scatola ed Etichetta aprono un form, con possibilità di ricerca.</p>
+
+  </div>
+</article>
+
+
+  <article>
+  <h2>
+    <a href="/news/2015/07/22/rel-5-5-released/">
+      Rilasciata la rel. 5.5
+    </a>
+  </h2>
+  <span class="post-category">
+    <span class="label">
+      release
+    </span>
+  </span>
+  <div class="post-meta">
+    <span class="post-date">
+      22 Jul 2015
+    </span>
+    <a href="https://github.com/teopost" class="post-author">
+      <img src="https://github.com/teopost.png" class="avatar" alt="teopost avatar" width="24" height="24">
+      teopost
+    </a>
+  </div>
+  <div class="post-content">
+    <h3 id="anomalie">Anomalie</h3>
+
+<p><strong><em>Sistemata incosistenza nei flag usati per abilitare voci di sincronizzazione</em></strong> - (rif: 10196)</p>
+
+<h3 id="novit">Novità</h3>
+
+<p><strong><em>Aggiunto lo stato articolo alla presa dell’ordine per taglie/colori.</em></strong> - (rif: 10216)</p>
+
+<p>Se lo stato di un articolo risulta bloccato non sarà possibile aggiungere righe ordine per tale articolo.</p>
+
+<p><strong><em>Aggiunto “prezzo retail” ai prodotti e la gestione della valuta per taglie/colori.</em></strong> - (rif: 10244)</p>
+
+<p>Se la gestione della valuta è abilitata
+- la valuta viene scelta a partire da quella presente sul cliente, o in caso di assenza, viene presa quella preferenziale.
+-  i listini vengono filtrati per codValuta
+- per ogni testata e relativo report copia commissione, i prezzi saranno proposti in valuta</p>
+
+<p>Altrimenti, rimane tutto come prima.</p>
+
+<p><strong><em>Aggiunta funzionalità che permette all’utente di filtrare gli incassi per cliente</em></strong> - (rif: 10248)</p>
+
+<p><strong><em>Promozioni in campi custom</em></strong> - (rif: 10249)</p>
+
+<p><strong><em>Apertura dettaglio documento da incassi e sistemato utilizzo di note di accredito negli incassi</em></strong> - (rif: 10250)</p>
+
+<p>Apertura dettaglio documento da incassi e sistemato utilizzo di note di accredito negli incassi.</p>
+
+<p><strong><em>Aggiunge filtro per campo marca, nella lista dei prodotti</em></strong> - (rif: 10251)</p>
+
+<p>Modificata la logica dei filtri.</p>
+
+  </div>
+</article>
+
+
+  <article>
+  <h2>
+    <a href="/news/2015/04/20/rel-5-3-released/">
+      Rilasciata la rel. 5.3
+    </a>
+  </h2>
+  <span class="post-category">
+    <span class="label">
+      release
+    </span>
+  </span>
+  <div class="post-meta">
+    <span class="post-date">
+      20 Apr 2015
+    </span>
+    <a href="https://github.com/teopost" class="post-author">
+      <img src="https://github.com/teopost.png" class="avatar" alt="teopost avatar" width="24" height="24">
+      teopost
+    </a>
+  </div>
+  <div class="post-content">
+    <h3 id="anomalie">Anomalie</h3>
+
+<p><strong><em>Aggiunto ordinamento ulteriore delle scadenze in ‘Ordini’-‘Incassi’.</em></strong> - (rif: 9543)</p>
+
+<p>Aggiunto ordinamento ulteriore delle scadenze in ‘Ordini’-‘Incassi’.
+Ora le scadenze sono ordinate anche per progressivo documento e data documento (ascendente), oltre che per l’ordinamento principale scelto (data scadenza o data emissione).</p>
+
+<p><strong><em>Sistemate alcune anomalie wTrendy</em></strong> - (rif: 9641)</p>
+
+<ul>
+  <li>eliminata anomalia che poteva causare la cancellazione di righe ordine dell’ordine salvato in precedenza</li>
+  <li>sistemato l’ordinamente degli ordini (che ora risulta consistente tra copia commissione ed export)</li>
+  <li>sistemata anomalia che poteva causare la mancanza dei dettagli di riga ordine nei dati inviati</li>
+  <li>sistemata visualizzazione degli sviluppi delle taglie associate agli articoli</li>
+  <li>sistemato calcolo del totale paia, che in alcune condizione risultava sbagliato</li>
+</ul>
+
+<h3 id="novit">Novità</h3>
+
+<p><strong><em>Modifiche alla generazione del copia commissione.</em></strong> - (rif: 9486)</p>
+
+<p><strong><em>Migliorata la visualizzazione della destinazione del cliente</em></strong> - (rif: 9505)</p>
+
+<p>In ordine veloce e nel form ordine è stata aggiunto anche l’indirizzo della destinazione cliente.</p>
+
+<p><strong><em>Aggiunti meccanismi di crash reporting</em></strong> - (rif: 9605)</p>
+
+
+  </div>
+</article>
+
+
+  <article>
+  <h2>
+    <a href="/news/2015/03/02/rel-5-2-released/">
+      Rilasciata la rel. 5.2
+    </a>
+  </h2>
+  <span class="post-category">
+    <span class="label">
+      release
+    </span>
+  </span>
+  <div class="post-meta">
+    <span class="post-date">
+      02 Mar 2015
+    </span>
+    <a href="https://github.com/teopost" class="post-author">
+      <img src="https://github.com/teopost.png" class="avatar" alt="teopost avatar" width="24" height="24">
+      teopost
+    </a>
+  </div>
+  <div class="post-content">
+    <h3 id="anomalie">Anomalie</h3>
+
+<p><strong><em>Aggiunto ordinamento ulteriore delle scadenze in ‘Ordini’-‘Incassi’.</em></strong> - (rif: 9543)</p>
+
+<p>Aggiunto ordinamento ulteriore delle scadenze in ‘Ordini’-‘Incassi’.
+Ora le scadenze sono ordinate anche per progressivo documento e data documento (ascendente), oltre che per l’ordinamento principale scelto (data scadenza o data emissione).</p>
+
+<p><strong><em>Sistemate alcune anomalie wTrendy</em></strong> - (rif: 9641)</p>
+
+<ul>
+  <li>eliminata anomalia che poteva causare la cancellazione di righe ordine dell’ordine salvato in precedenza</li>
+  <li>sistemato l’ordinamente degli ordini (che ora risulta consistente tra copia commissione ed export)</li>
+  <li>sistemata anomalia che poteva causare la mancanza dei dettagli di riga ordine nei dati inviati</li>
+  <li>sistemata visualizzazione degli sviluppi delle taglie associate agli articoli</li>
+  <li>sistemato calcolo del totale paia, che in alcune condizione risultava sbagliato</li>
+</ul>
+
+<h3 id="novit">Novità</h3>
+
+<p><strong><em>Modifiche alla generazione del copia commissione.</em></strong> - (rif: 9486)</p>
+
+<p><strong><em>Migliorata la visualizzazione della destinazione del cliente</em></strong> - (rif: 9505)</p>
+
+<p>In ordine veloce e nel form ordine è stata aggiunto anche l’indirizzo della destinazione cliente.</p>
+
+<p><strong><em>Aggiunti meccanismi di crash reporting</em></strong> - (rif: 9605)</p>
+
+
+  </div>
+</article>
+
+
+  <article>
+  <h2>
+    <a href="/news/2015/02/01/rel-5-1-released/">
+      Rilasciata la rel. 5.1
+    </a>
+  </h2>
+  <span class="post-category">
+    <span class="label">
+      release
+    </span>
+  </span>
+  <div class="post-meta">
+    <span class="post-date">
+      01 Feb 2015
+    </span>
+    <a href="https://github.com/teopost" class="post-author">
+      <img src="https://github.com/teopost.png" class="avatar" alt="teopost avatar" width="24" height="24">
+      teopost
+    </a>
+  </div>
+  <div class="post-content">
+    <h3 id="novit">Novità</h3>
+
+<p><strong><em>Migliorata funzionalita di ricerca nel catalogo</em></strong> - (rif: 9421)</p>
+
+<p>Aumentata dimensione della schermata di ricerca, di modo da poter visualizzare anche nomi lunghi.</p>
+
+<p><strong><em>Aggiunta possibilita di modificare la condizione di pagamento nel form ordine, parametrizzabile.</em></strong> - (rif: 9449)</p>
+
+<p><strong><em>Sistemata anomalia sui campi obbligatori/opzionali nel form del nuovo cliente</em></strong> - (rif: 9450)</p>
+
+
+  </div>
+</article>
+
+
+
+      </div>
+
+      <div class="unit one-fifth hide-on-mobiles">
+  <aside>
+    <ul>
+      <li class="">
+        <a href="/news/">All News</a>
+      </li>
+      <li class="current">
+        <a href="/news/releases/">Releases</a>
+      </li>
+    </ul>
+    <h4>Recent Releases</h4>
+    <ul>
+      
+      <li class="">
+        <a href="/news/2015/11/16/rel-6-3-released/">Version 6.3</a>
+      </li>
+      
+      <li class="">
+        <a href="/news/2015/10/30/rel-6-2-released/">Version 6.2</a>
+      </li>
+      
+      <li class="">
+        <a href="/news/2015/10/05/rel-6-1-released/">Version 6.1</a>
+      </li>
+      
+      <li class="">
+        <a href="/news/2015/09/18/rel-6-0-released/">Version 6.0</a>
+      </li>
+      
+      <li class="">
+        <a href="/news/2015/07/22/rel-5-5-released/">Version 5.5</a>
+      </li>
+      
+      <li>
+        <a href="/docs/history/">History »</a>
+      </li>
+    </ul>
+    <h4>Other News</h4>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li class="">
+          <a href="/news/2015/06/26/rel-18.2.5.9-connettore-ib/">Connettore IB 18.2.5.9</a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+    </ul>
+  </aside>
+</div>
+
+
+      <div class="clear"></div>
+
+    </div>
+  </section>
+
+
+  <footer role="contentinfo">
+  <div class="grid">
+
+    <div class="unit one-third center-on-mobiles">
+      <p>
+        &copy;&nbsp; Copyright 2016 by <a href="http://www.apexnet.it/">Apex-net srl</a>
+      </p>
+    </div>
+
+    <div class="unit two-thirds align-right center-on-mobiles">
+      <p>
+        Proudly hosted by
+        <a href="https://github.com">
+          <img src="/img/footer-logo.png" width="100" height="30" alt="GitHub • Social coding">
+        </a>
+      </p>
+    </div>
+
+  </div>
+</footer>
+
+  <script>
+  var anchorForId = function (id) {
+    var anchor = document.createElement("a");
+    anchor.className = "header-link";
+    anchor.href      = "#" + id;
+    anchor.innerHTML = "<span class=\"sr-only\">Permalink</span><i class=\"fa fa-link\"></i>";
+    anchor.title = "Permalink";
+    return anchor;
+  };
+
+  var linkifyAnchors = function (level, containingElement) {
+    var headers = containingElement.getElementsByTagName("h" + level);
+    for (var h = 0; h < headers.length; h++) {
+      var header = headers[h];
+
+      if (typeof header.id !== "undefined" && header.id !== "") {
+        header.appendChild(anchorForId(header.id));
+      }
+    }
+  };
+
+  document.onreadystatechange = function () {
+    if (this.readyState === "complete") {
+      var contentBlock = document.getElementsByClassName("docs")[0] || document.getElementsByClassName("news")[0];
+      if (!contentBlock) {
+        return;
+      }
+      for (var level = 1; level <= 6; level++) {
+        linkifyAnchors(level, contentBlock);
+      }
+    }
+  };
+</script>
+
+  
+
+
+  <!-- Google Analytics (http://google.com/analytics) -->
+  <script>
+    !function(j,e,k,y,l,L){j.GoogleAnalyticsObject=y,j[y]||(j[y]=function(){
+    (j[y].q=j[y].q||[]).push(arguments)}),j[y].l=+new Date,l=e.createElement(k),
+    L=e.getElementsByTagName(k)[0],l.src='//www.google-analytics.com/analytics.js',
+    L.parentNode.insertBefore(l,L)}(window,document,'script','ga');
+
+    ga('create', 'UA-20354938-22', 'jekyllrb.com');
+    ga('send', 'pageview');
+
+  </script>
+
+
+
+</body>
+</html>
