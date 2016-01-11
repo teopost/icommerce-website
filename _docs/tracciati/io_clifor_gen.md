@@ -66,7 +66,7 @@ tabella di anagrafica clienti/fornitore di un progetto o ditta (azienda) che vie
   * *Agenzia*
 30. **LISTINO_ANAGRAFICO** - Character - Max Length: 255
   * *Listino anagrafico*
-31. **VALUTA** - Character - Max Length: 100
+31. **VALUTA** - Character - Max Length: 50
   * *Descrizione della valuta (Es: Euro)*
 32. **SCO_PERC1** - Decimal - Max Length: 14,6
   * *Sconto di testata 1*
@@ -91,7 +91,7 @@ tabella di anagrafica clienti/fornitore di un progetto o ditta (azienda) che vie
 42. **COD_LISTINO** - Character - Max Length: 50
   * *Codice del listino anagrafico*
 43. **COD_CONDPAG** - Character - Max Length: 50
-  * *Codice del listino anagrafico*
+  * *Codice della condizione di pagamento*
 44. **COD_VALUTA** - Character - Max Length: 50
   * **
 45. **MACROAREA** - Character - Max Length: 255

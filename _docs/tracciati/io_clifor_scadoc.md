@@ -11,7 +11,7 @@ tabella delle scadenze dei documenti del cliente/fornitore
 2. **COD_DITTA** - Character - Max Length: 50
   * *Codice della ditta. Identifica univocamente una ditta dentro il gestionale che, nel caso sia multisocietario, può contenere dati di più aziende*
 3. **NUM_REG** - Character - Max Length: 12
-  * *Numero di registrazione del documento (numero di collegamento alla testata del documento)*
+  * *Identificativo che collega la riga alla testata del documento)*
 4. **COD_RATA** - Character - Max Length: 7
   * *Codice della rata*
 5. **DAT_SCAD** - Date - Max Length: 10

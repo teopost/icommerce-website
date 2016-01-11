@@ -1,10 +1,10 @@
 ---
 layout: docs
-title: io_clifor_age.dat
-permalink: /docs/io_clifor_age/
+title: io_clifor_oper.dat
+permalink: /docs/io_clifor_oper/
 ---
 
-tabella di anagrafica agenti di un cliente/fornitore
+tabella di anagrafica operatori clienti
 
 1. **CHIAVE** - Character - Max Length: 250
   * *Chiave univoca del record composta dai dati di origine*
@@ -14,8 +14,8 @@ tabella di anagrafica agenti di un cliente/fornitore
   * *Tipologia (0=Cliente, 1=Fornitore)*
 4. **COD_CLIFOR** - Character - Max Length: 50
   * *Codice Cliente / Fornitore*
-5. **COD_AGE** - Character - Max Length: 50
-  * *Codice dell'agente*
+5. **COD_OPERATORE** - Character - Max Length: 50
+  * *Codice operatore*
 6. **DAT_ULT_MOD** - DateTime - Max Length: 16
   * *Data di ultima modifica del record*
 

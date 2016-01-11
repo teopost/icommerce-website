@@ -11,7 +11,7 @@ Tabella di anagrafica per le righe documento di un cliente/fornitore
 2. **COD_DITTA** - Character - Max Length: 50
   * *Codice della ditta. Identifica univocamente una ditta dentro il gestionale che, nel caso sia multisocietario, può contenere dati di più aziende*
 3. **NUM_REG** - Character - Max Length: 12
-  * *Numero di registrazione del documento*
+  * *Identificativo che collega la riga alla testata del documento)*
 4. **DATA_DOC** - Date - Max Length: 10
   * *Data del documento*
 5. **PRG_RIGA** - Integer - Max Length: 6

@@ -66,6 +66,9 @@ Tabella anagrafica che contiene tutti i prodotti
   * *Stringa usata per filtro per la selezione degli articoli*
 30. **DES_FILTRO3** - Character - Max Length: 255
   * *Stringa usata per filtro per la selezione degli articoli*
-31. **DAT_ULT_MOD** - DateTime - Max Length: 16
+31. **FLG_MOD_UM_DEFAULT** - Integer - Max Length: 2
+  * *Flag che identifica la possibilità di modificare l'unità di misura di default in fase di inserimento ordine
+Valori consentiti: 0 = Modificabile (default), -1 = Non modificabile*
+32. **DAT_ULT_MOD** - DateTime - Max Length: 16
   * *Data di ultima modifica del record. Attenzione: Questa data deve essere composta nel seguente formato: Giorno (2 caratteri) + Mese (2 caratteri) + Anno (4 caratteri) + Ore (2 caratteri) + Minuti (2 caratteri) + Secondi (2 caratteri).*
 

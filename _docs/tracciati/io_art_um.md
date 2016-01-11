@@ -20,6 +20,10 @@ Unità di misura degli articoli
   * *Fattore di conversione. Coefficiente che se moltiplicato alla quantità 1 riporta la quantità di una seconda unità di misura. Per passare dalla unità di misura 2 alla unità di misura 1 occorre eseguire una divisione (vuoto per unità di misura 1)*
 7. **TIPO_UM** - Integer - Max Length: 1
   * *Tipo unita di misura (1= Principale, 2=Secondarie, 3=Confezione)*
-8. **DAT_ULT_MOD** - DateTime - Max Length: 16
+8. **FLG_DEFAULT** - Integer - Max Length: 2
+  * *Flag che identifica l'unità di misura di default, ovvero quella che deve essere proposta quando si inserisce un nuovo ordine.
+In molti gestionali è chiamata unità di misura di Vendita. 
+Valori consentiti: 0 = Normale (default), -1 = Predefinita*
+9. **DAT_ULT_MOD** - DateTime - Max Length: 16
   * *Data di ultima modifica del record*
 
