@@ -1,4 +1,4 @@
-﻿---
+---
 layout: news_item
 title: Rilasciata la rel. 6.4
 date: "2015-12-22 08:00:00 +0200"
