@@ -11,8 +11,8 @@
     <title xml:lang="en">iCommerce • l'App mobile per la tua azienda</title>
     <atom:link type="application/atom+xml" href="/feed.xml" rel="self"/>
     <link>http://www.apexnet.it/</link>
-    <pubDate>Mon, 11 Jan 2016 12:29:04 +0100</pubDate>
-    <lastBuildDate>Mon, 11 Jan 2016 12:29:04 +0100</lastBuildDate>
+    <pubDate>Tue, 09 Feb 2016 19:54:18 +0100</pubDate>
+    <lastBuildDate>Tue, 09 Feb 2016 19:54:18 +0100</lastBuildDate>
     <language>en-US</language>
     <generator>Jekyll v3.0.1</generator>
     <description>Transform your plain text into static websites and blogs.</description>
@@ -24,6 +24,57 @@
       <width>144</width>
       <height>73</height>
     </image>
+    
+    <item>
+      <title>Rel 6 4 Released</title>
+      <link>/news/2016/02/09/rel-6-4-released/</link>
+      <pubDate>Tue, 09 Feb 2016 00:00:00 +0100</pubDate>
+      <dc:creator></dc:creator>
+      
+      
+      <guid isPermaLink="true">/news/2016/02/09/rel-6-4-released/</guid>
+      <description>&lt;p&gt;﻿—
+layout: news_item
+title: Rilasciata la rel. 6.4
+date: “2015-12-22 08:00:00 +0200”
+author: teopost
+version: 6.4
+categories: [release]
+—&lt;/p&gt;
+
+&lt;h3 id=&quot;anomalie&quot;&gt;Anomalie&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Scomparsa della tastiera su form Nuovo Lead&lt;/em&gt;&lt;/strong&gt; - (rif: 10756)&lt;/p&gt;
+
+&lt;p&gt;In caso di rapido scroll la tastiera non sempre scompare.
+Ora corretto il problema.&lt;/p&gt;
+
+&lt;h3 id=&quot;novit&quot;&gt;Novità&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Aggiunta gestione valute&lt;/em&gt;&lt;/strong&gt; - (rif: 10570)&lt;/p&gt;
+
+&lt;p&gt;Aggiunta gestione valute (prezzi e importi) a schede cliente e prodotto.
+Completata gestione valute in modulo CRM.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Unità misura di vendita preferenziale&lt;/em&gt;&lt;/strong&gt; - (rif: 10573)&lt;/p&gt;
+
+&lt;p&gt;E’ prevista un’unita di misura preferenziale che viene proposta in tutti i contesti dove viene preso un ordine.&lt;/p&gt;
+
+&lt;p&gt;Questa unità di misura può essere estratta dai singoli connettori con il gestionale.
+E’ possibile parametrizzare l’obbligatorietà a livello di articolo.&lt;/p&gt;
+
+&lt;p&gt;Per compatibilità con il passato viene proposto come um sull’ordine l’ UM di misura principale, se non opportunamente valorizzata.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Distanziati i button ‘Conferma’ e ‘Annulla’ nelle note&lt;/em&gt;&lt;/strong&gt; - (rif: 10568)&lt;/p&gt;
+
+&lt;p&gt;Distanziati i button ‘Conferma’ e ‘Annulla’ nel form di inserimento/modifica delle note in tutta l’app.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Distanziati i button ‘Aggiorna i Dati’ e ‘Invia i Dati’&lt;/em&gt;&lt;/strong&gt; - (rif: 10569)&lt;/p&gt;
+
+&lt;p&gt;Aggiunto uno spazio tra i due button ‘Aggiorna i Dati’ ed ‘Invia i Dati’ del tab Sync.&lt;/p&gt;
+
+</description>
+    </item>
     
     <item>
       <title>Rilasciata la rel. 6.3</title>
