@@ -30,11 +30,11 @@ Per alcuni gestionali sono state create versioni specifiche di iCommerce con un 
 
 Se hai Gamma, Ad-Hoc o Business scarica la versione più adatta al tuo gestionale.
 
-| Nome App | Gestionale   | Software House produttrice
+| Nome App | Gestionale
 |-
-| [iB](https://itunes.apple.com/it/app/ib/id544373413?mt=8)         | Business| NTS Informatica
-| [iGamma](https://itunes.apple.com/it/app/igamma/id417013645?mt=8) | Gamma   | TeamSystem
-| [iZeta](https://itunes.apple.com/it/app/izeta/id700840887?mt=8)   | Ad-Hoc  | Zucchetti
+| [iB](https://itunes.apple.com/it/app/ib/id544373413?mt=8)         | Business di NTS Informatica
+| [iGamma](https://itunes.apple.com/it/app/igamma/id417013645?mt=8) | Gamma di TeamSystem
+| [iZeta](https://itunes.apple.com/it/app/izeta/id700840887?mt=8)   | Ad-Hoc di Zucchetti
 
 ## Crea la tua App personalizzata
 Su richiesta, è possibile pubblicare versioni personalizzate dell'app, con il nome uguale al brand della proria azienda.
