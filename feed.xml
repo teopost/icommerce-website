@@ -11,8 +11,8 @@
     <title xml:lang="en">iCommerce • l'App mobile per la tua azienda</title>
     <atom:link type="application/atom+xml" href="/feed.xml" rel="self"/>
     <link>http://www.apexnet.it/</link>
-    <pubDate>Tue, 09 Feb 2016 19:54:18 +0100</pubDate>
-    <lastBuildDate>Tue, 09 Feb 2016 19:54:18 +0100</lastBuildDate>
+    <pubDate>Tue, 09 Feb 2016 20:00:45 +0100</pubDate>
+    <lastBuildDate>Tue, 09 Feb 2016 20:00:45 +0100</lastBuildDate>
     <language>en-US</language>
     <generator>Jekyll v3.0.1</generator>
     <description>Transform your plain text into static websites and blogs.</description>
@@ -26,23 +26,16 @@
     </image>
     
     <item>
-      <title>Rel 6 4 Released</title>
-      <link>/news/2016/02/09/rel-6-4-released/</link>
-      <pubDate>Tue, 09 Feb 2016 00:00:00 +0100</pubDate>
-      <dc:creator></dc:creator>
+      <title>Rilasciata la rel. 6.4</title>
+      <link>/news/2015/12/22/rel-6-4-released/</link>
+      <pubDate>Tue, 22 Dec 2015 07:00:00 +0100</pubDate>
+      <dc:creator>teopost</dc:creator>
       
       
-      <guid isPermaLink="true">/news/2016/02/09/rel-6-4-released/</guid>
-      <description>&lt;p&gt;﻿—
-layout: news_item
-title: Rilasciata la rel. 6.4
-date: “2015-12-22 08:00:00 +0200”
-author: teopost
-version: 6.4
-categories: [release]
-—&lt;/p&gt;
-
-&lt;h3 id=&quot;anomalie&quot;&gt;Anomalie&lt;/h3&gt;
+      <category>release</category>
+      
+      <guid isPermaLink="true">/news/2015/12/22/rel-6-4-released/</guid>
+      <description>&lt;h3 id=&quot;anomalie&quot;&gt;Anomalie&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Scomparsa della tastiera su form Nuovo Lead&lt;/em&gt;&lt;/strong&gt; - (rif: 10756)&lt;/p&gt;
 
