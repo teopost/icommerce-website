@@ -11,8 +11,8 @@
     <title xml:lang="en">iCommerce • l'App mobile per la tua azienda</title>
     <atom:link type="application/atom+xml" href="/feed.xml" rel="self"/>
     <link>http://www.apexnet.it/</link>
-    <pubDate>Tue, 09 Feb 2016 20:32:42 +0100</pubDate>
-    <lastBuildDate>Tue, 09 Feb 2016 20:32:42 +0100</lastBuildDate>
+    <pubDate>Wed, 16 Mar 2016 14:39:12 +0100</pubDate>
+    <lastBuildDate>Wed, 16 Mar 2016 14:39:12 +0100</lastBuildDate>
     <language>en-US</language>
     <generator>Jekyll v3.0.1</generator>
     <description>Transform your plain text into static websites and blogs.</description>
@@ -24,6 +24,47 @@
       <width>144</width>
       <height>73</height>
     </image>
+    
+    <item>
+      <title>Rilasciata la rel. 6.5</title>
+      <link>/news/2016/01/30/rel-6-5-released/</link>
+      <pubDate>Sat, 30 Jan 2016 07:00:00 +0100</pubDate>
+      <dc:creator>teopost</dc:creator>
+      
+      
+      <category>release</category>
+      
+      <guid isPermaLink="true">/news/2016/01/30/rel-6-5-released/</guid>
+      <description>&lt;h3 id=&quot;anomalie&quot;&gt;Anomalie&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Risolto problema con la soglia delle quantità nei listini&lt;/em&gt;&lt;/strong&gt; - (rif: 11056)&lt;/p&gt;
+
+&lt;p&gt;Se venivano utilizzate soglie sulla quantità nei listini e utilizzate um di tipo confezioni, nella presa dell’ordine, non sempre venivano calcolati correttamente i prezzi di listino.&lt;/p&gt;
+
+&lt;h3 id=&quot;novit&quot;&gt;Novità&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Inserito filtro prodotti per ordini veloci&lt;/em&gt;&lt;/strong&gt; - (rif: 11071)&lt;/p&gt;
+
+&lt;p&gt;Utilizzato in lookup di aggiunta prodotto&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Nuova funzionalità “Ordine Veloce”&lt;/em&gt;&lt;/strong&gt; - (rif: 10711)&lt;/p&gt;
+
+&lt;p&gt;E’ stato sviluppato un nuovo sistema per l’inserimento massivo degli ordini. Per maggiori info contattare il vostro riferimento commerciale&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Attivazione ricerca prodotti con Barcode&lt;/em&gt;&lt;/strong&gt; - (rif: 10811)&lt;/p&gt;
+
+&lt;p&gt;E’ stata aggiunta la possibilità di ricercare e inserire articoli da barcode utilizzando la fotocamera del dispositivo come scanner.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Ordini Veloci - aggiunta articoli con multiselezione&lt;/em&gt;&lt;/strong&gt; - (rif: 10861)&lt;/p&gt;
+
+&lt;p&gt;E’ prevista la possibilità di aggiungere articoli con multiselezione in funzione Ordini Veloci&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Aggiunto titolo sui Box di Scelta nel Taglie&amp;amp;Colori&lt;/em&gt;&lt;/strong&gt; - (rif: 10843)&lt;/p&gt;
+
+&lt;p&gt;Sul modulo Taglie e Colori, nella funzione di selezione delle varianti è stata aggiunta la descrizione delle posizioni varianti.&lt;/p&gt;
+
+</description>
+    </item>
     
     <item>
       <title>Rilasciata la rel. 6.4</title>
