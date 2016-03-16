@@ -68,7 +68,13 @@ Se impostato mostra il valore della giacenza nella lista dei prodotti
 ### Mostra tutti i dati anche se sono agente
 Se viene impostato un codice agente sul profilo di un utente, verranno mostrati tutti i dati dei clienti che afferiscono a lui.
 Tuttavia è possibile, impostando questo flag, bypassare questo controllo per attivare la visualizzazione di tutti i dati.
-Questa impostazione viene effettuata di solito per utenti titolari che, pur essendo profilati come agenti perchè raccolgono anche loro ordini, vogliono vedere i dati anche di altri agenti.
+Questa impostazione viene effettuata di solito per super-utenti che, pur essendo profilati come agenti perchè raccolgono anche loro ordini, vogliono vedere i dati anche di altri agenti.
+
+Seguire i seguenti passi:
+1. Andare in License Manager
+1. Sul progetto interessato cliccare il pulsante Utenti
+2. Sulla persona interessata cliccare il pulsante Configura / Parametri
+3. Nella Scheda "Visualizzazione" dell' agente (quella situata in basso), impostare ON nella voce "Mostra tutti i dati anche se sono agente"
 
 ### Mostra UM secondaria invede della primaria in storico ordini
 Lo storico degli ordini mostra in lista l'unità di misura con sui è stato preso l'ordine l'ultima volta.
