@@ -11,8 +11,8 @@
     <title xml:lang="en">iCommerce • l'App mobile per la tua azienda</title>
     <atom:link type="application/atom+xml" href="/feed.xml" rel="self"/>
     <link>http://www.apexnet.it/</link>
-    <pubDate>Fri, 25 Mar 2016 17:20:58 +0100</pubDate>
-    <lastBuildDate>Fri, 25 Mar 2016 17:20:58 +0100</lastBuildDate>
+    <pubDate>Fri, 01 Apr 2016 14:44:52 +0200</pubDate>
+    <lastBuildDate>Fri, 01 Apr 2016 14:44:52 +0200</lastBuildDate>
     <language>en-US</language>
     <generator>Jekyll v3.0.1</generator>
     <description>Transform your plain text into static websites and blogs.</description>
@@ -24,6 +24,39 @@
       <width>144</width>
       <height>73</height>
     </image>
+    
+    <item>
+      <title>Rilasciata la rel. 6.6</title>
+      <link>/news/2016/03/31/rel-6-6-released/</link>
+      <pubDate>Thu, 31 Mar 2016 08:00:00 +0200</pubDate>
+      <dc:creator>teopost</dc:creator>
+      
+      
+      <category>release</category>
+      
+      <guid isPermaLink="true">/news/2016/03/31/rel-6-6-released/</guid>
+      <description>&lt;h3 id=&quot;anomalie&quot;&gt;Anomalie&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Taglie &amp;amp; Colori : risolto problema con tastierino numerico&lt;/em&gt;&lt;/strong&gt; - (rif: 11047)&lt;/p&gt;
+
+&lt;p&gt;Risolto problema inserimento prezzo con decimali se il device è in inglese&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Cambiata gestione delle note di credito nella sezione Incassi&lt;/em&gt;&lt;/strong&gt; - (rif: 10746)&lt;/p&gt;
+
+&lt;p&gt;Negli incassi, ora le note di credito devono essere stornate singolarmente e non vengono decurtate dal totale incassabile sul cliente.
+La nota di credito è visibile nel report, ed è possibile incassare tutte le scadenze senza stornare eventuali note di credito.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Codice pagamento non corretto in riga ordine veloce&lt;/em&gt;&lt;/strong&gt; - (rif: 11114)&lt;/p&gt;
+
+&lt;p&gt;Non veniva riportato correttamente il cambio del codice pagamento in testata ordini veloci rispetto a quello proposto da anagrafica cliente&lt;/p&gt;
+
+&lt;h3 id=&quot;novit&quot;&gt;Novità&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Taglie &amp;amp; Colori: copiare i dati del nuovo cliente&lt;/em&gt;&lt;/strong&gt; - (rif: 10868)&lt;/p&gt;
+
+&lt;p&gt;Aggiunta possibilità di copiare i dati del nuovo cliente da un’altra testata&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Rilasciata la rel. 6.5</title>
