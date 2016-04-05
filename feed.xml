@@ -14,7 +14,7 @@ permalink: /feed.xml
   <channel>
     <title xml:lang="en">iCommerce • l'App mobile per la tua azienda</title>
     <atom:link type="application/atom+xml" href="{{site.siteurl }}{{ site.baseurl }}/feed.xml" rel="self"/>
-    <link>http://www.apexnet.it/</link>
+    <link>http://www.wedoit.io/</link>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <language>en-US</language>
@@ -24,7 +24,7 @@ permalink: /feed.xml
       <description>Transform your plain text into static websites and blogs.</description>
       <url>http://jekyllrb.com/img/logo-rss.png</url>
       <title>Jekyll • Simple, blog-aware, static sites</title>
-      <link>http://www.apexnet.it/</link>
+      <link>http://www.wedoit.io</link>
       <width>144</width>
       <height>73</height>
     </image>
