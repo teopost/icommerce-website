@@ -1,7 +1,7 @@
 ---
 layout: news_item
 title: Rilasciata la rel. 6.7
-date: "2016-05-01 08:00:00 +0200"
+date: "2016-04-12 08:00:00 +0200"
 author: teopost
 version: 6.7
 categories: [release]
