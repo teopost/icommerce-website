@@ -11,7 +11,7 @@ categories: [release]
 
 **_Tipo ordine non valorizzato nel Taglie & Colori_** - (rif: 11129)
 
-Nella righe ordini del Taglie & Colori non veniva valorizzato correttamente il codice tipo ordine.
+Nelle righe ordini del modulo Taglie & Colori, non veniva valorizzato correttamente il codice tipo ordine.
 
 **_Problema sul filtro del tipo ordine, nel dettaglio di un ordine salvato_** - (rif: 11115)
 
