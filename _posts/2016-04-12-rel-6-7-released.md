@@ -21,8 +21,7 @@ La lista degli ordini mostrata nell'iPad nella funzione Oridni Salvati, non veni
 
 **_Obbligo aggiornamento dati per inserimento ordine_** - (rif: 11079)
 
-Aggiunta una feature per bloccare l'inserimento di un ordine nel caso in cui dati non siano aggiornati.
-La nuova funzionalità viene attivata solo su richiesta.
+Aggiunta una feature per bloccare l'inserimento di un ordine nel caso in cui dati non siano aggiornati. La nuova funzionalità viene attivata solo su richiesta.
 E' possibile, inoltre, indicare per quanti giorni i dati scaricati rimangono validi.
 
 **_Aggiunto filtro sulle matrici di compatibilità nelle liste prodotti_** - (rif: 11124)
