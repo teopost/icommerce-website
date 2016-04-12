@@ -28,6 +28,4 @@ E' possibile, inoltre, indicare per quanti giorni i dati scaricati rimangono val
 **_Aggiunto filtro sulle matrici di compatibilità nelle liste prodotti_** - (rif: 11124)
 
 Ora è possibile filtrare gli articoli in base alle matrici di compatibilità.
-La visualizzazione del filtro sulle matrici è guidata da un flag, disabilitato di default 
-
-
+La visualizzazione del filtro sulle matrici è guidata da un flag, disabilitato di default
