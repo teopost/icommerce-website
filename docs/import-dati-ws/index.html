@@ -4623,13 +4623,11 @@ La API di integrazione sono disponibili per:</p>
   <li>Chiamata dell’API per conoscere l’ultimo ID presente (maxID):</li>
 </ol>
 
-<p><code>
-  ...&amp;format=json&amp;offset=&amp;limit=&amp;**count=1**&amp;lastDateImport=&amp;lastID=&amp;statusExport=
-</code>
-Questa chiamata restituisce un file json così strutturato:</p>
+<pre><code>  ...&amp;format=json&amp;offset=&amp;limit=&amp;**count=1**&amp;lastDateImport=&amp;lastID=&amp;statusExport=
+</code></pre>
+<p>Questa chiamata restituisce un file json così strutturato:</p>
 
-<p><code>json
-{  
+<pre><code class="language-json">{  
    "meta":{  
       "limit":0,
       "maxID":345,
@@ -4641,7 +4639,7 @@ Questa chiamata restituisce un file json così strutturato:</p>
    "last_id":null,
    "testate":null
 }
-</code></p>
+</code></pre>
 
 <ol>
   <li>Chiamata del web service per leggere gli ordini da esportare partendo dall’ultimo ID letto:</li>
