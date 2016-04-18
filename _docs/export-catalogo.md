@@ -8,21 +8,28 @@ L' esportazione delle immagini per la creazione del catalogo, può essere effett
   *  Modalità basata su tracciato record
   *  Modalità basata su struttura file system
 
-Indipendentemente dal metodo adottato, i file da esportare devono essere copiati nella cartella multimedia di [dropbox](https://www.dropbox.com).
+In entrambi i casi, i file da esportare devono essere copiati nella cartella multimedia di [dropbox](https://www.dropbox.com).
+
+<div class="note info">
+  <h5>Come di imposta la modalità di import ?</h5>
+  <p>L'impostazione di un delle 2 modalità è determinata dall'esistenza del file io_catalogo.dat nella cartella multimedia.</p>
+</div>
 
 ## Esportazione basata su tracciato
 
-Questa metodologia prevede che tutti i files vengano copiati nella cartella principale multimedia. Non devono essere create sottocartelle.
+Questa modalità prevede che tutti i files vengano copiati nella cartella principale multimedia. Non devono essere create sottocartelle.
 
-Nell' iPad, per mostrare le immagini in una struttura gerarchica, viene utilizzato un apposito tracciato record in cui, per ogni immagine, può essere associata una specifica gerarchia di cartelle (max 4 livelli).
+Nell' iPad, per rappresentare le immagini in una struttura a cartelle, viene utilizzato un apposito tracciato record in cui, per ogni immagine, può essere associata una specifica gerarchia di cartelle.
 
-Un stesso file può essere presente  più volte in cartelle differenti senza necessariamente essere presente più volte nella cartella. E' sufficiente che venga inserito più volte nel tracciato record.
+Il numero massimo di livelli disponibili è 4.
+
+Un stesso file può essere presente più volte in cartelle differenti senza necessariamente essere presente più volte nella cartella. E' sufficiente che venga inserito più volte nel tracciato record.
 
 ### Creare il tracciato io_catalogo.dat
 
 Il tracciato [io_catalogo.dat](../io_catalogo) deve essere creato nella cartella principale in cui vengono messi i files multimediali.
 
-La struttura gerarchica con cui vengono mostrati i dati del catalogo è definita dai campi L1, L2, L3, L4.
+La gerarchia con cui vengono mostrati i dati è definita dai campi L1, L2, L3, L4.
 
 Il catalogo risultante nel dispositivo rispecchierà la struttura inserita nel tracciato tramite i nomi dei file e i livelli di appartenenza.
 
@@ -56,7 +63,6 @@ Visualizzazione risultante:
 *  File Listino 3
 *  File Listino 4
 *  File Listino 5
-
 
 ## Export basato su filesystem
 
