@@ -4792,7 +4792,7 @@
             <a href="https://github.com/wedoit-io/commerce-site/edit/master/_docs/clienti-nuovi.md"><i class="fa fa-pencil"></i> &nbsp;Modifica</a>
           </div>
           <h1>Nuovi clienti</h1>
-          <p>La raccolta ordini può essere effettuata anche su clienti nuovi; ancora non presenti nell’anagrafica dell’iPad.</p>
+          <p>La raccolta ordini può essere effettuata anche su nuovi clienti (non presenti nelle anagrafiche dell’iPad).</p>
 
 <p>Per attivare questa funzione, è sufficiente inserire, nel gestionale, uno o più clienti con partita iva <code>99999999999</code> (undici volte 9).</p>
 
@@ -4802,12 +4802,19 @@
 
 <ol>
   <li>Non vengono mostrati fra gli altri clienti presenti in anagrafica</li>
-  <li>Sono visibili in una apposita funzione per la raccolta ordini su clienti nuovi.</li>
-  <li>I dati anagrafici di tali clienti non vengono utilizzati. Infatti, in fase di inserimento ordine viene chiesto all’ utente di specificarli</li>
+  <li>Sono visibili solo in una apposita funzione utilizzabile durante l’inserimento di un nuovo ordine.</li>
+  <li>I dati anagrafici di tali clienti non vengono visualizzati e non sono utilizzabili come valori di default. Infatti, in fase di inserimento ordine, è l’utente che deve specificarli.</li>
   <li>Possono essere associati sconti e listini. In questo modo è possibile differenziare i prezzi anche su clienti nuovi creando più clienti template.</li>
 </ol>
 
-<p>In fare si inserimento di un nuovo ordine, quando si apre la finestra di impostazione del cliente, c’è in alto a sinistra una icona che consente di mostrare gli utenti template.</p>
+<p>In fase si inserimento di un nuovo ordine, quando si apre la finestra di selezione del cliente, in alto a sinistra è presente una icona che consente di mostrare gli utenti template in alternativa a quelli codificati in anagrafica.</p>
+
+<p>La visualizzazione dei clienti template segue la logica dell’associazione cliente / agente, quindi:</p>
+
+<ol>
+  <li>Se ad un cliente template viene associato il codice agente X, solo tale agente potrà usare quel cliente template</li>
+  <li>Se ad un cliente template non viene associato alcun agente, tutti gli agenti potranno utilizzarlo per inserire ordini su nuovi clienti</li>
+</ol>
 
           
 
