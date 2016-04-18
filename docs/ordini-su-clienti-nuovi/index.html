@@ -2,7 +2,7 @@
 <html lang="it-IT">
 <head>
   <meta charset="UTF-8">
-  <title>io_lead_note.dat</title>
+  <title>Nuovi clienti</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="generator" content="iCommerce v">
   <link rel="alternate" type="application/rss+xml" title="iCommerce • l'App Mobile per la tua azienda" href="/feed.xml">
@@ -4789,49 +4789,25 @@
       <div class="unit four-fifths">
         <article>
           <div class="improve right hide-on-mobiles">
-            <a href="https://github.com/wedoit-io/commerce-site/edit/master/_docs/tracciati/io_lead_note.md"><i class="fa fa-pencil"></i> &nbsp;Modifica</a>
+            <a href="https://github.com/wedoit-io/commerce-site/edit/master/_docs/clienti-nuovi.md"><i class="fa fa-pencil"></i> &nbsp;Modifica</a>
           </div>
-          <h1>io_lead_note.dat</h1>
-          <p>Note dei leads. Ricordarsi che nelle note i campi descrittivi non possono superare i 4000 caratteri. I newline devono essere sostituiti con il carattere §</p>
+          <h1>Nuovi clienti</h1>
+          <p>La raccolta ordini può essere effettuata anche su clienti nuovi; ancora non presenti nell’anagrafica dell’iPad.</p>
+
+<p>Per attivare questa funzione, è sufficiente inserire, nel gestionale, uno o più clienti con partita iva <code>99999999999</code> (undici volte 9).</p>
+
+<p>Questi clienti vengono trattati come <strong>clienti template</strong>, e visualizzati in modo particolare.</p>
+
+<p>In particolar modo, nell’iPad:</p>
 
 <ol>
-  <li><strong>CHIAVE</strong> - Character - Max Length: 250
-    <ul>
-      <li><em>Chiave univoca del record composta dai dati di origine</em></li>
-    </ul>
-  </li>
-  <li><strong>COD_DITTA</strong> - Character - Max Length: 50
-    <ul>
-      <li><em>Codice della ditta. Identifica univocamente una ditta dentro il gestionale che, nel caso sia multisocietario, può contenere dati di più aziende</em></li>
-    </ul>
-  </li>
-  <li><strong>COD_LEAD</strong> - Character - Max Length: 50
-    <ul>
-      <li><em>Codice lead</em></li>
-    </ul>
-  </li>
-  <li><strong>PROGRESSIVO</strong> - Integer - Max Length: 3
-    <ul>
-      <li><em>Progressivo di nota</em></li>
-    </ul>
-  </li>
-  <li><strong>TIPO_NOTA</strong> - Character - Max Length: 4000
-    <ul>
-      <li><em>Tipologia di nota (es: resp acquisti)</em></li>
-    </ul>
-  </li>
-  <li><strong>NOTA</strong> - Character - Max Length: 4000
-    <ul>
-      <li><em>Note libere</em></li>
-    </ul>
-  </li>
-  <li><strong>DAT_ULT_MOD</strong> - DateTime - Max Length: 16
-    <ul>
-      <li><em>Data di ultima modifica del record</em></li>
-    </ul>
-  </li>
+  <li>Non vengono mostrati fra gli altri clienti presenti in anagrafica</li>
+  <li>Sono visibili in una apposita funzione per la raccolta ordini su clienti nuovi.</li>
+  <li>I dati anagrafici di tali clienti non vengono utilizzati. Infatti, in fase di inserimento ordine viene chiesto all’ utente di specificarli</li>
+  <li>Possono essere associati sconti e listini. In questo modo è possibile differenziare i prezzi anche su clienti nuovi creando più clienti template.</li>
 </ol>
 
+<p>In fare si inserimento di un nuovo ordine, quando si apre la finestra di impostazione del cliente, c’è in alto a sinistra una icona che consente di mostrare gli utenti template.</p>
 
           
 
@@ -4916,7 +4892,22 @@
 
   
   
-
+    <div class="section-nav">
+      <div class="left align-right">
+          
+            
+            
+            <a href="/docs/test-flight/" class="prev">Back</a>
+          
+      </div>
+      <div class="right align-left">
+          
+            <span class="next disabled">Next</span>
+          
+      </div>
+    </div>
+    <div class="clear"></div>
+    
 
         </article>
       </div>
@@ -6163,7 +6154,7 @@
     
   
     
-      <li class=""><a href="/docs/ordini-su-clienti-nuovi/">Nuovi clienti</a></li>
+      <li class="current"><a href="/docs/ordini-su-clienti-nuovi/">Nuovi clienti</a></li>
       
 
 
