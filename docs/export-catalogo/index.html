@@ -4571,21 +4571,28 @@
   <li>Modalità basata su struttura file system</li>
 </ul>
 
-<p>Indipendentemente dal metodo adottato, i file da esportare devono essere copiati nella cartella multimedia di <a href="https://www.dropbox.com">dropbox</a>.</p>
+<p>In entrambi i casi, i file da esportare devono essere copiati nella cartella multimedia di <a href="https://www.dropbox.com">dropbox</a>.</p>
+
+<div class="note info">
+  <h5>Come di imposta la modalità di import ?</h5>
+  <p>L'impostazione di un delle 2 modalità è determinata dall'esistenza del file io_catalogo.dat nella cartella multimedia.</p>
+</div>
 
 <h2 id="esportazione-basata-su-tracciato">Esportazione basata su tracciato</h2>
 
-<p>Questa metodologia prevede che tutti i files vengano copiati nella cartella principale multimedia. Non devono essere create sottocartelle.</p>
+<p>Questa modalità prevede che tutti i files vengano copiati nella cartella principale multimedia. Non devono essere create sottocartelle.</p>
 
-<p>Nell’ iPad, per mostrare le immagini in una struttura gerarchica, viene utilizzato un apposito tracciato record in cui, per ogni immagine, può essere associata una specifica gerarchia di cartelle (max 4 livelli).</p>
+<p>Nell’ iPad, per rappresentare le immagini in una struttura a cartelle, viene utilizzato un apposito tracciato record in cui, per ogni immagine, può essere associata una specifica gerarchia di cartelle.</p>
 
-<p>Un stesso file può essere presente  più volte in cartelle differenti senza necessariamente essere presente più volte nella cartella. E’ sufficiente che venga inserito più volte nel tracciato record.</p>
+<p>Il numero massimo di livelli disponibili è 4.</p>
+
+<p>Un stesso file può essere presente più volte in cartelle differenti senza necessariamente essere presente più volte nella cartella. E’ sufficiente che venga inserito più volte nel tracciato record.</p>
 
 <h3 id="creare-il-tracciato-iocatalogodat">Creare il tracciato io_catalogo.dat</h3>
 
 <p>Il tracciato <a href="../io_catalogo">io_catalogo.dat</a> deve essere creato nella cartella principale in cui vengono messi i files multimediali.</p>
 
-<p>La struttura gerarchica con cui vengono mostrati i dati del catalogo è definita dai campi L1, L2, L3, L4.</p>
+<p>La gerarchia con cui vengono mostrati i dati è definita dai campi L1, L2, L3, L4.</p>
 
 <p>Il catalogo risultante nel dispositivo rispecchierà la struttura inserita nel tracciato tramite i nomi dei file e i livelli di appartenenza.</p>
 
