@@ -11,8 +11,8 @@
     <title xml:lang="en">iCommerce • l'App mobile per la tua azienda</title>
     <atom:link type="application/atom+xml" href="/feed.xml" rel="self"/>
     <link>http://www.wedoit.io/</link>
-    <pubDate>Mon, 18 Apr 2016 14:21:29 +0200</pubDate>
-    <lastBuildDate>Mon, 18 Apr 2016 14:21:29 +0200</lastBuildDate>
+    <pubDate>Fri, 22 Apr 2016 09:52:55 +0200</pubDate>
+    <lastBuildDate>Fri, 22 Apr 2016 09:52:55 +0200</lastBuildDate>
     <language>en-US</language>
     <generator>Jekyll v3.1.2</generator>
     <description>Transform your plain text into static websites and blogs.</description>
@@ -24,6 +24,45 @@
       <width>144</width>
       <height>73</height>
     </image>
+    
+    <item>
+      <title>Rilasciata la rel. 6.8</title>
+      <link>/news/2016/04/21/rel-6-8-released/</link>
+      <pubDate>Thu, 21 Apr 2016 08:00:00 +0200</pubDate>
+      <dc:creator>teopost</dc:creator>
+      
+      
+      <category>release</category>
+      
+      <guid isPermaLink="true">/news/2016/04/21/rel-6-8-released/</guid>
+      <description>&lt;h3 id=&quot;anomalie&quot;&gt;Anomalie&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Migliorie grafiche nella lista prodotti&lt;/em&gt;&lt;/strong&gt; - (rif: 11185)&lt;/p&gt;
+
+&lt;p&gt;Rimossa dicitura ‘Label’ nel caso in cui vengano disabilitati giacenza e/o disponibilità nella lista prodotti&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Aggiunto controllo sullo sconto massimo di vendita anche nell’ordine storico&lt;/em&gt;&lt;/strong&gt; - (rif: 11172)&lt;/p&gt;
+
+&lt;p&gt;Nella presa ordine da storico, il controllo sullo sconto massimo di vendita non era attivo&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Risolti problemi con l’alert per le scadenze non pagate del cliente&lt;/em&gt;&lt;/strong&gt; - (rif: 11180)&lt;/p&gt;
+
+&lt;p&gt;Nel modulo schede, l’alert delle scadenze non pagate sul cliente veniva mostrato anche in assenza di scadenze.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Resa opzionale la ricerca con barcode&lt;/em&gt;&lt;/strong&gt; - (rif: 11182)&lt;/p&gt;
+
+&lt;p&gt;La ricerca da barcode non sarà sempre visibile, ma viene attivata solo su richiesta&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Mancato aggiornamento unità di misura in Ordine Storico&lt;/em&gt;&lt;/strong&gt; - (rif: 11168)&lt;/p&gt;
+
+&lt;p&gt;modificando l’unità di misura da form ordine, questa non veniva aggiornata nella lista degli ordini da storico&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Risolto un problema nell’inserimento ed invio di un nuovo lead&lt;/em&gt;&lt;/strong&gt; - (rif: 11174)&lt;/p&gt;
+
+&lt;p&gt;Risolto il problema sul campo valuta di un nuovo lead, che non permetteva il salvataggio e l’invio di un nuovo lead&lt;/p&gt;
+
+</description>
+    </item>
     
     <item>
       <title>Rilasciata la rel. 6.7</title>

@@ -2,7 +2,7 @@
 <html lang="it-IT">
 <head>
   <meta charset="UTF-8">
-  <title>Rilasciata la rel. 6.2</title>
+  <title>Rilasciata la rel. 6.8</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="generator" content="iCommerce v">
   <link rel="alternate" type="application/rss+xml" title="iCommerce • l'App Mobile per la tua azienda" href="/feed.xml">
@@ -145,8 +145,8 @@
       <div class="unit four-fifths">
         <article>
   <h2>
-    Rilasciata la rel. 6.2
-    <a href="/news/2015/10/30/rel-6-2-released/" class="permalink" title="Permalink">∞</a>
+    Rilasciata la rel. 6.8
+    <a href="/news/2016/04/21/rel-6-8-released/" class="permalink" title="Permalink">∞</a>
   </h2>
   <span class="post-category">
     <span class="label">
@@ -155,7 +155,7 @@
   </span>
   <div class="post-meta">
     <span class="post-date">
-      30 Oct 2015
+      21 Apr 2016
     </span>
     <a href="https://github.com/teopost" class="post-author">
       <img src="https://github.com/teopost.png" class="avatar" alt="teopost avatar" width="24" height="24">
@@ -165,16 +165,30 @@
   <div class="post-content">
     <h3 id="anomalie">Anomalie</h3>
 
-<p><strong><em>Problema di sovrascrittura degli ordini in Taglie&amp;Colori</em></strong> - (rif: 10507)</p>
+<p><strong><em>Migliorie grafiche nella lista prodotti</em></strong> - (rif: 11185)</p>
 
-<p>Risolto un problema nel Taglie&amp;Colori che permetteva, in alcuni casi, di sovrascrivere le testate ordine salvate</p>
+<p>Rimossa dicitura ‘Label’ nel caso in cui vengano disabilitati giacenza e/o disponibilità nella lista prodotti</p>
 
-<h3 id="modifiche">Modifiche</h3>
+<p><strong><em>Aggiunto controllo sullo sconto massimo di vendita anche nell’ordine storico</em></strong> - (rif: 11172)</p>
 
-<p><strong><em>Ottimizzata fase inizializzazione sincronizzazione</em></strong> - (rif: 10493)</p>
+<p>Nella presa ordine da storico, il controllo sullo sconto massimo di vendita non era attivo</p>
 
-<p>Nella fase iniziale della sincronizzazione vengono cancellati i dati della precedente sincronizzazione.
-Questa fase è stata enormemente velocizzata grazie all’adozione di una nuova funzionalità di iOS 9 (batch delete in core data).</p>
+<p><strong><em>Risolti problemi con l’alert per le scadenze non pagate del cliente</em></strong> - (rif: 11180)</p>
+
+<p>Nel modulo schede, l’alert delle scadenze non pagate sul cliente veniva mostrato anche in assenza di scadenze.</p>
+
+<p><strong><em>Resa opzionale la ricerca con barcode</em></strong> - (rif: 11182)</p>
+
+<p>La ricerca da barcode non sarà sempre visibile, ma viene attivata solo su richiesta</p>
+
+<p><strong><em>Mancato aggiornamento unità di misura in Ordine Storico</em></strong> - (rif: 11168)</p>
+
+<p>modificando l’unità di misura da form ordine, questa non veniva aggiornata nella lista degli ordini da storico</p>
+
+<p><strong><em>Risolto un problema nell’inserimento ed invio di un nuovo lead</em></strong> - (rif: 11174)</p>
+
+<p>Risolto il problema sul campo valuta di un nuovo lead, che non permetteva il salvataggio e l’invio di un nuovo lead</p>
+
 
   </div>
 </article>
@@ -194,7 +208,7 @@ Questa fase è stata enormemente velocizzata grazie all’adozione di una nuova 
     <h4>Recent Releases</h4>
     <ul>
       
-      <li class="">
+      <li class="current">
         <a href="/news/2016/04/21/rel-6-8-released/">Version 6.8</a>
       </li>
       
